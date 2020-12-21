@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: de06c229172d024459548a67e6f45e86
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_Lawyer_PBS_Body
+    second: {fileID: 2100000, guid: 515f782351149734098115d29db76abd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_Lawyer_PBS_Eye
+    second: {fileID: 2100000, guid: 07668919205e7a54e938bf62ef78058a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_Lawyer_PBS_Glass
+    second: {fileID: 2100000, guid: af55aa82325ebd44fa2a3c9a721c9df1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_Lawyer_PBS_GlassFrame
+    second: {fileID: 2100000, guid: dd488b13442a5af49891da63c4b01916, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_Lawyer_PBS_Hair
+    second: {fileID: 2100000, guid: 947c4cfbf64ed7f449a33410e093d0b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_Lawyer_PBS_Skin
+    second: {fileID: 2100000, guid: 6c1d21f6e99abbb48888551dc7ab9a39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_Lawyer_PBS_SkinAnimAlpha
+    second: {fileID: 2100000, guid: abd4f1166ab372143a98c4ddcd7acbe1, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Talker_Lawyer:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_Lawyer:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Smoothtalker-Lawyer(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker:Lawyer_Mesh
+      parentName: Char_Smoothtalker-Lawyer(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Body_mesh
+      parentName: Talker:Lawyer_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Skin_mesh
+      parentName: Talker:Lawyer_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Glasses_mesh
+      parentName: Talker:Lawyer_Mesh
+      position: {x: -0.000010201104, y: 1.0523628, z: 0.012524785}
+      rotation: {x: 0.101187676, y: -0, z: -0, w: 0.9948674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:hair_mesh
+      parentName: Talker:Lawyer_Mesh
+      position: {x: -0, y: 1.3439848, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.7054829, y: 0.7054829, z: 0.78306854}
+    - name: Talker_Lawyer:Eyes_mesh
+      parentName: Talker:Lawyer_Mesh
+      position: {x: -0.000010201104, y: 1.0523628, z: 0.0063513042}
+      rotation: {x: 0.065742046, y: -0, z: -0, w: 0.99783665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker:Lawyer_Rig
+      parentName: Char_Smoothtalker-Lawyer(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Hips
+      parentName: Talker:Lawyer_Rig
+      position: {x: -0.000004622936, y: 0.488712, z: -0.0039086896}
+      rotation: {x: -7.496826e-11, y: 0.0000021180342, z: 0.00003539521, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Spine
+      parentName: Talker_Lawyer:Hips
+      position: {x: 0.0000064795177, y: 0.17026734, z: -0.0010357072}
+      rotation: {x: -0.0065770485, y: -0.0000018851923, z: -0.00003540837, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Spine1
+      parentName: Talker_Lawyer:Spine
+      position: {x: -4.5060257e-17, y: 0.100050986, z: 0.00010766034}
+      rotation: {x: -0, y: -0, z: -7.691625e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Spine2
+      parentName: Talker_Lawyer:Spine1
+      position: {x: -1.0186555e-12, y: 0.04681732, z: -0.00076527015}
+      rotation: {x: -0.00000001071021, y: 1.1368683e-13, z: 2.6645353e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:RightShoulder
+      parentName: Talker_Lawyer:Spine2
+      position: {x: 0.06997395, y: 0.10660635, z: -0.00003742905}
+      rotation: {x: -0.5733101, y: -0.41371208, z: 0.5739781, w: -0.41316703}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Talker_Lawyer:RightArm
+      parentName: Talker_Lawyer:RightShoulder
+      position: {x: -0.000023076918, y: 0.09446476, z: -0.0060017994}
+      rotation: {x: 0.16009852, y: -0.024048522, z: 0.0032844245, w: -0.9868026}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Talker_Lawyer:RightForeArm
+      parentName: Talker_Lawyer:RightArm
+      position: {x: 0.00000057012045, y: 0.17216365, z: -0.0000054931716}
+      rotation: {x: 0.000047415495, y: -0.013813302, z: -0.00000044703484, w: 0.99990463}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000001}
+    - name: Talker_Lawyer:RightHand
+      parentName: Talker_Lawyer:RightForeArm
+      position: {x: -0.00000008977975, y: 0.1442, z: -0.000011772562}
+      rotation: {x: -0.000071406364, y: -0.026356205, z: 0.0000015646219, w: 0.9996526}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1}
+    - name: Talker_Lawyer:RightHandIndex1
+      parentName: Talker_Lawyer:RightHand
+      position: {x: 0.000000012974373, y: 0.054110017, z: 0.00000028296336}
+      rotation: {x: -0.000017911196, y: -0.0024357736, z: 0.010957897, w: 0.99993706}
+      scale: {x: 0.9999997, y: 0.99999976, z: 0.9999999}
+    - name: Talker_Lawyer:RightHandIndex2
+      parentName: Talker_Lawyer:RightHandIndex1
+      position: {x: 0.0008344809, y: 0.038002454, z: 0.000000040333074}
+      rotation: {x: 0.0000028014183, y: 0.00072698295, z: -0.018188268, w: 0.99983436}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: Talker_Lawyer:RightHandIndex3
+      parentName: Talker_Lawyer:RightHandIndex2
+      position: {x: -0.0004519108, y: 0.031454884, z: 0.000000005194275}
+      rotation: {x: -0.00009892881, y: 0.005546227, z: -0.0032591969, w: 0.9999794}
+      scale: {x: 0.99999934, y: 0.99999946, z: 0.9999993}
+    - name: Talker_Lawyer:RightHandIndex4
+      parentName: Talker_Lawyer:RightHandIndex3
+      position: {x: -0.00038254156, y: 0.018344695, z: -0.000000035787526}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: -0.000000029802322, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Talker_Lawyer:RightHandThumb1
+      parentName: Talker_Lawyer:RightHand
+      position: {x: -0.028839987, y: 0.030100014, z: 0.00077001826}
+      rotation: {x: 0.23839165, y: 0.034173995, z: 0.2889111, w: 0.92657006}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    - name: Talker_Lawyer:RightHandThumb2
+      parentName: Talker_Lawyer:RightHandThumb1
+      position: {x: -0.0034494586, y: 0.037600372, z: -0.014311023}
+      rotation: {x: -0.14999126, y: -0.023126032, z: -0.14167303, w: 0.9782109}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Talker_Lawyer:RightHandThumb3
+      parentName: Talker_Lawyer:RightHandThumb2
+      position: {x: -0.007892326, y: 0.02213651, z: 6.9613865e-10}
+      rotation: {x: -0.0004767775, y: 0.0068213632, z: 0.26919696, w: 0.96306086}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999997}
+    - name: Talker_Lawyer:RightHandThumb4
+      parentName: Talker_Lawyer:RightHandThumb3
+      position: {x: 0.0035597007, y: 0.017335003, z: -0.000000010846212}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:LeftShoulder
+      parentName: Talker_Lawyer:Spine2
+      position: {x: -0.069978304, y: 0.106617466, z: -0.0008829443}
+      rotation: {x: 0.5664863, y: -0.41862413, z: 0.5805326, w: 0.4084472}
+      scale: {x: 0.9999999, y: 0.99999946, z: 0.9999999}
+    - name: Talker_Lawyer:LeftArm
+      parentName: Talker_Lawyer:LeftShoulder
+      position: {x: 0.00046481667, y: 0.09445039, z: -0.0059836702}
+      rotation: {x: -0.16017778, y: -0.021034494, z: -0.009014249, w: 0.9868229}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000002}
+    - name: Talker_Lawyer:LeftForeArm
+      parentName: Talker_Lawyer:LeftArm
+      position: {x: -0.00000019132072, y: 0.17531736, z: 0.000000048249237}
+      rotation: {x: -0.00000041723246, y: 0.013648046, z: 0.00000053644175, w: 0.99990684}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Talker_Lawyer:LeftHand
+      parentName: Talker_Lawyer:LeftForeArm
+      position: {x: 0.0000006676798, y: 0.14419349, z: 0.000011946479}
+      rotation: {x: -0.00008022785, y: 0.030083224, z: 0.0000023841858, w: 0.9995475}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Talker_Lawyer:LeftHandIndex1
+      parentName: Talker_Lawyer:LeftHand
+      position: {x: -0.000000031417667, y: 0.054082446, z: 0.000011552458}
+      rotation: {x: 0.000066429384, y: 0.0041807448, z: -0.0036063048, w: 0.9999848}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: Talker_Lawyer:LeftHandIndex2
+      parentName: Talker_Lawyer:LeftHandIndex1
+      position: {x: -0.00027229608, y: 0.03785122, z: -0.000000042022798}
+      rotation: {x: 0.000014215708, y: 0.0016383827, z: 0.01600571, w: 0.9998706}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: Talker_Lawyer:LeftHandIndex3
+      parentName: Talker_Lawyer:LeftHandIndex2
+      position: {x: 0.00073226803, y: 0.029630683, z: 0.000000007661651}
+      rotation: {x: -0.00000061094755, y: -0.00019019839, z: -0.024223428, w: 0.99970657}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: Talker_Lawyer:LeftHandIndex4
+      parentName: Talker_Lawyer:LeftHandIndex3
+      position: {x: -0.0004599833, y: 0.019528009, z: -0.00000000924787}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:LeftHandThumb1
+      parentName: Talker_Lawyer:LeftHand
+      position: {x: 0.028812228, y: 0.0300998, z: 0.00075753406}
+      rotation: {x: 0.24491864, y: -0.0109145045, z: -0.3508102, w: 0.9037854}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000004}
+    - name: Talker_Lawyer:LeftHandThumb2
+      parentName: Talker_Lawyer:LeftHandThumb1
+      position: {x: -0.0014607821, y: 0.036866967, z: -0.014099071}
+      rotation: {x: -0.15205829, y: 0.0239607, z: 0.2857553, w: 0.94585836}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Talker_Lawyer:LeftHandThumb3
+      parentName: Talker_Lawyer:LeftHandThumb2
+      position: {x: 0.012755797, y: 0.0229011, z: 0.000000019255454}
+      rotation: {x: -0.0027320385, y: -0.0146499425, z: -0.3180806, w: 0.9479466}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000001}
+    - name: Talker_Lawyer:LeftHandThumb4
+      parentName: Talker_Lawyer:LeftHandThumb3
+      position: {x: -0.0028611457, y: 0.020403203, z: 0.000000036288945}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Neck
+      parentName: Talker_Lawyer:Spine2
+      position: {x: -8.487053e-17, y: 0.18911928, z: 0.00093406223}
+      rotation: {x: 0.006577059, y: 5.293956e-23, z: 8.478601e-24, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:Head
+      parentName: Talker_Lawyer:Neck
+      position: {x: -2.2789117e-17, y: 0.05895048, z: 0.0077716555}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:HeadTop_End
+      parentName: Talker_Lawyer:Head
+      position: {x: 5.8295925e-14, y: 0.44437686, z: 0.08309517}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_Lawyer:RightUpLeg
+      parentName: Talker_Lawyer:Hips
+      position: {x: 0.08538338, y: -0.08242361, z: 0.000393704}
+      rotation: {x: -0.001946091, y: 0.025986861, z: 0.9996004, w: -0.010955421}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Talker_Lawyer:RightLeg
+      parentName: Talker_Lawyer:RightUpLeg
+      position: {x: -0.0011610269, y: 0.14385703, z: 0.002744948}
+      rotation: {x: -0.09831048, y: 0.0031182193, z: -0.0272334, w: 0.9947782}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1}
+    - name: Talker_Lawyer:RightFoot
+      parentName: Talker_Lawyer:RightLeg
+      position: {x: -0.0031754416, y: 0.23338191, z: 0.014061705}
+      rotation: {x: 0.5246911, y: -0.017893836, z: -0.020822696, w: 0.8508498}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: Talker_Lawyer:RightToeBase
+      parentName: Talker_Lawyer:RightFoot
+      position: {x: 0.0029458797, y: 0.048077483, z: 0.011049428}
+      rotation: {x: 0.28605354, y: 0.013621347, z: -0.004066806, w: 0.9581082}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000007}
+    - name: Talker_Lawyer:RightToe_End
+      parentName: Talker_Lawyer:RightToeBase
+      position: {x: -0.00049375504, y: 0.041182537, z: -0.00014750677}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000004}
+    - name: Talker_Lawyer:LeftUpLeg
+      parentName: Talker_Lawyer:Hips
+      position: {x: -0.08539491, y: -0.08241127, z: 0.00039298367}
+      rotation: {x: 0.0110275075, y: 0.99960196, z: -0.025894705, w: -0.0019420198}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: Talker_Lawyer:LeftLeg
+      parentName: Talker_Lawyer:LeftUpLeg
+      position: {x: 0.001161004, y: -0.1438567, z: -0.0027695037}
+      rotation: {x: -0.098218024, y: 0.0031214794, z: -0.027234256, w: 0.9947873}
+      scale: {x: 1.0000006, y: 1, z: 1.0000005}
+    - name: Talker_Lawyer:LeftFoot
+      parentName: Talker_Lawyer:LeftLeg
+      position: {x: 0.003175218, y: -0.23338205, z: -0.014061621}
+      rotation: {x: 0.52469033, y: -0.017893832, z: -0.02082273, w: 0.85085034}
+      scale: {x: 0.9999998, y: 1, z: 0.99999976}
+    - name: Talker_Lawyer:LeftToeBase
+      parentName: Talker_Lawyer:LeftFoot
+      position: {x: -0.0029458601, y: -0.048077505, z: -0.011049421}
+      rotation: {x: 0.28605372, y: 0.013621374, z: -0.00406681, w: 0.9581082}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1.0000006}
+    - name: Talker_Lawyer:LeftToe_End
+      parentName: Talker_Lawyer:LeftToeBase
+      position: {x: 0.0004937643, y: -0.04118226, z: 0.0001474706}
+      rotation: {x: -0, y: -0, z: 2.3283064e-10, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 7
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

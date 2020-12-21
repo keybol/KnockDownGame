@@ -1,0 +1,615 @@
+fileFormatVersion: 2
+guid: 87ef82be6b9da48468ca530af1e54dad
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBSA_Glass
+    second: {fileID: 2100000, guid: 2de7ddb750ab05449be907ce6def7c32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBS_Body
+    second: {fileID: 2100000, guid: 5ae42123de9ea2645ac7bcc5ae7ef5a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBS_Eye
+    second: {fileID: 2100000, guid: 923d47649af83ba46bb2ab4b4dbda290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBS_Face
+    second: {fileID: 2100000, guid: 8ffae3a4e19b2e149ae23283e7765101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBS_Glasses
+    second: {fileID: 2100000, guid: 1dea65f5eec0e034f89c7d623ef2d727, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBS_Hair
+    second: {fileID: 2100000, guid: 77893255acaec474a9ba46b150ba2425, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBS_Headphone
+    second: {fileID: 2100000, guid: 449ae3efe1e4e694694ff7ba3046debe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_Liyab_PBS_SkinAnimAlpha
+    second: {fileID: 2100000, guid: ea2fd0d39e50bcd4fb193144219b5320, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Kaisaya_Liyab:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_Liyab:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Kiasaya-Liyab(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya:Liyab_Mesh
+      parentName: Char_Kiasaya-Liyab(Clone)
+      position: {x: -0, y: 0, z: 0.019601038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:hair_mesh
+      parentName: Kaisaya:Liyab_Mesh
+      position: {x: -0.6397861, y: 1.4761679, z: -0.23897976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6.4965534, y: 1.0127401, z: 6.4965534}
+    - name: Kaisaya_Liyab:glasses_mesh
+      parentName: Kaisaya:Liyab_Mesh
+      position: {x: 0.09249358, y: 1.1565922, z: -0.2667447}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.54939514, y: 0.66339636, z: 0.66339636}
+    - name: Kaisaya_Liyab:headset_mesh
+      parentName: Kaisaya:Liyab_Mesh
+      position: {x: -0, y: 0, z: 0.011121541}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Head_mesh
+      parentName: Kaisaya:Liyab_Mesh
+      position: {x: -0, y: 0, z: -0.019601038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Eye_mesh
+      parentName: Kaisaya:Liyab_Mesh
+      position: {x: -0, y: 0, z: -0.019601038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Body_mesh
+      parentName: Kaisaya:Liyab_Mesh
+      position: {x: -0, y: 0, z: -0.03375374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya:Liyab_Rig
+      parentName: Char_Kiasaya-Liyab(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Hips
+      parentName: Kaisaya:Liyab_Rig
+      position: {x: -0.000004622936, y: 0.488712, z: -0.0039086896}
+      rotation: {x: -7.496826e-11, y: 0.0000021180342, z: 0.00003539521, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:RightUpLeg
+      parentName: Kaisaya_Liyab:Hips
+      position: {x: 0.08538663, y: -0.03650468, z: 0.000393704}
+      rotation: {x: -0.0019453816, y: 0.025908528, z: 0.99960244, w: -0.010956086}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Kaisaya_Liyab:RightLeg
+      parentName: Kaisaya_Liyab:RightUpLeg
+      position: {x: 0.0005436171, y: 0.220946, z: -0.0012205356}
+      rotation: {x: -0.09823252, y: 0.0031202284, z: -0.027233863, w: 0.99478596}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Kaisaya_Liyab:RightFoot
+      parentName: Kaisaya_Liyab:RightLeg
+      position: {x: -0.002434898, y: 0.21093005, z: 0.010782039}
+      rotation: {x: 0.5246913, y: -0.017893868, z: -0.020822786, w: 0.8508498}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Kaisaya_Liyab:RightToeBase
+      parentName: Kaisaya_Liyab:RightFoot
+      position: {x: 0.0029458783, y: 0.048077483, z: 0.011049426}
+      rotation: {x: 0.28605363, y: 0.013621383, z: -0.0040668026, w: 0.9581082}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Kaisaya_Liyab:RightToe_End
+      parentName: Kaisaya_Liyab:RightToeBase
+      position: {x: -0.00049375807, y: 0.04118253, z: -0.00014750184}
+      rotation: {x: -0, y: -0, z: 9.313226e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:LeftUpLeg
+      parentName: Kaisaya_Liyab:Hips
+      position: {x: -0.08538564, y: -0.03650467, z: 0.00239632}
+      rotation: {x: 0.0016501051, y: 0.019013818, z: 0.9997573, w: 0.011008245}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: Kaisaya_Liyab:LeftLeg
+      parentName: Kaisaya_Liyab:LeftUpLeg
+      position: {x: -0.0005438775, y: 0.22082764, z: -0.00083563506}
+      rotation: {x: -0.08891267, y: -0.0028629375, z: 0.027091986, w: 0.9956668}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Kaisaya_Liyab:LeftFoot
+      parentName: Kaisaya_Liyab:LeftLeg
+      position: {x: 0.0024160321, y: 0.21088193, z: 0.010407872}
+      rotation: {x: 0.5174908, y: 0.017497273, z: 0.021207284, w: 0.855247}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999934}
+    - name: Kaisaya_Liyab:LeftToeBase
+      parentName: Kaisaya_Liyab:LeftFoot
+      position: {x: -0.0029388766, y: 0.046298705, z: 0.010439365}
+      rotation: {x: 0.29151005, y: -0.013722748, z: 0.0041824165, w: 0.95646024}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+    - name: Kaisaya_Liyab:LeftToe_End
+      parentName: Kaisaya_Liyab:LeftToeBase
+      position: {x: 0.00081717264, y: 0.040491175, z: -0.00064178056}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Spine
+      parentName: Kaisaya_Liyab:Hips
+      position: {x: -0.0000010818495, y: 0.06345392, z: -0.0010357072}
+      rotation: {x: -0.0065770485, y: -0.0000018851923, z: -0.00003540837, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Spine1
+      parentName: Kaisaya_Liyab:Spine
+      position: {x: -8.1614675e-17, y: 0.06085872, z: -0.00040791195}
+      rotation: {x: -0, y: -0, z: -2.0989708e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Spine2
+      parentName: Kaisaya_Liyab:Spine1
+      position: {x: -1.0186999e-12, y: 0.048946094, z: -0.00073726627}
+      rotation: {x: -0, y: -0, z: -2.0989708e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:RightShoulder
+      parentName: Kaisaya_Liyab:Spine2
+      position: {x: 0.03644003, y: 0.10660635, z: -0.00003742905}
+      rotation: {x: -0.5733101, y: -0.41371205, z: 0.5739782, w: -0.41316706}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: Kaisaya_Liyab:RightArm
+      parentName: Kaisaya_Liyab:RightShoulder
+      position: {x: 0.000000020642267, y: 0.07646207, z: -0.0000000024888218}
+      rotation: {x: 0.16009744, y: -0.024048805, z: 0.0032831132, w: -0.98680276}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: Kaisaya_Liyab:RightForeArm
+      parentName: Kaisaya_Liyab:RightArm
+      position: {x: 0.00000079293187, y: 0.14941013, z: -0.0000024551598}
+      rotation: {x: 0.00004634261, y: -0.013813391, z: -0.000001758337, w: 0.99990463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:RightHand
+      parentName: Kaisaya_Liyab:RightForeArm
+      position: {x: -0.00000007556983, y: 0.086802535, z: -0.000012139511}
+      rotation: {x: -0.00007137656, y: -0.026356086, z: 0.0000013262033, w: 0.9996526}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Kaisaya_Liyab:RightHandIndex1
+      parentName: Kaisaya_Liyab:RightHand
+      position: {x: -0.0000000011150977, y: 0.08688003, z: 0.00000024808998}
+      rotation: {x: -0.0000179708, y: -0.002435714, z: 0.010958016, w: 0.99993706}
+      scale: {x: 0.9999996, y: 0.9999997, z: 0.99999964}
+    - name: Kaisaya_Liyab:RightHandIndex2
+      parentName: Kaisaya_Liyab:RightHandIndex1
+      position: {x: 0.00083447696, y: 0.038002487, z: 0.000000040413354}
+      rotation: {x: 0.0000027120113, y: 0.00072695315, z: -0.018188238, w: 0.99983436}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000005}
+    - name: Kaisaya_Liyab:RightHandIndex3
+      parentName: Kaisaya_Liyab:RightHandIndex2
+      position: {x: -0.00045191636, y: 0.03145485, z: 0.000000006301151}
+      rotation: {x: -0.000098735094, y: 0.0055461973, z: -0.003259331, w: 0.9999794}
+      scale: {x: 0.9999996, y: 0.9999996, z: 0.9999993}
+    - name: Kaisaya_Liyab:RightHandIndex4
+      parentName: Kaisaya_Liyab:RightHandIndex3
+      position: {x: -0.00038254974, y: 0.018344695, z: -0.00000003892972}
+      rotation: {x: -0.000000029802319, y: 0.000000014901159, z: -0.000000014901159, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Kaisaya_Liyab:RightHandThumb1
+      parentName: Kaisaya_Liyab:RightHand
+      position: {x: -0.019256365, y: 0.04650011, z: 0.000000824504}
+      rotation: {x: 0.090432666, y: -0.021307027, z: 0.39338756, w: 0.9146661}
+      scale: {x: 0.9999996, y: 0.9999998, z: 0.99999976}
+    - name: Kaisaya_Liyab:RightHandThumb2
+      parentName: Kaisaya_Liyab:RightHandThumb1
+      position: {x: 0.004332671, y: 0.040029924, z: 0.000000041188535}
+      rotation: {x: 0.0006386935, y: -0.005453437, z: -0.22324741, w: 0.97474635}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Kaisaya_Liyab:RightHandThumb3
+      parentName: Kaisaya_Liyab:RightHandThumb2
+      position: {x: -0.007892338, y: 0.022136508, z: 0.0000000044942468}
+      rotation: {x: -0.00047668815, y: 0.006821409, z: 0.2691969, w: 0.9630609}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: Kaisaya_Liyab:RightHandThumb4
+      parentName: Kaisaya_Liyab:RightHandThumb3
+      position: {x: 0.003559667, y: 0.017334985, z: 0.0000000020618847}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:LeftShoulder
+      parentName: Kaisaya_Liyab:Spine2
+      position: {x: -0.03644003, y: 0.106617466, z: -0.0008829443}
+      rotation: {x: 0.56648624, y: -0.41862416, z: 0.58053255, w: 0.40844718}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999997}
+    - name: Kaisaya_Liyab:LeftArm
+      parentName: Kaisaya_Liyab:LeftShoulder
+      position: {x: 0.000000009194244, y: 0.076475725, z: -0.000000038008658}
+      rotation: {x: -0.16017753, y: -0.021034626, z: -0.009014874, w: 0.9868229}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Kaisaya_Liyab:LeftForeArm
+      parentName: Kaisaya_Liyab:LeftArm
+      position: {x: -0.00000033900488, y: 0.14916925, z: 0.000000020938419}
+      rotation: {x: -0.000000834465, y: 0.013648152, z: 0.0000010728836, w: 0.9999069}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Kaisaya_Liyab:LeftHand
+      parentName: Kaisaya_Liyab:LeftForeArm
+      position: {x: 0.0000006504735, y: 0.08687913, z: 0.000011989311}
+      rotation: {x: -0.00007981062, y: 0.03008324, z: 0.0000025629997, w: 0.9995474}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Kaisaya_Liyab:LeftHandIndex1
+      parentName: Kaisaya_Liyab:LeftHand
+      position: {x: -0.00000002448173, y: 0.08832679, z: 0.00001701621}
+      rotation: {x: 0.00006616116, y: 0.0041807746, z: -0.0036063495, w: 0.9999848}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: Kaisaya_Liyab:LeftHandIndex2
+      parentName: Kaisaya_Liyab:LeftHandIndex1
+      position: {x: -0.0002722963, y: 0.037851255, z: -0.000000034044618}
+      rotation: {x: 0.000014156101, y: 0.0016384271, z: 0.016005663, w: 0.99987054}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: Kaisaya_Liyab:LeftHandIndex3
+      parentName: Kaisaya_Liyab:LeftHandIndex2
+      position: {x: 0.00073226617, y: 0.02963065, z: 0.000000014583931}
+      rotation: {x: -0.0000006109476, y: -0.00019019842, z: -0.024223492, w: 0.99970657}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: Kaisaya_Liyab:LeftHandIndex4
+      parentName: Kaisaya_Liyab:LeftHandIndex3
+      position: {x: -0.00045998342, y: 0.019528009, z: -0.0000000039896575}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:LeftHandThumb1
+      parentName: Kaisaya_Liyab:LeftHand
+      position: {x: 0.016556459, y: 0.046248157, z: 0.00000022448683}
+      rotation: {x: 0.095706835, y: 0.033849295, z: -0.45726246, w: 0.8835188}
+      scale: {x: 0.9999997, y: 0.99999964, z: 0.9999998}
+    - name: Kaisaya_Liyab:LeftHandThumb2
+      parentName: Kaisaya_Liyab:LeftHandThumb1
+      position: {x: -0.009894616, y: 0.038031816, z: -0.00000003743516}
+      rotation: {x: 0.00058086216, y: 0.0045691463, z: 0.3721802, w: 0.92814904}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Kaisaya_Liyab:LeftHandThumb3
+      parentName: Kaisaya_Liyab:LeftHandThumb2
+      position: {x: 0.012755803, y: 0.022901095, z: 0.000000026333}
+      rotation: {x: -0.0027320385, y: -0.014649764, z: -0.31808046, w: 0.94794667}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Kaisaya_Liyab:LeftHandThumb4
+      parentName: Kaisaya_Liyab:LeftHandThumb3
+      position: {x: -0.0028611766, y: 0.02040325, z: 0.000000010577193}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Neck
+      parentName: Kaisaya_Liyab:Spine2
+      position: {x: -1.5803819e-16, y: 0.118114725, z: 7.5612927e-10}
+      rotation: {x: 0.00657705, y: 3.970467e-23, z: 9.005929e-23, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:Head
+      parentName: Kaisaya_Liyab:Neck
+      position: {x: -7.508588e-17, y: 0.05895048, z: 0.0077716555}
+      rotation: {x: -0, y: -0, z: 2.6418227e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_Liyab:HeadTop_End
+      parentName: Kaisaya_Liyab:Head
+      position: {x: 5.829594e-14, y: 0.44437686, z: 0.08309517}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 7
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

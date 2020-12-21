@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 2b7fbba7520d35544a229fdbfbc745b8
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker__PBS_Eye
+    second: {fileID: 2100000, guid: 99450a4fb15b7ba4c82bbb59ad429215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker__PBS_Glass
+    second: {fileID: 2100000, guid: 8c788100f72ca804e84931ba4a19a4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker__PBS_GlassFrame
+    second: {fileID: 2100000, guid: 6096b7532cfc45b419cd85251c2845a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker__PBS_SkinAnimAlpha
+    second: {fileID: 2100000, guid: b2bd8d701aa3f9447a599c2cd8638b1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker__PBS_SmoothTalker_Body
+    second: {fileID: 2100000, guid: 85e2b63b869a9fa45aabd15f86edf48d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker__PBS_SmoothTalker_Hair
+    second: {fileID: 2100000, guid: 3e9ec9e6df788464d9bd55792db5a479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker__PBS_SmoothTalker_Skin
+    second: {fileID: 2100000, guid: 8f8c7070d983dbe4caad347debdf7602, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Talker_:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_SmoothTalker(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SmoothTalker
+      parentName: Char_SmoothTalker(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:SmoothTalker_Body
+      parentName: SmoothTalker
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Skin
+      parentName: SmoothTalker
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SmoothTalker_Rig
+      parentName: Char_SmoothTalker(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Hips
+      parentName: SmoothTalker_Rig
+      position: {x: -0.000004622936, y: 0.488712, z: -0.003908689}
+      rotation: {x: -7.496826e-11, y: 0.0000021180342, z: 0.00003539521, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Spine
+      parentName: Talker_:Hips
+      position: {x: 0.0000064795177, y: 0.17026734, z: -0.0010357072}
+      rotation: {x: -0.006577048, y: -0.0000018851924, z: -0.000035408375, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Spine1
+      parentName: Talker_:Spine
+      position: {x: -4.5010924e-17, y: 0.100050986, z: 0.00010766034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Spine2
+      parentName: Talker_:Spine1
+      position: {x: -1.0186554e-12, y: 0.04681732, z: -0.00076527015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftShoulder
+      parentName: Talker_:Spine2
+      position: {x: -0.069978304, y: 0.106617466, z: -0.0008829438}
+      rotation: {x: 0.56648624, y: -0.41862407, z: 0.5805326, w: 0.40844718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftArm
+      parentName: Talker_:LeftShoulder
+      position: {x: 0.00046481667, y: 0.09445039, z: -0.0059836702}
+      rotation: {x: -0.1601778, y: -0.021034515, z: -0.009014262, w: 0.9868229}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftForeArm
+      parentName: Talker_:LeftArm
+      position: {x: -0.00000019132072, y: 0.17531736, z: 0.000000048249237}
+      rotation: {x: -0.00000042636947, y: 0.013648017, z: 0.0000005451681, w: 0.9999069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHand
+      parentName: Talker_:LeftForeArm
+      position: {x: 0.0000006676798, y: 0.14419349, z: 0.000011946479}
+      rotation: {x: -0.0000802099, y: 0.030083284, z: 0.0000023833968, w: 0.9995474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandThumb1
+      parentName: Talker_:LeftHand
+      position: {x: 0.028812226, y: 0.0300998, z: 0.000757534}
+      rotation: {x: 0.24491856, y: -0.010914451, z: -0.3508101, w: 0.9037854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandThumb2
+      parentName: Talker_:LeftHandThumb1
+      position: {x: -0.0014607821, y: 0.036866967, z: -0.014099071}
+      rotation: {x: -0.15205723, y: 0.023960361, z: 0.28575575, w: 0.9458585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandThumb3
+      parentName: Talker_:LeftHandThumb2
+      position: {x: 0.012755797, y: 0.0229011, z: 0.000000019255454}
+      rotation: {x: -0.002732075, y: -0.014649869, z: -0.31808054, w: 0.9479466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandThumb4
+      parentName: Talker_:LeftHandThumb3
+      position: {x: -0.0028611457, y: 0.020403203, z: 0.000000036288945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandIndex1
+      parentName: Talker_:LeftHand
+      position: {x: -0.000000031417667, y: 0.054082446, z: 0.000011552458}
+      rotation: {x: 0.00006639777, y: 0.0041807173, z: -0.0036062794, w: 0.9999848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandIndex2
+      parentName: Talker_:LeftHandIndex1
+      position: {x: -0.00027229608, y: 0.03785122, z: -0.000000042022798}
+      rotation: {x: 0.0000141871615, y: 0.001638389, z: 0.016005648, w: 0.9998706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandIndex3
+      parentName: Talker_:LeftHandIndex2
+      position: {x: 0.00073226803, y: 0.029630683, z: 0.000000007661651}
+      rotation: {x: -0.00000060094305, y: -0.00019012873, z: -0.024223462, w: 0.99970657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftHandIndex4
+      parentName: Talker_:LeftHandIndex3
+      position: {x: -0.0004599833, y: 0.019528009, z: -0.000000009247871}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightShoulder
+      parentName: Talker_:Spine2
+      position: {x: 0.06997395, y: 0.10660635, z: -0.000037428526}
+      rotation: {x: -0.5733101, y: -0.4137121, z: 0.57397807, w: -0.41316703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightArm
+      parentName: Talker_:RightShoulder
+      position: {x: -0.000023076918, y: 0.09446476, z: -0.0060017994}
+      rotation: {x: -0.16009855, y: 0.024048498, z: -0.0032844369, w: 0.9868026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightForeArm
+      parentName: Talker_:RightArm
+      position: {x: 0.00000057012045, y: 0.17216365, z: -0.0000054931716}
+      rotation: {x: 0.000047493777, y: -0.013813331, z: -0.00000042029123, w: 0.99990463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHand
+      parentName: Talker_:RightForeArm
+      position: {x: -0.00000008977975, y: 0.1442, z: -0.000011772562}
+      rotation: {x: -0.000071384005, y: -0.026356189, z: 0.0000015035737, w: 0.9996526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandThumb1
+      parentName: Talker_:RightHand
+      position: {x: -0.028839987, y: 0.030100014, z: 0.0007700183}
+      rotation: {x: 0.23839156, y: 0.034174047, z: 0.2889112, w: 0.92657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandThumb2
+      parentName: Talker_:RightHandThumb1
+      position: {x: -0.0034494568, y: 0.037600372, z: -0.014311023}
+      rotation: {x: -0.14999253, y: -0.023126336, z: -0.1416731, w: 0.97821075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandThumb3
+      parentName: Talker_:RightHandThumb2
+      position: {x: -0.007892326, y: 0.02213651, z: 6.9613876e-10}
+      rotation: {x: -0.00047685945, y: 0.006821391, z: 0.26919696, w: 0.96306086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandThumb4
+      parentName: Talker_:RightHandThumb3
+      position: {x: 0.0035597007, y: 0.017335003, z: -0.000000010846212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandIndex1
+      parentName: Talker_:RightHand
+      position: {x: 0.000000012974373, y: 0.054110017, z: 0.00000028296336}
+      rotation: {x: -0.000018017172, y: -0.0024357643, z: 0.010957951, w: 0.999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandIndex2
+      parentName: Talker_:RightHandIndex1
+      position: {x: 0.0008344809, y: 0.038002454, z: 0.000000040333074}
+      rotation: {x: 0.000002748648, y: 0.0007269557, z: -0.018188238, w: 0.99983436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandIndex3
+      parentName: Talker_:RightHandIndex2
+      position: {x: -0.0004519108, y: 0.031454884, z: 0.0000000051942743}
+      rotation: {x: -0.00009885837, y: 0.005546209, z: -0.0032591799, w: 0.9999793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightHandIndex4
+      parentName: Talker_:RightHandIndex3
+      position: {x: -0.00038254156, y: 0.018344695, z: -0.000000035787526}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Neck
+      parentName: Talker_:Spine2
+      position: {x: -8.476618e-17, y: 0.18911928, z: 0.00093406276}
+      rotation: {x: 0.0065770494, y: 0, z: -0, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Head
+      parentName: Talker_:Neck
+      position: {x: -2.2756862e-17, y: 0.05895048, z: 0.0077716555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:SmoothTalker_Hair
+      parentName: Talker_:Head
+      position: {x: 1.4560103e-16, y: 7.060917e-11, z: 7.0930833e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Glasses
+      parentName: Talker_:Head
+      position: {x: -1.8973538e-21, y: -6.217249e-16, z: 9.714452e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:Eyes
+      parentName: Talker_:Head
+      position: {x: -3.7947076e-21, y: -6.217249e-16, z: 6.314394e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:HeadTop_End
+      parentName: Talker_:Head
+      position: {x: 5.8295925e-14, y: 0.44437686, z: 0.08309517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightUpLeg
+      parentName: Talker_:Hips
+      position: {x: 0.08538338, y: -0.08242361, z: 0.000393704}
+      rotation: {x: -0.0019460852, y: 0.025985077, z: 0.9996004, w: -0.010954876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightLeg
+      parentName: Talker_:RightUpLeg
+      position: {x: -0.0011611601, y: 0.14385709, z: 0.002741694}
+      rotation: {x: -0.09830402, y: 0.0031181464, z: -0.027233431, w: 0.9947789}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightFoot
+      parentName: Talker_:RightLeg
+      position: {x: -0.0031757043, y: 0.2333819, z: 0.014061685}
+      rotation: {x: 0.52468723, y: -0.017893745, z: -0.020822786, w: 0.85085225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightToeBase
+      parentName: Talker_:RightFoot
+      position: {x: 0.002945837, y: 0.048077486, z: 0.011049427}
+      rotation: {x: 0.28605372, y: 0.013621366, z: -0.0040668077, w: 0.9581082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:RightToe_End
+      parentName: Talker_:RightToeBase
+      position: {x: -0.0004937749, y: 0.041182537, z: -0.00014750667}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftUpLeg
+      parentName: Talker_:Hips
+      position: {x: -0.08539491, y: -0.08241127, z: 0.00039298367}
+      rotation: {x: 0.011027174, y: 0.9996015, z: -0.025915025, w: -0.0019428863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftLeg
+      parentName: Talker_:LeftUpLeg
+      position: {x: 0.0011611735, y: -0.14385694, z: -0.002757402}
+      rotation: {x: -0.09823803, y: 0.003120213, z: -0.02723402, w: 0.99478537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftFoot
+      parentName: Talker_:LeftLeg
+      position: {x: 0.003175393, y: -0.23338202, z: -0.014061703}
+      rotation: {x: 0.5246902, y: -0.017893817, z: -0.020822722, w: 0.8508504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftToeBase
+      parentName: Talker_:LeftFoot
+      position: {x: -0.0029458583, y: -0.048077505, z: -0.011049418}
+      rotation: {x: 0.28605372, y: 0.013621366, z: -0.0040668077, w: 0.9581082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_:LeftToe_End
+      parentName: Talker_:LeftToeBase
+      position: {x: 0.00049376755, y: -0.041182265, z: 0.00014747388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 7
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

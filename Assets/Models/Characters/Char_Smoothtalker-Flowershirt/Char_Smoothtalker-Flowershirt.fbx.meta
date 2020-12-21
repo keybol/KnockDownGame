@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: dacd7a49630adfe4bad77be092651485
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_FlowerShirt_PBS_Body
+    second: {fileID: 2100000, guid: 205653069a875e9429416aaecec75cea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_FlowerShirt_PBS_Eye
+    second: {fileID: 2100000, guid: 8266e927d4cb46f4a896e1e50018ec3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_FlowerShirt_PBS_FlowShirt_Skin
+    second: {fileID: 2100000, guid: 6d9c867c1e2a5a549b9e9d92b577a5e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_FlowerShirt_PBS_Glass
+    second: {fileID: 2100000, guid: e4a6e302be4355840a2458788024ab30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_FlowerShirt_PBS_Hair
+    second: {fileID: 2100000, guid: ff8db562f5cf2e144847520e17bb8b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_FlowerShirt_PBS_SkinAnimAlpha
+    second: {fileID: 2100000, guid: 9e5e3d581d8d87c4c963ebb323354ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Talker_FlowerShirt_PBS_Sunglasses
+    second: {fileID: 2100000, guid: 06e4284512a966e4a91cbc5b1d5c01f6, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Talker_FlowerShirt:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Talker_FlowerShirt:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Smoothtalker-Flowershirt(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker:Flowershirt_Mesh
+      parentName: Char_Smoothtalker-Flowershirt(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:Body_mesh
+      parentName: Talker:Flowershirt_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:sunglasses_mesh
+      parentName: Talker:Flowershirt_Mesh
+      position: {x: 0.5765736, y: -0.9591445, z: 3.218923}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.873452, y: 2.3958788, z: 0.18623905}
+    - name: Talker_FlowerShirt:Eyes_mesh
+      parentName: Talker:Flowershirt_Mesh
+      position: {x: -0.000010201104, y: 1.053892, z: -0.0013158304}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:head_Skin
+      parentName: Talker:Flowershirt_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:hair_mesh
+      parentName: Talker:Flowershirt_Mesh
+      position: {x: -0.000010201104, y: 1.053892, z: -0.0013158297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker:Flowershirt_Rig
+      parentName: Char_Smoothtalker-Flowershirt(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:Hips
+      parentName: Talker:Flowershirt_Rig
+      position: {x: -0.000004622936, y: 0.488712, z: -0.0039086896}
+      rotation: {x: -7.496826e-11, y: 0.0000021180342, z: 0.00003539521, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:Spine
+      parentName: Talker_FlowerShirt:Hips
+      position: {x: 0.0000064795177, y: 0.17026734, z: -0.0010357072}
+      rotation: {x: -0.006577048, y: -0.0000018851924, z: -0.000035408375, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:Spine1
+      parentName: Talker_FlowerShirt:Spine
+      position: {x: -4.512856e-17, y: 0.100050986, z: 0.00010766034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:Spine2
+      parentName: Talker_FlowerShirt:Spine1
+      position: {x: -1.0186555e-12, y: 0.04681732, z: -0.00076527015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftShoulder
+      parentName: Talker_FlowerShirt:Spine2
+      position: {x: -0.069978304, y: 0.106617466, z: -0.0008829443}
+      rotation: {x: 0.56648624, y: -0.41862407, z: 0.5805326, w: 0.40844718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftArm
+      parentName: Talker_FlowerShirt:LeftShoulder
+      position: {x: 0.00046481667, y: 0.09445039, z: -0.0059836702}
+      rotation: {x: -0.1601778, y: -0.021034515, z: -0.009014262, w: 0.9868229}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftForeArm
+      parentName: Talker_FlowerShirt:LeftArm
+      position: {x: -0.00000019132072, y: 0.17531736, z: 0.000000048249245}
+      rotation: {x: -0.00000042636947, y: 0.013648017, z: 0.0000005451681, w: 0.9999069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHand
+      parentName: Talker_FlowerShirt:LeftForeArm
+      position: {x: 0.0000006676798, y: 0.14419349, z: 0.000011946479}
+      rotation: {x: -0.0000802099, y: 0.030083284, z: 0.0000023833968, w: 0.9995474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandThumb1
+      parentName: Talker_FlowerShirt:LeftHand
+      position: {x: 0.028812228, y: 0.0300998, z: 0.00075753406}
+      rotation: {x: 0.24491856, y: -0.010914451, z: -0.3508101, w: 0.9037854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandThumb2
+      parentName: Talker_FlowerShirt:LeftHandThumb1
+      position: {x: -0.0014607821, y: 0.036866967, z: -0.014099071}
+      rotation: {x: 0.00058093556, y: 0.004569277, z: 0.37218022, w: 0.9281491}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandThumb3
+      parentName: Talker_FlowerShirt:LeftHandThumb2
+      position: {x: 0.012755797, y: 0.0229011, z: 0.000000019255456}
+      rotation: {x: -0.002732075, y: -0.014649869, z: -0.31808054, w: 0.9479466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandThumb4
+      parentName: Talker_FlowerShirt:LeftHandThumb3
+      position: {x: -0.0028611457, y: 0.020403203, z: 0.00000003628895}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandIndex1
+      parentName: Talker_FlowerShirt:LeftHand
+      position: {x: -0.00000003141767, y: 0.054082446, z: 0.000011552458}
+      rotation: {x: 0.00006639777, y: 0.0041807173, z: -0.0036062794, w: 0.9999848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandIndex2
+      parentName: Talker_FlowerShirt:LeftHandIndex1
+      position: {x: -0.00027229608, y: 0.03785122, z: -0.000000042022798}
+      rotation: {x: 0.0000141871615, y: 0.001638389, z: 0.016005648, w: 0.9998706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandIndex3
+      parentName: Talker_FlowerShirt:LeftHandIndex2
+      position: {x: 0.00073226803, y: 0.029630683, z: 0.000000007661652}
+      rotation: {x: -0.00000060094305, y: -0.00019012873, z: -0.024223462, w: 0.99970657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftHandIndex4
+      parentName: Talker_FlowerShirt:LeftHandIndex3
+      position: {x: -0.0004599833, y: 0.019528009, z: -0.000000009247869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightShoulder
+      parentName: Talker_FlowerShirt:Spine2
+      position: {x: 0.06997395, y: 0.10660635, z: -0.00003742905}
+      rotation: {x: -0.5733101, y: -0.4137121, z: 0.57397807, w: -0.41316703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightArm
+      parentName: Talker_FlowerShirt:RightShoulder
+      position: {x: -0.000023076918, y: 0.09446476, z: -0.0060017994}
+      rotation: {x: -0.16009855, y: 0.024048498, z: -0.0032844369, w: 0.9868026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightForeArm
+      parentName: Talker_FlowerShirt:RightArm
+      position: {x: 0.00000057012045, y: 0.17216365, z: -0.0000054931716}
+      rotation: {x: 0.000047493777, y: -0.013813331, z: -0.0000004202912, w: 0.99990463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHand
+      parentName: Talker_FlowerShirt:RightForeArm
+      position: {x: -0.00000008977975, y: 0.1442, z: -0.000011772562}
+      rotation: {x: -0.000071384005, y: -0.026356189, z: 0.0000015035737, w: 0.9996526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandThumb1
+      parentName: Talker_FlowerShirt:RightHand
+      position: {x: -0.028839987, y: 0.030100014, z: 0.00077001826}
+      rotation: {x: 0.23839156, y: 0.034174047, z: 0.2889112, w: 0.92657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandThumb2
+      parentName: Talker_FlowerShirt:RightHandThumb1
+      position: {x: -0.0034494586, y: 0.037600372, z: -0.014311023}
+      rotation: {x: 0.00063876784, y: -0.005453459, z: -0.22324754, w: 0.97474635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandThumb3
+      parentName: Talker_FlowerShirt:RightHandThumb2
+      position: {x: -0.007892326, y: 0.02213651, z: 6.9613876e-10}
+      rotation: {x: -0.00047685945, y: 0.006821391, z: 0.26919696, w: 0.96306086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandThumb4
+      parentName: Talker_FlowerShirt:RightHandThumb3
+      position: {x: 0.0035597007, y: 0.017335003, z: -0.000000010846212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandIndex1
+      parentName: Talker_FlowerShirt:RightHand
+      position: {x: 0.000000012974372, y: 0.054110017, z: 0.00000028296336}
+      rotation: {x: -0.000018017172, y: -0.0024357643, z: 0.010957951, w: 0.999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandIndex2
+      parentName: Talker_FlowerShirt:RightHandIndex1
+      position: {x: 0.0008344809, y: 0.038002454, z: 0.000000040333074}
+      rotation: {x: 0.000002748648, y: 0.0007269557, z: -0.018188238, w: 0.99983436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandIndex3
+      parentName: Talker_FlowerShirt:RightHandIndex2
+      position: {x: -0.0004519108, y: 0.031454884, z: 0.000000005194275}
+      rotation: {x: -0.00009885837, y: 0.005546209, z: -0.0032591799, w: 0.9999793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightHandIndex4
+      parentName: Talker_FlowerShirt:RightHandIndex3
+      position: {x: -0.00038254156, y: 0.018344695, z: -0.000000035787526}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:Neck
+      parentName: Talker_FlowerShirt:Spine2
+      position: {x: -8.49673e-17, y: 0.18911928, z: 0.00093406223}
+      rotation: {x: 0.0065770494, y: 0, z: -0, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:Head
+      parentName: Talker_FlowerShirt:Neck
+      position: {x: -2.2819475e-17, y: 0.05895048, z: 0.0077716555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:HeadTop_End
+      parentName: Talker_FlowerShirt:Head
+      position: {x: 5.8295925e-14, y: 0.44437686, z: 0.08309517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightUpLeg
+      parentName: Talker_FlowerShirt:Hips
+      position: {x: 0.08538338, y: -0.08242361, z: 0.000393704}
+      rotation: {x: -0.0019460652, y: 0.02598455, z: 0.9996004, w: -0.010955424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightLeg
+      parentName: Talker_FlowerShirt:RightUpLeg
+      position: {x: -0.0011610157, y: 0.14385702, z: 0.0027444086}
+      rotation: {x: -0.098308004, y: 0.0031182836, z: -0.02723342, w: 0.99477845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightFoot
+      parentName: Talker_FlowerShirt:RightLeg
+      position: {x: -0.0031754335, y: 0.23338191, z: 0.01406168}
+      rotation: {x: 0.5246911, y: -0.01789384, z: -0.020822704, w: 0.85084987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightToeBase
+      parentName: Talker_FlowerShirt:RightFoot
+      position: {x: 0.0029458844, y: 0.048077483, z: 0.011049428}
+      rotation: {x: 0.28605372, y: 0.013621366, z: -0.0040668077, w: 0.9581082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:RightToe_End
+      parentName: Talker_FlowerShirt:RightToeBase
+      position: {x: -0.00049375114, y: 0.04118253, z: -0.00014750639}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftUpLeg
+      parentName: Talker_FlowerShirt:Hips
+      position: {x: -0.08539491, y: -0.08241127, z: 0.00039298367}
+      rotation: {x: 0.011027506, y: 0.99960196, z: -0.02589508, w: -0.0019421071}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftLeg
+      parentName: Talker_FlowerShirt:LeftUpLeg
+      position: {x: 0.0011609863, y: -0.14385672, z: -0.0027692332}
+      rotation: {x: -0.09821841, y: 0.0031213912, z: -0.027234249, w: 0.9947873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftFoot
+      parentName: Talker_FlowerShirt:LeftLeg
+      position: {x: 0.0031752102, y: -0.23338205, z: -0.014061681}
+      rotation: {x: 0.5246904, y: -0.017893823, z: -0.020822719, w: 0.8508503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftToeBase
+      parentName: Talker_FlowerShirt:LeftFoot
+      position: {x: -0.0029458534, y: -0.048077505, z: -0.011049418}
+      rotation: {x: 0.28605372, y: 0.013621366, z: -0.0040668077, w: 0.9581082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Talker_FlowerShirt:LeftToe_End
+      parentName: Talker_FlowerShirt:LeftToeBase
+      position: {x: 0.0004937705, y: -0.041182265, z: 0.00014747403}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 7
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: f6df76ddc596ad949bb73a3206d768af
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gloco_Casual_PBS_Acc_BaseballCap
+    second: {fileID: 2100000, guid: 767de93b770974446859359e8bca0c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gloco_Casual_PBS_Acc_Camera
+    second: {fileID: 2100000, guid: 2df628a109266b24d972498c3c27d372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gloco_Casual_PBS_Body
+    second: {fileID: 2100000, guid: 085c7791717b1df4a890fbfb0f82d8c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gloco_Casual_PBS_Hair
+    second: {fileID: 2100000, guid: fccf0a825dd1aaa44a76f7f7aecb8b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gloco_Casual_PBS_SkinAnimAlpha
+    second: {fileID: 2100000, guid: cc15cf11ca9b2684d93b9d6d1ee329b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gloco_Casual_ph_Eyes
+    second: {fileID: 2100000, guid: e4093040d33900a468d512f15a32ac76, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Gloco_Casual:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Gloco_Casual:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Gloco_Casual(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco:Casual_Rig
+      parentName: Char_Gloco_Casual(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Hips
+      parentName: Gloco:Casual_Rig
+      position: {x: -0.000004622936, y: 0.4364835, z: -0.0039086896}
+      rotation: {x: -7.496826e-11, y: 0.0000021180342, z: 0.00003539521, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Spine
+      parentName: Gloco_Casual:Hips
+      position: {x: -1.1220033e-13, y: 0.07873635, z: -0.0010357072}
+      rotation: {x: -0.006577048, y: -0.0000018851924, z: -0.000035408375, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Spine1
+      parentName: Gloco_Casual:Spine
+      position: {x: -6.146288e-17, y: 0.091866955, z: -1.0403521e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Spine2
+      parentName: Gloco_Casual:Spine1
+      position: {x: -7.023814e-17, y: 0.10499093, z: 6.4144334e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightShoulder
+      parentName: Gloco_Casual:Spine2
+      position: {x: 0.03644003, y: 0.10660635, z: -0.00003742905}
+      rotation: {x: -0.5733101, y: -0.41371205, z: 0.57397825, w: -0.41316685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightArm
+      parentName: Gloco_Casual:RightShoulder
+      position: {x: -0.0000000018817428, y: 0.07646207, z: -0.000000028922448}
+      rotation: {x: -0.1601007, y: 0.024048166, z: -0.003286122, w: 0.9868023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightForeArm
+      parentName: Gloco_Casual:RightArm
+      position: {x: -0.000000089898634, y: 0.12925455, z: -0.0000035648038}
+      rotation: {x: 0.000050346403, y: -0.013813213, z: 0.0000014435055, w: 0.99990463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHand
+      parentName: Gloco_Casual:RightForeArm
+      position: {x: 0.000000004934062, y: 0.17921215, z: -0.000022770255}
+      rotation: {x: -0.00007276575, y: -0.026356231, z: 0.0000012739292, w: 0.9996526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandThumb1
+      parentName: Gloco_Casual:RightHand
+      position: {x: -0.019256368, y: 0.046500105, z: 0.0000008675849}
+      rotation: {x: 0.090432286, y: -0.021307597, z: 0.39338836, w: 0.9146658}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandThumb2
+      parentName: Gloco_Casual:RightHandThumb1
+      position: {x: 0.004332678, y: 0.040029917, z: 0.000000027815428}
+      rotation: {x: 0.00063886837, y: -0.0054534934, z: -0.2232477, w: 0.9747463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandThumb3
+      parentName: Gloco_Casual:RightHandThumb2
+      position: {x: -0.007892347, y: 0.0221365, z: -0.000000010600643}
+      rotation: {x: -0.00047693285, y: 0.006821422, z: 0.26919705, w: 0.96306086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandThumb4
+      parentName: Gloco_Casual:RightHandThumb3
+      position: {x: 0.0035596644, y: 0.017334983, z: -0.0000000035063115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandIndex1
+      parentName: Gloco_Casual:RightHand
+      position: {x: -0.0000000035933794, y: 0.08688003, z: 0.00000032850494}
+      rotation: {x: -0.000017345017, y: -0.002435756, z: 0.0109579535, w: 0.999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandIndex2
+      parentName: Gloco_Casual:RightHandIndex1
+      position: {x: 0.000834467, y: 0.038002495, z: 0.000000024592856}
+      rotation: {x: 0.0000027486337, y: 0.00072699616, z: -0.01818821, w: 0.99983436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandIndex3
+      parentName: Gloco_Casual:RightHandIndex2
+      position: {x: -0.0004519217, y: 0.03145485, z: -0.000000007777559}
+      rotation: {x: -0.00009884756, y: 0.0055461805, z: -0.0032591799, w: 0.9999793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightHandIndex4
+      parentName: Gloco_Casual:RightHandIndex3
+      position: {x: -0.00038254465, y: 0.018344695, z: 0.000000022866239}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Neck
+      parentName: Gloco_Casual:Spine2
+      position: {x: -7.9024786e-17, y: 0.118114725, z: 7.561292e-10}
+      rotation: {x: 0.0065770494, y: 0, z: -0, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Gloco_Casual:Neck
+      position: {x: -3.7539144e-17, y: 0.05895048, z: 0.0077716555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Head
+      parentName: Head
+      position: {x: 0.000010202755, y: -0.8891157, z: 0.001315832}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:cap_mesh
+      parentName: Gloco_Casual:Head
+      position: {x: -0.0000000016522245, y: 0.8891157, z: -0.0000000017245211}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:head
+      parentName: Gloco_Casual:Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Hair
+      parentName: Head
+      position: {x: 0.000010202755, y: 0.23120388, z: -0.028616529}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Eyes1
+      parentName: Head
+      position: {x: 0.000010202755, y: 0.14841464, z: -0.009217088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:HeadTop_End
+      parentName: Head
+      position: {x: -0, y: 0.63030314, z: 0.08309517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftShoulder
+      parentName: Gloco_Casual:Spine2
+      position: {x: -0.03644003, y: 0.106617466, z: -0.0008829443}
+      rotation: {x: 0.5664862, y: -0.4186241, z: 0.5805326, w: 0.40844715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftArm
+      parentName: Gloco_Casual:LeftShoulder
+      position: {x: 0.000000009194244, y: 0.076475725, z: -0.000000038008658}
+      rotation: {x: -0.16017841, y: -0.020990234, z: -0.0087410845, w: 0.9868262}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftForeArm
+      parentName: Gloco_Casual:LeftArm
+      position: {x: 0.00000030304423, y: 0.12901373, z: 0.0000004946854}
+      rotation: {x: -0.000004497749, y: 0.013647985, z: -0.00047415865, w: 0.9999068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHand
+      parentName: Gloco_Casual:LeftForeArm
+      position: {x: -0.000000011513309, y: 0.17928873, z: 0.0000005022018}
+      rotation: {x: -0.000085824875, y: 0.03008322, z: 0.00020022783, w: 0.9995474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandThumb1
+      parentName: Gloco_Casual:LeftHand
+      position: {x: 0.016556459, y: 0.046248157, z: 0.00000020328068}
+      rotation: {x: 0.095706396, y: 0.033849277, z: -0.4572623, w: 0.883519}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandThumb2
+      parentName: Gloco_Casual:LeftHandThumb1
+      position: {x: -0.0098946225, y: 0.038031816, z: -0.000000035355257}
+      rotation: {x: 0.00058099517, y: 0.0045692516, z: 0.3721803, w: 0.92814904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandThumb3
+      parentName: Gloco_Casual:LeftHandThumb2
+      position: {x: 0.012755805, y: 0.022901094, z: 0.000000021023203}
+      rotation: {x: -0.0027319982, y: -0.014649856, z: -0.31808046, w: 0.9479466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandThumb4
+      parentName: Gloco_Casual:LeftHandThumb3
+      position: {x: -0.0028611748, y: 0.02040325, z: 0.0000000060943615}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandIndex1
+      parentName: Gloco_Casual:LeftHand
+      position: {x: -0.000000024540665, y: 0.08832679, z: 0.000016979426}
+      rotation: {x: 0.000065936154, y: 0.0041807177, z: -0.003606355, w: 0.9999848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandIndex2
+      parentName: Gloco_Casual:LeftHandIndex1
+      position: {x: -0.0002722965, y: 0.037851255, z: -0.000000036060207}
+      rotation: {x: 0.000014151365, y: 0.0016384453, z: 0.016005618, w: 0.9998706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandIndex3
+      parentName: Gloco_Casual:LeftHandIndex2
+      position: {x: 0.00073226757, y: 0.029630683, z: 0.000000014588748}
+      rotation: {x: -0.00000048596576, y: -0.00019007271, z: -0.024223344, w: 0.99970657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftHandIndex4
+      parentName: Gloco_Casual:LeftHandIndex3
+      position: {x: -0.00045997897, y: 0.019528009, z: -0.0000000091723145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftUpLeg
+      parentName: Gloco_Casual:Hips
+      position: {x: -0.08538614, y: -0.04354872, z: 0.00239632}
+      rotation: {x: 0.001650469, y: 0.019096816, z: 0.9997557, w: 0.011007493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftLeg
+      parentName: Gloco_Casual:LeftUpLeg
+      position: {x: -0.0000003822898, y: 0.1961719, z: 0.00003855268}
+      rotation: {x: -0.088995986, y: -0.0028611652, z: 0.02709173, w: 0.9956594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftFoot
+      parentName: Gloco_Casual:LeftLeg
+      position: {x: 0.000000014590585, y: 0.13708787, z: 2.8085792e-10}
+      rotation: {x: 0.5174913, y: 0.017497139, z: 0.021207163, w: 0.8552467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftToeBase
+      parentName: Gloco_Casual:LeftFoot
+      position: {x: 0.0000000056640537, y: 0.097711846, z: 7.4789896e-10}
+      rotation: {x: 0.29150993, y: -0.013722741, z: 0.004182417, w: 0.95646024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:LeftToe_End
+      parentName: Gloco_Casual:LeftToeBase
+      position: {x: 1.5638496e-11, y: 0.04308297, z: 1.7290166e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightUpLeg
+      parentName: Gloco_Casual:Hips
+      position: {x: 0.08538613, y: -0.043548733, z: 0.000393704}
+      rotation: {x: -0.0019446567, y: 0.025858603, z: 0.9996037, w: -0.010956637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightLeg
+      parentName: Gloco_Casual:RightUpLeg
+      position: {x: 0.0000005800527, y: 0.19637844, z: 0.00006146113}
+      rotation: {x: -0.09817769, y: 0.0031217837, z: -0.027234228, w: 0.9947913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightFoot
+      parentName: Gloco_Casual:RightLeg
+      position: {x: -0.000000004812437, y: 0.13711657, z: -0.000000021581426}
+      rotation: {x: 0.52468663, y: -0.01789404, z: -0.020822553, w: 0.8508526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightToeBase
+      parentName: Gloco_Casual:RightFoot
+      position: {x: 0.0000000037753893, y: 0.099362575, z: -0.0000000013945312}
+      rotation: {x: 0.28605372, y: 0.013621366, z: -0.0040668077, w: 0.9581082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:RightToe_End
+      parentName: Gloco_Casual:RightToeBase
+      position: {x: -2.46039e-11, y: 0.04375559, z: 5.1514237e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco:Casual_Mesh
+      parentName: Char_Gloco_Casual(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Body
+      parentName: Gloco:Casual_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gloco_Casual:Camera
+      parentName: Gloco:Casual_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 7
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

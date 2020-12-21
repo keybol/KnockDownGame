@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 58602b63cbf92e9468efa3bf5f59fd3b
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Athlete_Male_PBS_Body
+    second: {fileID: 2100000, guid: 6a0f5f1b0457b054ba6bef84c08a38ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Athlete_Male_PBS_Eye
+    second: {fileID: 2100000, guid: 53f5f96a7416ec84096fd7663fc4edd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Athlete_Male_PBS_Face
+    second: {fileID: 2100000, guid: b68d2946ae385fd42ba72c7615f987ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Athlete_Male_PBS_Hair
+    second: {fileID: 2100000, guid: 680491fdc6f21a84a85318b186d56d55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Athlete_Male_PBS_SkinAnimAlpha
+    second: {fileID: 2100000, guid: ce36d5e50b0b20746976e4c3ec3cf2d1, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Athlete_Male:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Athlete_Male:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Athlete-Male(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete:Male_Mesh
+      parentName: Char_Athlete-Male(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Body_mesh
+      parentName: Athlete:Male_Mesh
+      position: {x: -0, y: -0.016236834, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Head_mesh
+      parentName: Athlete:Male_Mesh
+      position: {x: -2.428613e-19, y: -0.016236834, z: -6.217249e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:hair_mesh
+      parentName: Athlete:Male_Mesh
+      position: {x: -0, y: 1.2538779, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:headband_mesh
+      parentName: Athlete:Male_Mesh
+      position: {x: -0, y: 1.1343089, z: -0.00083767524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 8.908845, y: 8.908845, z: 8.908845}
+    - name: Athlete_Male:Eyes_mesh
+      parentName: Athlete:Male_Mesh
+      position: {x: -0.000010201104, y: 0.82276434, z: -0.0013158293}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete:Male_Rig
+      parentName: Char_Athlete-Male(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Hips
+      parentName: Athlete:Male_Rig
+      position: {x: -0.0000046271084, y: 0.488712, z: -0.0039086896}
+      rotation: {x: -7.496826e-11, y: 0.0000021180342, z: 0.00003539521, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Spine
+      parentName: Athlete_Male:Hips
+      position: {x: -0.0000010818495, y: 0.06345392, z: -0.0010357072}
+      rotation: {x: -0.006577048, y: -0.0000018851924, z: -0.000035408375, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Spine1
+      parentName: Athlete_Male:Spine
+      position: {x: -2.7553371e-17, y: 0.06085872, z: -0.00040791195}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Spine2
+      parentName: Athlete_Male:Spine1
+      position: {x: -1.0186564e-12, y: 0.048946094, z: -0.00073726627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftShoulder
+      parentName: Athlete_Male:Spine2
+      position: {x: -0.03644003, y: 0.106617466, z: -0.0008829443}
+      rotation: {x: 0.5664862, y: -0.4186241, z: 0.5805326, w: 0.40844715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftArm
+      parentName: Athlete_Male:LeftShoulder
+      position: {x: 0.000000009091903, y: 0.076475725, z: -0.000000036691223}
+      rotation: {x: -0.16017754, y: -0.021034585, z: -0.009014911, w: 0.9868229}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftForeArm
+      parentName: Athlete_Male:LeftArm
+      position: {x: -0.00000033900488, y: 0.14916925, z: 0.000000020938419}
+      rotation: {x: -0.0000008402912, y: 0.013648, z: 0.0000010229068, w: 0.9999069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHand
+      parentName: Athlete_Male:LeftForeArm
+      position: {x: 0.0000006504735, y: 0.08687913, z: 0.000011989311}
+      rotation: {x: -0.00007979989, y: 0.03008325, z: 0.0000025788859, w: 0.9995474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandThumb1
+      parentName: Athlete_Male:LeftHand
+      position: {x: 0.016556459, y: 0.046248157, z: 0.00000022448683}
+      rotation: {x: 0.09570683, y: 0.033849277, z: -0.45726243, w: 0.8835189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandThumb2
+      parentName: Athlete_Male:LeftHandThumb1
+      position: {x: -0.009894616, y: 0.038031816, z: -0.00000003743516}
+      rotation: {x: 0.0005808454, y: 0.0045691417, z: 0.37218013, w: 0.9281491}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandThumb3
+      parentName: Athlete_Male:LeftHandThumb2
+      position: {x: 0.012755803, y: 0.022901095, z: 0.000000026333}
+      rotation: {x: -0.002731986, y: -0.014649789, z: -0.31808043, w: 0.9479466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandThumb4
+      parentName: Athlete_Male:LeftHandThumb3
+      position: {x: -0.0028611766, y: 0.02040325, z: 0.000000010577193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandIndex1
+      parentName: Athlete_Male:LeftHand
+      position: {x: -0.00000002448173, y: 0.08832679, z: 0.00001701621}
+      rotation: {x: 0.00006611769, y: 0.0041807783, z: -0.003606354, w: 0.9999848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandIndex2
+      parentName: Athlete_Male:LeftHandIndex1
+      position: {x: -0.0002722963, y: 0.037851255, z: -0.000000034044618}
+      rotation: {x: 0.000014174446, y: 0.0016383854, z: 0.016005648, w: 0.9998706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandIndex3
+      parentName: Athlete_Male:LeftHandIndex2
+      position: {x: 0.00073226617, y: 0.02963065, z: 0.000000014583931}
+      rotation: {x: -0.0000006154925, y: -0.00019010341, z: -0.024223492, w: 0.99970657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftHandIndex4
+      parentName: Athlete_Male:LeftHandIndex3
+      position: {x: -0.00045998342, y: 0.019528009, z: -0.000000003989658}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightShoulder
+      parentName: Athlete_Male:Spine2
+      position: {x: 0.03644003, y: 0.10660635, z: -0.00003742905}
+      rotation: {x: -0.5733101, y: -0.41371208, z: 0.5739781, w: -0.41316703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightArm
+      parentName: Athlete_Male:RightShoulder
+      position: {x: 0.00000002063719, y: 0.076462075, z: -0.000000003808405}
+      rotation: {x: -0.16009742, y: 0.024048729, z: -0.0032831149, w: 0.98680276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightForeArm
+      parentName: Athlete_Male:RightArm
+      position: {x: 0.00000079293187, y: 0.14941013, z: -0.0000024551598}
+      rotation: {x: 0.000046331417, y: -0.013813334, z: -0.0000017156946, w: 0.99990463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHand
+      parentName: Athlete_Male:RightForeArm
+      position: {x: -0.00000007556983, y: 0.086802535, z: -0.000012139511}
+      rotation: {x: -0.00007138114, y: -0.026356157, z: 0.000001291701, w: 0.9996526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandThumb1
+      parentName: Athlete_Male:RightHand
+      position: {x: -0.019256365, y: 0.04650011, z: 0.000000824504}
+      rotation: {x: 0.09043209, y: -0.02130725, z: 0.3933878, w: 0.9146662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandThumb2
+      parentName: Athlete_Male:RightHandThumb1
+      position: {x: 0.004332671, y: 0.040029924, z: 0.000000041188535}
+      rotation: {x: 0.00063870434, y: -0.005453403, z: -0.22324742, w: 0.97474635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandThumb3
+      parentName: Athlete_Male:RightHandThumb2
+      position: {x: -0.007892338, y: 0.022136508, z: 0.0000000044942468}
+      rotation: {x: -0.00047676274, y: 0.006821399, z: 0.26919696, w: 0.96306086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandThumb4
+      parentName: Athlete_Male:RightHandThumb3
+      position: {x: 0.003559667, y: 0.017334985, z: 0.0000000020618847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandIndex1
+      parentName: Athlete_Male:RightHand
+      position: {x: -0.0000000011150977, y: 0.08688003, z: 0.00000024808998}
+      rotation: {x: -0.000018016804, y: -0.0024356742, z: 0.010958041, w: 0.999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandIndex2
+      parentName: Athlete_Male:RightHandIndex1
+      position: {x: 0.00083447696, y: 0.038002487, z: 0.000000040413354}
+      rotation: {x: 0.0000027325984, y: 0.0007269754, z: -0.018188264, w: 0.99983436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandIndex3
+      parentName: Athlete_Male:RightHandIndex2
+      position: {x: -0.00045191636, y: 0.03145485, z: 0.000000006301151}
+      rotation: {x: -0.00009875662, y: 0.005546204, z: -0.0032593003, w: 0.9999793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightHandIndex4
+      parentName: Athlete_Male:RightHandIndex3
+      position: {x: -0.00038254974, y: 0.018344695, z: -0.00000003892972}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Neck
+      parentName: Athlete_Male:Spine2
+      position: {x: -5.3141087e-17, y: 0.118114725, z: 7.5612927e-10}
+      rotation: {x: 0.0065770494, y: 0, z: -0, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:Head
+      parentName: Athlete_Male:Neck
+      position: {x: -2.2726504e-17, y: 0.05895048, z: 0.0077716555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:HeadTop_End
+      parentName: Athlete_Male:Head
+      position: {x: 5.829594e-14, y: 0.44437686, z: 0.08309517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftUpLeg
+      parentName: Athlete_Male:Hips
+      position: {x: -0.085385635, y: -0.03650467, z: 0.00239632}
+      rotation: {x: 0.0016500244, y: 0.019012643, z: 0.9997573, w: 0.011008247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftLeg
+      parentName: Athlete_Male:LeftUpLeg
+      position: {x: -0.0005436213, y: 0.22082752, z: -0.00086647365}
+      rotation: {x: -0.08891144, y: -0.0028630374, z: 0.02709201, w: 0.9956669}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftFoot
+      parentName: Athlete_Male:LeftLeg
+      position: {x: 0.0024160044, y: 0.21088193, z: 0.010407902}
+      rotation: {x: 0.5174908, y: 0.017497264, z: 0.021207249, w: 0.855247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftToeBase
+      parentName: Athlete_Male:LeftFoot
+      position: {x: -0.0029388766, y: 0.046298705, z: 0.010439365}
+      rotation: {x: 0.29150993, y: -0.013722741, z: 0.004182417, w: 0.95646024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:LeftToe_End
+      parentName: Athlete_Male:LeftToeBase
+      position: {x: 0.00081717264, y: 0.040491175, z: -0.00064178056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightUpLeg
+      parentName: Athlete_Male:Hips
+      position: {x: 0.08538663, y: -0.03650468, z: 0.000393704}
+      rotation: {x: -0.0019453956, y: 0.025909435, z: 0.9996024, w: -0.010956097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightLeg
+      parentName: Athlete_Male:RightUpLeg
+      position: {x: 0.000543559, y: 0.22094592, z: -0.0012315811}
+      rotation: {x: -0.09823059, y: 0.0031201579, z: -0.027233897, w: 0.9947861}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightFoot
+      parentName: Athlete_Male:RightLeg
+      position: {x: -0.0024349333, y: 0.21093005, z: 0.010782062}
+      rotation: {x: 0.52468884, y: -0.017893953, z: -0.020822698, w: 0.8508513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightToeBase
+      parentName: Athlete_Male:RightFoot
+      position: {x: 0.0029458783, y: 0.048077483, z: 0.011049426}
+      rotation: {x: 0.28605372, y: 0.013621366, z: -0.0040668077, w: 0.9581082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Athlete_Male:RightToe_End
+      parentName: Athlete_Male:RightToeBase
+      position: {x: -0.00049375807, y: 0.04118253, z: -0.00014750184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 7
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

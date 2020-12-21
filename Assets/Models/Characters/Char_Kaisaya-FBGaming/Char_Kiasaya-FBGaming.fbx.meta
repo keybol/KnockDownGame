@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 517ed4b332493504b87fa2eca86657a5
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_FBGaming_PBS_Body
+    second: {fileID: 2100000, guid: c0454c2d21f82934ea68f4c9f55c5256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_FBGaming_PBS_Eye
+    second: {fileID: 2100000, guid: d04fcd19df2de2a4f87f851f60987ad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_FBGaming_PBS_Hair
+    second: {fileID: 2100000, guid: b4a931f452f43044e8640b3811248519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_FBGaming_PBS_Headphone
+    second: {fileID: 2100000, guid: 1445ab1da4d3b60439faf6d2b8ec66bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaisaya_FBGaming_PBS_SkinAnimAlpha
+    second: {fileID: 2100000, guid: 6797ca627cd0a604ea732e4f923cb997, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Kaisaya_FBGaming:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Kaisaya_FBGaming:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Char_Kiasaya-FBGaming(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kiasaya:FBGaming_Mesh
+      parentName: Char_Kiasaya-FBGaming(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:hair_mesh
+      parentName: Kiasaya:FBGaming_Mesh
+      position: {x: -0.55280954, y: 1.4760157, z: 0.05386931}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6.4965534, y: 1.0127401, z: 6.4965534}
+    - name: Kaisaya_FBGaming:Eye_mesh
+      parentName: Kiasaya:FBGaming_Mesh
+      position: {x: -0, y: 0, z: -0.019601038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:headset_mesh
+      parentName: Kiasaya:FBGaming_Mesh
+      position: {x: -0, y: 0, z: 0.011121541}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Body_mesh
+      parentName: Kiasaya:FBGaming_Mesh
+      position: {x: -0, y: 0, z: -0.03375374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Head_mesh
+      parentName: Kiasaya:FBGaming_Mesh
+      position: {x: -0, y: 0, z: -0.019601038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kiasaya:FBGaming_Rig
+      parentName: Char_Kiasaya-FBGaming(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Hips
+      parentName: Kiasaya:FBGaming_Rig
+      position: {x: -0.0000046271084, y: 0.488712, z: -0.0039086896}
+      rotation: {x: -7.496826e-11, y: 0.0000021180342, z: 0.00003539521, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Spine
+      parentName: Kaisaya_FBGaming:Hips
+      position: {x: -0.0000010818495, y: 0.06345392, z: -0.0010357072}
+      rotation: {x: -0.006577048, y: -0.0000018851924, z: -0.000035408375, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Spine1
+      parentName: Kaisaya_FBGaming:Spine
+      position: {x: -8.1599495e-17, y: 0.06085872, z: -0.00040791195}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Spine2
+      parentName: Kaisaya_FBGaming:Spine1
+      position: {x: -1.0186999e-12, y: 0.048946094, z: -0.00073726627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftShoulder
+      parentName: Kaisaya_FBGaming:Spine2
+      position: {x: -0.03644003, y: 0.106617466, z: -0.0008829443}
+      rotation: {x: 0.5664862, y: -0.4186241, z: 0.5805326, w: 0.40844715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftArm
+      parentName: Kaisaya_FBGaming:LeftShoulder
+      position: {x: 0.000000009091903, y: 0.076475725, z: -0.000000036691223}
+      rotation: {x: -0.16017754, y: -0.021034585, z: -0.009014911, w: 0.9868229}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftForeArm
+      parentName: Kaisaya_FBGaming:LeftArm
+      position: {x: -0.00000033900488, y: 0.14916925, z: 0.000000020938419}
+      rotation: {x: -0.0000008402912, y: 0.013648, z: 0.0000010229068, w: 0.9999069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHand
+      parentName: Kaisaya_FBGaming:LeftForeArm
+      position: {x: 0.0000006504735, y: 0.08687913, z: 0.000011989311}
+      rotation: {x: -0.00007979989, y: 0.03008325, z: 0.0000025788859, w: 0.9995474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandThumb1
+      parentName: Kaisaya_FBGaming:LeftHand
+      position: {x: 0.016556459, y: 0.046248157, z: 0.00000022448683}
+      rotation: {x: 0.09570683, y: 0.033849277, z: -0.45726243, w: 0.8835189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandThumb2
+      parentName: Kaisaya_FBGaming:LeftHandThumb1
+      position: {x: -0.009894616, y: 0.038031816, z: -0.00000003743516}
+      rotation: {x: 0.0005808454, y: 0.0045691417, z: 0.37218013, w: 0.9281491}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandThumb3
+      parentName: Kaisaya_FBGaming:LeftHandThumb2
+      position: {x: 0.012755803, y: 0.022901095, z: 0.000000026333}
+      rotation: {x: -0.002731986, y: -0.014649789, z: -0.31808043, w: 0.9479466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandThumb4
+      parentName: Kaisaya_FBGaming:LeftHandThumb3
+      position: {x: -0.0028611766, y: 0.02040325, z: 0.000000010577193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandIndex1
+      parentName: Kaisaya_FBGaming:LeftHand
+      position: {x: -0.00000002448173, y: 0.08832679, z: 0.00001701621}
+      rotation: {x: 0.00006611769, y: 0.0041807783, z: -0.003606354, w: 0.9999848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandIndex2
+      parentName: Kaisaya_FBGaming:LeftHandIndex1
+      position: {x: -0.0002722963, y: 0.037851255, z: -0.000000034044618}
+      rotation: {x: 0.000014174446, y: 0.0016383854, z: 0.016005648, w: 0.9998706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandIndex3
+      parentName: Kaisaya_FBGaming:LeftHandIndex2
+      position: {x: 0.00073226617, y: 0.02963065, z: 0.000000014583931}
+      rotation: {x: -0.0000006154925, y: -0.00019010341, z: -0.024223492, w: 0.99970657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftHandIndex4
+      parentName: Kaisaya_FBGaming:LeftHandIndex3
+      position: {x: -0.00045998342, y: 0.019528009, z: -0.0000000039896575}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightShoulder
+      parentName: Kaisaya_FBGaming:Spine2
+      position: {x: 0.03644003, y: 0.10660635, z: -0.00003742905}
+      rotation: {x: -0.5733101, y: -0.41371208, z: 0.5739781, w: -0.41316703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightArm
+      parentName: Kaisaya_FBGaming:RightShoulder
+      position: {x: 0.00000002063719, y: 0.076462075, z: -0.000000003808405}
+      rotation: {x: -0.16009742, y: 0.024048729, z: -0.0032831149, w: 0.98680276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightForeArm
+      parentName: Kaisaya_FBGaming:RightArm
+      position: {x: 0.00000079293187, y: 0.14941013, z: -0.0000024551598}
+      rotation: {x: 0.000046331417, y: -0.013813334, z: -0.0000017156946, w: 0.99990463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHand
+      parentName: Kaisaya_FBGaming:RightForeArm
+      position: {x: -0.00000007556983, y: 0.086802535, z: -0.000012139511}
+      rotation: {x: -0.00007138114, y: -0.026356157, z: 0.000001291701, w: 0.9996526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandThumb1
+      parentName: Kaisaya_FBGaming:RightHand
+      position: {x: -0.019256365, y: 0.04650011, z: 0.000000824504}
+      rotation: {x: 0.09043209, y: -0.02130725, z: 0.3933878, w: 0.9146662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandThumb2
+      parentName: Kaisaya_FBGaming:RightHandThumb1
+      position: {x: 0.004332671, y: 0.040029924, z: 0.00000004118854}
+      rotation: {x: 0.00063870434, y: -0.005453403, z: -0.22324742, w: 0.97474635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandThumb3
+      parentName: Kaisaya_FBGaming:RightHandThumb2
+      position: {x: -0.007892338, y: 0.022136508, z: 0.0000000044942468}
+      rotation: {x: -0.00047676274, y: 0.006821399, z: 0.26919696, w: 0.96306086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandThumb4
+      parentName: Kaisaya_FBGaming:RightHandThumb3
+      position: {x: 0.003559667, y: 0.017334985, z: 0.0000000020618844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandIndex1
+      parentName: Kaisaya_FBGaming:RightHand
+      position: {x: -0.0000000011150977, y: 0.08688003, z: 0.00000024808998}
+      rotation: {x: -0.000018016804, y: -0.0024356742, z: 0.010958041, w: 0.999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandIndex2
+      parentName: Kaisaya_FBGaming:RightHandIndex1
+      position: {x: 0.00083447696, y: 0.038002487, z: 0.000000040413354}
+      rotation: {x: 0.0000027325984, y: 0.0007269754, z: -0.018188264, w: 0.99983436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandIndex3
+      parentName: Kaisaya_FBGaming:RightHandIndex2
+      position: {x: -0.00045191636, y: 0.03145485, z: 0.000000006301151}
+      rotation: {x: -0.00009875662, y: 0.005546204, z: -0.0032593003, w: 0.9999793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightHandIndex4
+      parentName: Kaisaya_FBGaming:RightHandIndex3
+      position: {x: -0.00038254974, y: 0.018344695, z: -0.00000003892972}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Neck
+      parentName: Kaisaya_FBGaming:Spine2
+      position: {x: -1.5804008e-16, y: 0.118114725, z: 7.5612927e-10}
+      rotation: {x: 0.0065770494, y: 0, z: -0, w: 0.99997836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:Head
+      parentName: Kaisaya_FBGaming:Neck
+      position: {x: -7.5083985e-17, y: 0.05895048, z: 0.0077716555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:HeadTop_End
+      parentName: Kaisaya_FBGaming:Head
+      position: {x: 5.829594e-14, y: 0.44437686, z: 0.08309517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftUpLeg
+      parentName: Kaisaya_FBGaming:Hips
+      position: {x: -0.085385635, y: -0.03650467, z: 0.00239632}
+      rotation: {x: 0.0016495811, y: 0.01900088, z: 0.9997575, w: 0.011008504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftLeg
+      parentName: Kaisaya_FBGaming:LeftUpLeg
+      position: {x: -0.00054375565, y: 0.22082755, z: -0.0008527084}
+      rotation: {x: -0.08889796, y: -0.0028636702, z: 0.027092349, w: 0.9956681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftFoot
+      parentName: Kaisaya_FBGaming:LeftLeg
+      position: {x: 0.0024160168, y: 0.21088193, z: 0.010407894}
+      rotation: {x: 0.51748925, y: 0.017497262, z: 0.021207064, w: 0.8552479}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftToeBase
+      parentName: Kaisaya_FBGaming:LeftFoot
+      position: {x: -0.0029388766, y: 0.046298712, z: 0.010439366}
+      rotation: {x: 0.29150993, y: -0.013722741, z: 0.004182417, w: 0.95646024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:LeftToe_End
+      parentName: Kaisaya_FBGaming:LeftToeBase
+      position: {x: 0.00081717264, y: 0.040491175, z: -0.00064178056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightUpLeg
+      parentName: Kaisaya_FBGaming:Hips
+      position: {x: 0.08538663, y: -0.03650468, z: 0.000393704}
+      rotation: {x: -0.0019448953, y: 0.025891928, z: 0.9996028, w: -0.010956266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightLeg
+      parentName: Kaisaya_FBGaming:RightUpLeg
+      position: {x: 0.00054364797, y: 0.22094604, z: -0.001214665}
+      rotation: {x: -0.09821387, y: 0.0031209942, z: -0.027234038, w: 0.99478775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightFoot
+      parentName: Kaisaya_FBGaming:RightLeg
+      position: {x: -0.0024348993, y: 0.21093005, z: 0.010782058}
+      rotation: {x: 0.52468944, y: -0.01789392, z: -0.020822624, w: 0.85085094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightToeBase
+      parentName: Kaisaya_FBGaming:RightFoot
+      position: {x: 0.0029458783, y: 0.048077483, z: 0.011049426}
+      rotation: {x: 0.28605372, y: 0.013621366, z: -0.0040668077, w: 0.9581082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kaisaya_FBGaming:RightToe_End
+      parentName: Kaisaya_FBGaming:RightToeBase
+      position: {x: -0.00049375807, y: 0.04118253, z: -0.00014750184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 7
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
