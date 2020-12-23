@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ed18608ab7e254395d2136ea34df74, type: 3}
+  m_Name: Chef
+  m_EditorClassIdentifier: 
+  characterModel:
+  - {fileID: 942053005386853109, guid: c033da87f4c00e544a393a5b2d25f20b, type: 3}
+  - {fileID: 9057469122241887805, guid: ee0a60b786ccb3745888005c8732fae7, type: 3}
+  - {fileID: 8102815714671866994, guid: 5d3a43b192209d441b923eca93e64463, type: 3}
+  Name: []
+  HP: 0
+  Speed: 0
+  Power: 0
+  Special: 0
+  Gauntlet: 0
+  armLength: 0
+  winAnimation: Test
+  poseAnimation: Test

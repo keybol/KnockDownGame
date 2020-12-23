@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3270371681376479190}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 7253711670172611548}
   - component: {fileID: 8610815987942493242}
   - component: {fileID: 7921739287139648795}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00054337736, y: 0.22094578, z: -0.0012490703}
+  m_ConnectedAnchor: {x: 0.0005433699, y: 0.22094578, z: -0.0012490712}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 3225319020581938583}
   - component: {fileID: 436630959309822631}
   - component: {fileID: 8247955144915351557}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00001507647, y: 0.29133874, z: -0.0051787966}
+  m_ConnectedAnchor: {x: 0.000015067759, y: 0.29133874, z: -0.0051787966}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 1366082815870088310}
   - component: {fileID: 6457660508290512964}
   - component: {fileID: 2025516074255782866}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,7 +432,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08538664, y: -0.036504652, z: 0.00039370393}
+  m_ConnectedAnchor: {x: 0.08538663, y: -0.036504652, z: 0.00039370393}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 7951601135227774519}
   - component: {fileID: 24767766816289209}
   - component: {fileID: 3897761496655708165}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000059604645, y: 0.14916922, z: 0.0000002682209}
+  m_ConnectedAnchor: {x: 0.00000005844049, y: 0.14916928, z: 0.0000002719462}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -635,7 +635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4828426538033171264}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5232928403289312751}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 3150394895666172592}
   - component: {fileID: 1958730404706121403}
   - component: {fileID: 4001454794907297532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +749,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.08538562, y: -0.03650466, z: 0.00239632}
+  m_ConnectedAnchor: {x: -0.08538564, y: -0.03650466, z: 0.00239632}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -806,7 +806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5773299199522995346}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5164318547763037304}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 1196413135922066775}
   - component: {fileID: 9057441329869966213}
   - component: {fileID: 8399810563205679292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.10896649, y: 0.25566235, z: -0.0073741665}
+  m_ConnectedAnchor: {x: -0.108966514, y: 0.25566235, z: -0.0073741665}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1066,7 +1066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8505868017024564308}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3191948654860399746}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1215,7 +1215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3277801830277329463}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1250,7 +1250,7 @@ GameObject:
   - component: {fileID: 2202084130009224349}
   - component: {fileID: 2983993024403147343}
   - component: {fileID: 7160438603704799602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1299,7 +1299,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0005433918, y: 0.22082745, z: -0.0009014257}
+  m_ConnectedAnchor: {x: -0.000543362, y: 0.22082745, z: -0.0009014257}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1356,7 +1356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 243296235991688278}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1390,7 +1390,7 @@ GameObject:
   - component: {fileID: 5130829153355934477}
   - component: {fileID: 482938513625757191}
   - component: {fileID: 2070072412151490749}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.108989686, y: 0.2556413, z: -0.0048363516}
+  m_ConnectedAnchor: {x: 0.10898971, y: 0.2556413, z: -0.0048363516}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1512,7 +1512,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4231210211250004080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1721305363923010529}
@@ -1528,7 +1528,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4231210211250004080}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: b8d6bf5c4640eef45b2455cbc01e4189, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1
@@ -1548,7 +1548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1108227534142729259}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1578,7 +1578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 970213940139280402}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1609,7 +1609,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 473330761510242540}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7199308240817973821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1671,7 +1671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9067524113447090546}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1702,7 +1702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3639723008027122736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1732,7 +1732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1066518861352772109}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1763,7 +1763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4745076604431057276}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1794,7 +1794,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023168786254987753}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,7 +1825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8399339596138209173}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1855,7 +1855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8435443800459803012}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1886,7 +1886,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1668048565566367376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2004,7 +2004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8458715350151827077}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2122,7 +2122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7735173874724049385}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2326,7 +2326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8529751369320657113}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2357,7 +2357,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2820584402892423424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2391,7 +2391,7 @@ GameObject:
   - component: {fileID: 2079967976768845991}
   - component: {fileID: 6872196450771286895}
   - component: {fileID: 180022762746591959}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2442,7 +2442,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000006709217, y: 0.17323416, z: -0.0036251382}
+  m_ConnectedAnchor: {x: 0.0000067005076, y: 0.17323416, z: -0.0036251382}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2498,7 +2498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 854540505641343194}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 455552764312253227}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2563,7 +2563,7 @@ GameObject:
   - component: {fileID: 4249411316198984901}
   - component: {fileID: 2926190272211507938}
   - component: {fileID: 8490361251682438664}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2669,7 +2669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5828167832506573748}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2700,7 +2700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2844172542466983786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2731,7 +2731,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8203223260062020680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2762,7 +2762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5713619619589249915}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2794,7 +2794,7 @@ GameObject:
   - component: {fileID: 2684873961690128244}
   - component: {fileID: 6340956720212131767}
   - component: {fileID: 421521437044015664}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}

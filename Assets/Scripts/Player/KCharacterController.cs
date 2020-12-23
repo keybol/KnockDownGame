@@ -27,13 +27,12 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 {
 	[SerializeField] public KPlayer kplayer;
 	[SerializeField] public KinematicCharacterMotor Motor;
-	[SerializeField] public Animator anim;
-	[SerializeField] public List<Transform> GroundChecksList;
-	[SerializeField] public LayerMask planetLayer;
+
 	[Header("Stable Movement")]
 	public bool RestrictMovement;
 	public bool DefyGravity;
 	public float MaxStableMoveSpeed = 10f;
+	public float MaxCrouchMoveSpeed = 5f;
 	public float StableMovementSharpness = 15f;
 	public float OrientationSharpness = 10f;
 	public KOrientationMethod OrientationMethod = KOrientationMethod.TowardsCamera;
@@ -68,12 +67,8 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	public float GravityStrength = 30;
 	public Vector3 targetPosition;
 	public KCharacterState CurrentCharacterState;
-	public float HitAngle = 10f;
-	public float HitLength = 2.5f;
-	public bool TouchDownPlanet;
-	public float SavedHit;
-	public float PullDamping = 0.5f;
-	public int RaycastCount = 18;
+	
+	
 	private Collider[] _probedColliders = new Collider[8];
 	private RaycastHit[] _probedHits = new RaycastHit[8];
 	private Vector3 _moveInputVector;
@@ -101,24 +96,42 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	{
 		TransitionToState(KCharacterState.Default);
 		Motor.CharacterController = this;
+		SetGlobalInfoData();
 	}
 
-	private void Start()
-	{
-		for (int i = 0; i < RaycastCount; i++)
-		{
-			GameObject go = new GameObject();
-			go.transform.parent = transform;
-			go.transform.localPosition = new Vector3(0f, -1f, 0f);
-			go.transform.localRotation = Quaternion.Euler(new Vector3(i * 360 / RaycastCount, 0f, 0f));
-			GroundChecksList.Add(go.transform);
-		}
-	}
 	private void Update()
 	{
-		anim.SetBool("IsGrounded", Motor.GroundingStatus.FoundAnyGround);
+		SetGlobalInfoData();
 		SetInputs();
 	}
+
+	private void SetGlobalInfoData()
+	{
+		MaxStableMoveSpeed = GlobalInfo.GlobalInfoData.MaxStableMoveSpeed;
+		MaxCrouchMoveSpeed = GlobalInfo.GlobalInfoData.MaxCrouchMoveSpeed;
+		StableMovementSharpness = GlobalInfo.GlobalInfoData.StableMovementSharpness;
+		OrientationSharpness = GlobalInfo.GlobalInfoData.OrientationSharpness;
+		MaxAirMoveSpeed = GlobalInfo.GlobalInfoData.MaxAirMoveSpeed;
+		AirAccelerationSpeed = GlobalInfo.GlobalInfoData.AirAccelerationSpeed;
+		Drag = GlobalInfo.GlobalInfoData.Drag;
+		AllowJumpingWhenSliding = GlobalInfo.GlobalInfoData.AllowJumpingWhenSliding;
+		JumpUpSpeed = GlobalInfo.GlobalInfoData.JumpUpSpeed;
+		JumpScalableForwardSpeed = GlobalInfo.GlobalInfoData.JumpScalableForwardSpeed;
+		JumpPreGroundingGraceTime = GlobalInfo.GlobalInfoData.JumpPreGroundingGraceTime;
+		JumpPostGroundingGraceTime = GlobalInfo.GlobalInfoData.JumpPostGroundingGraceTime;
+		//DodgeSpeedX = GlobalInfo.GlobalInfoData.DodgeSpeedX;
+		//DodgeSpeedY = GlobalInfo.GlobalInfoData.DodgeSpeedY;
+		//Stamina = GlobalInfo.GlobalInfoData.Stamina;
+		//InvincibilityLength = GlobalInfo.GlobalInfoData.InvincibilityLength;
+		//ThrowPower = GlobalInfo.GlobalInfoData.ThrowPower;
+		//ThrowHeight = GlobalInfo.GlobalInfoData.ThrowHeight;
+		//maxEscapeTime = GlobalInfo.GlobalInfoData.maxEscapeTime;
+		//maxWarmup = GlobalInfo.GlobalInfoData.maxWarmup;
+		//maxDodgeCooldown = GlobalInfo.GlobalInfoData.maxDodgeCooldown;
+		//maxSpecial = GlobalInfo.GlobalInfoData.maxSpecial;
+		//initialForceMultiplier = GlobalInfo.GlobalInfoData.initialForceMultiplier;
+	}
+
 	/// <summary>
 	/// Handles movement state transitions and enter/exit callbacks
 	/// </summary>
@@ -234,22 +247,20 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 						_jumpRequested = true;
 					}
 
-					// Crouching input
-					//if (kplayer.CrouchDown)
-					//{
-					//	_shouldBeCrouching = true;
+					if (kplayer.Crouch)
+					{
+						_shouldBeCrouching = true;
 
-					//	if (!_isCrouching)
-					//	{
-					//		_isCrouching = true;
-					//		Motor.SetCapsuleDimensions(0.5f, 1f, 0.5f);
-					//		MeshRoot.localScale = new Vector3(1f, 0.5f, 1f);
-					//	}
-					//}
-					//else if (kplayer.CrouchUp)
-					//{
-					//	_shouldBeCrouching = false;
-					//}
+						if (!_isCrouching)
+						{
+							_isCrouching = true;
+							Motor.SetCapsuleDimensions(0.5f, 1f, 0.5f);
+						}
+					}
+					else if (!kplayer.Crouch)
+					{
+						_shouldBeCrouching = false;
+					}
 
 					break;
 				}
@@ -362,7 +373,6 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 					if (Motor.GroundingStatus.IsStableOnGround)
 					{
 						float currentVelocityMagnitude = currentVelocity.magnitude;
-						anim.SetFloat("Run", currentVelocityMagnitude);
 
 						Vector3 effectiveGroundNormal = Motor.GroundingStatus.GroundNormal;
 						if (currentVelocityMagnitude > 0f && Motor.GroundingStatus.SnappingPrevented)
@@ -386,6 +396,8 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 						Vector3 inputRight = Vector3.Cross(_moveInputVector, Motor.CharacterUp);
 						Vector3 reorientedInput = Vector3.Cross(effectiveGroundNormal, inputRight).normalized * _moveInputVector.magnitude;
 						Vector3 targetMovementVelocity = reorientedInput * MaxStableMoveSpeed;
+						if (kplayer.Crouch)
+							targetMovementVelocity = reorientedInput * MaxCrouchMoveSpeed;
 
 						// Smooth movement Velocity
 						currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1f - Mathf.Exp(-StableMovementSharpness * deltaTime));

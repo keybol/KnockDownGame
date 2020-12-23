@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1175967992356632839}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 571084430918972087}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 6600618088778354758}
   - component: {fileID: 6600618088778354756}
   - component: {fileID: 6600618088778354757}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00054357806, y: 0.22094594, z: -0.0012290562}
+  m_ConnectedAnchor: {x: 0.0005435259, y: 0.22094594, z: -0.0012290347}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 6376735755425014129}
   - component: {fileID: 6376735755425014130}
   - component: {fileID: 6376735755425014131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.108989805, y: 0.2556413, z: -0.0048364}
+  m_ConnectedAnchor: {x: 0.10898971, y: 0.2556413, z: -0.0048363516}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -323,7 +323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5294312454625802111}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2208347990804367902}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3286321061775302017}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6968307509699274247}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +572,7 @@ GameObject:
   - component: {fileID: 9206511002267087470}
   - component: {fileID: 9206511002267087468}
   - component: {fileID: 9206511002267087469}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00054363767, y: 0.22082758, z: -0.00086881965}
+  m_ConnectedAnchor: {x: -0.0005436004, y: 0.22082758, z: -0.00086875074}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -678,7 +678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1093056959714461971}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2874821193794340966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -828,7 +828,7 @@ GameObject:
   - component: {fileID: 8132827059277908072}
   - component: {fileID: 8132827059277908073}
   - component: {fileID: 8132827059277908074}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -891,7 +891,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.10896649, y: 0.25566235, z: -0.007374216}
+  m_ConnectedAnchor: {x: -0.108966514, y: 0.25566235, z: -0.0073741665}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -934,7 +934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3628397874211402869}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1056,7 +1056,7 @@ GameObject:
   - component: {fileID: 7491657181875898005}
   - component: {fileID: 7491657181875898003}
   - component: {fileID: 7491657181875898004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,7 +1118,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000015016865, y: 0.29133874, z: -0.0051787538}
+  m_ConnectedAnchor: {x: 0.000015067759, y: 0.29133874, z: -0.0051787966}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1161,7 +1161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2110172035382014630}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete:SchoolGirl_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1192,7 +1192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 788976969330365743}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1222,7 +1222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7680120188164827819}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1256,7 @@ GameObject:
   - component: {fileID: 6988115100939468376}
   - component: {fileID: 6988115100939468374}
   - component: {fileID: 6988115100939468375}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1319,7 +1319,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000345055, y: 0.14916922, z: 0.00000008568168}
+  m_ConnectedAnchor: {x: -0.00000030198134, y: 0.14916928, z: 0.00000008940697}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1362,7 +1362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4038803760891592771}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1394,7 +1394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1030988968357708896}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1425,7 +1425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6647633478802697114}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1456,7 +1456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7540979195905517770}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1490,7 @@ GameObject:
   - component: {fileID: 1729477172741162606}
   - component: {fileID: 1729477172741162604}
   - component: {fileID: 1729477172741162605}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,7 +1553,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000008409843, y: 0.14941011, z: -0.000002425164}
+  m_ConnectedAnchor: {x: 0.00000078401354, y: 0.14941014, z: -0.0000024400651}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1596,7 +1596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4010697079928935567}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1643,7 +1643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6030873628465671682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.25, y: 0.5, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3134493952629090067}
@@ -1659,7 +1659,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6030873628465671682}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 410241a0f876b2d4ab27bdc41e283081, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1
@@ -1679,7 +1679,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859771014673710524}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 349245333004395902}
   - component: {fileID: 349245333004395900}
   - component: {fileID: 349245333004395901}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1777,7 +1777,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000066496123, y: 0.17323416, z: -0.003625099}
+  m_ConnectedAnchor: {x: 0.0000067005076, y: 0.17323416, z: -0.0036251382}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1822,7 +1822,7 @@ GameObject:
   - component: {fileID: 1510313354598274109}
   - component: {fileID: 280627243736187407}
   - component: {fileID: 280627243736187408}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1887,7 +1887,7 @@ GameObject:
   - component: {fileID: 88215575357106299}
   - component: {fileID: 88215575357106300}
   - component: {fileID: 88215575357106301}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1950,7 +1950,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.08538568, y: -0.03650466, z: 0.0023962774}
+  m_ConnectedAnchor: {x: -0.08538564, y: -0.03650466, z: 0.00239632}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1993,7 +1993,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2551717078758634551}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2023,7 +2023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6629973812791656935}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2055,7 +2055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1952393343956218956}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2173,7 +2173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7401241230723855158}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9143680659851612152}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2234,7 +2234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7347228015331811510}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2265,7 +2265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 565346516465988747}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2299,7 +2299,7 @@ GameObject:
   - component: {fileID: 2974417068527548927}
   - component: {fileID: 2974417068527548928}
   - component: {fileID: 2974417068527548929}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2362,7 +2362,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08538664, y: -0.036504652, z: 0.00039368856}
+  m_ConnectedAnchor: {x: 0.08538663, y: -0.036504652, z: 0.00039370393}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2405,7 +2405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 90308253939190268}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2436,7 +2436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4598122057688510094}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2467,7 +2467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3356718788070487236}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2498,7 +2498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2832532829613179164}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2528,7 +2528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7061301625139580387}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2559,7 +2559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5326774611569598065}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Schoolgirl:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

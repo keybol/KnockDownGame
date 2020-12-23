@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ed18608ab7e254395d2136ea34df74, type: 3}
+  m_Name: Lawyer
+  m_EditorClassIdentifier: 
+  characterModel:
+  - {fileID: 8270311932455735878, guid: 60f3e8425d6cb6541a01c2b76f33d196, type: 3}
+  - {fileID: 7205625527956084916, guid: 75748cf845369a543bbb7268db867578, type: 3}
+  - {fileID: 7563531855913364300, guid: 5fe2e3231fef1cb4d9766cb6d3bcf93d, type: 3}
+  Name: []
+  HP: 0
+  Speed: 0
+  Power: 0
+  Special: 0
+  Gauntlet: 0
+  armLength: 0
+  winAnimation: Test
+  poseAnimation: Test

@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/_nputActions/KInputActions.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/InputActions/KInputActions.inputactions'
 
 using System;
 using System.Collections;
@@ -59,7 +59,7 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""interactions"": ""Press(behavior=2)""
                 },
                 {
-                    ""name"": ""Fire1"",
+                    ""name"": ""Crouch"",
                     ""type"": ""Button"",
                     ""id"": ""d6906a36-f914-4760-827d-ace43857d22e"",
                     ""expectedControlType"": ""Button"",
@@ -67,9 +67,17 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""interactions"": ""Press(behavior=2)""
                 },
                 {
-                    ""name"": ""Fire2"",
+                    ""name"": ""DodgeLeft"",
                     ""type"": ""Button"",
                     ""id"": ""4db126bc-0c65-4805-8eeb-c0d1abe00fbc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press(behavior=2)""
+                },
+                {
+                    ""name"": ""DodgeRight"",
+                    ""type"": ""Button"",
+                    ""id"": ""407c677a-a5e3-4a1a-8a3e-41887a77ea5b"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""Press(behavior=2)""
@@ -272,7 +280,18 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Fire1"",
+                    ""action"": ""Crouch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1571d686-0a13-41e9-a5da-c8a3f0b0d9a5"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Crouch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -283,29 +302,29 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Fire1"",
+                    ""action"": ""Crouch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""a34de7fc-5b52-4af8-8483-6f8bfb1e311f"",
-                    ""path"": ""<Keyboard>/l"",
+                    ""path"": ""<Keyboard>/q"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Fire2"",
+                    ""action"": ""DodgeLeft"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""12ed69a9-f865-4aea-a645-8b6132f576f6"",
-                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Fire2"",
+                    ""action"": ""DodgeLeft"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -383,6 +402,28 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""RightInputHold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8a31ebac-d997-4ef9-8725-c7e936b7ca57"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""DodgeRight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b7ab1654-4bfd-4499-91e0-c30622a2c4ff"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""DodgeRight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -984,8 +1025,9 @@ public class @KInputActions : IInputActionCollection, IDisposable
         m_Player_LookGamepad = m_Player.FindAction("LookGamepad", throwIfNotFound: true);
         m_Player_LookMobile = m_Player.FindAction("LookMobile", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
-        m_Player_Fire1 = m_Player.FindAction("Fire1", throwIfNotFound: true);
-        m_Player_Fire2 = m_Player.FindAction("Fire2", throwIfNotFound: true);
+        m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
+        m_Player_DodgeLeft = m_Player.FindAction("DodgeLeft", throwIfNotFound: true);
+        m_Player_DodgeRight = m_Player.FindAction("DodgeRight", throwIfNotFound: true);
         m_Player_LMB = m_Player.FindAction("LMB", throwIfNotFound: true);
         m_Player_RMB = m_Player.FindAction("RMB", throwIfNotFound: true);
         m_Player_RightInputHold = m_Player.FindAction("RightInputHold", throwIfNotFound: true);
@@ -1056,8 +1098,9 @@ public class @KInputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_LookGamepad;
     private readonly InputAction m_Player_LookMobile;
     private readonly InputAction m_Player_Jump;
-    private readonly InputAction m_Player_Fire1;
-    private readonly InputAction m_Player_Fire2;
+    private readonly InputAction m_Player_Crouch;
+    private readonly InputAction m_Player_DodgeLeft;
+    private readonly InputAction m_Player_DodgeRight;
     private readonly InputAction m_Player_LMB;
     private readonly InputAction m_Player_RMB;
     private readonly InputAction m_Player_RightInputHold;
@@ -1070,8 +1113,9 @@ public class @KInputActions : IInputActionCollection, IDisposable
         public InputAction @LookGamepad => m_Wrapper.m_Player_LookGamepad;
         public InputAction @LookMobile => m_Wrapper.m_Player_LookMobile;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
-        public InputAction @Fire1 => m_Wrapper.m_Player_Fire1;
-        public InputAction @Fire2 => m_Wrapper.m_Player_Fire2;
+        public InputAction @Crouch => m_Wrapper.m_Player_Crouch;
+        public InputAction @DodgeLeft => m_Wrapper.m_Player_DodgeLeft;
+        public InputAction @DodgeRight => m_Wrapper.m_Player_DodgeRight;
         public InputAction @LMB => m_Wrapper.m_Player_LMB;
         public InputAction @RMB => m_Wrapper.m_Player_RMB;
         public InputAction @RightInputHold => m_Wrapper.m_Player_RightInputHold;
@@ -1099,12 +1143,15 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
-                @Fire1.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire1;
-                @Fire1.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire1;
-                @Fire1.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire1;
-                @Fire2.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire2;
-                @Fire2.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire2;
-                @Fire2.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire2;
+                @Crouch.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
+                @Crouch.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
+                @Crouch.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
+                @DodgeLeft.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeLeft;
+                @DodgeLeft.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeLeft;
+                @DodgeLeft.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeLeft;
+                @DodgeRight.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeRight;
+                @DodgeRight.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeRight;
+                @DodgeRight.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeRight;
                 @LMB.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLMB;
                 @LMB.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLMB;
                 @LMB.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLMB;
@@ -1133,12 +1180,15 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
-                @Fire1.started += instance.OnFire1;
-                @Fire1.performed += instance.OnFire1;
-                @Fire1.canceled += instance.OnFire1;
-                @Fire2.started += instance.OnFire2;
-                @Fire2.performed += instance.OnFire2;
-                @Fire2.canceled += instance.OnFire2;
+                @Crouch.started += instance.OnCrouch;
+                @Crouch.performed += instance.OnCrouch;
+                @Crouch.canceled += instance.OnCrouch;
+                @DodgeLeft.started += instance.OnDodgeLeft;
+                @DodgeLeft.performed += instance.OnDodgeLeft;
+                @DodgeLeft.canceled += instance.OnDodgeLeft;
+                @DodgeRight.started += instance.OnDodgeRight;
+                @DodgeRight.performed += instance.OnDodgeRight;
+                @DodgeRight.canceled += instance.OnDodgeRight;
                 @LMB.started += instance.OnLMB;
                 @LMB.performed += instance.OnLMB;
                 @LMB.canceled += instance.OnLMB;
@@ -1317,8 +1367,9 @@ public class @KInputActions : IInputActionCollection, IDisposable
         void OnLookGamepad(InputAction.CallbackContext context);
         void OnLookMobile(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
-        void OnFire1(InputAction.CallbackContext context);
-        void OnFire2(InputAction.CallbackContext context);
+        void OnCrouch(InputAction.CallbackContext context);
+        void OnDodgeLeft(InputAction.CallbackContext context);
+        void OnDodgeRight(InputAction.CallbackContext context);
         void OnLMB(InputAction.CallbackContext context);
         void OnRMB(InputAction.CallbackContext context);
         void OnRightInputHold(InputAction.CallbackContext context);

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6666124705842494403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 8352177388214479845}
   - component: {fileID: 8352177388214479846}
   - component: {fileID: 8352177388214479847}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08538665, y: -0.036504652, z: 0.00039368856}
+  m_ConnectedAnchor: {x: 0.08538663, y: -0.036504652, z: 0.00039370393}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -149,7 +149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4628057562158407646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 8197421571202422552}
   - component: {fileID: 8197421571202422553}
   - component: {fileID: 8197421571202422554}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.108966485, y: 0.25566235, z: -0.0073741563}
+  m_ConnectedAnchor: {x: -0.108966514, y: 0.25566235, z: -0.0073741665}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -411,7 +411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 11491109988078460}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3846143473782108133}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8522404753789098365}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 475784230074544948}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5798827773235670100}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2481103543352221028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -682,7 +682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8690477387634543305}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +713,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8533159652824872604}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kiasaya:FBGaming_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -831,7 +831,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7102863057257464460}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 6364948750935702898}
   - component: {fileID: 6364948750935702896}
   - component: {fileID: 6364948750935702897}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +928,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00054362416, y: 0.220946, z: -0.0012146411}
+  m_ConnectedAnchor: {x: 0.00054363906, y: 0.220946, z: -0.0012146616}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -971,7 +971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1511296710690858231}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,7 +1002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2790285603485242911}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4110282668291562218}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1066,7 +1066,7 @@ GameObject:
   - component: {fileID: 5614166748819082486}
   - component: {fileID: 5614166748819082484}
   - component: {fileID: 5614166748819082485}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1128,7 +1128,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000015080643, y: 0.29133874, z: -0.0051788134}
+  m_ConnectedAnchor: {x: 0.000015067759, y: 0.29133874, z: -0.0051787966}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1171,7 +1171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5230245605777018053}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1202,7 +1202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8826082740671379027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1232,7 +1232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2294879651483340435}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1264,7 +1264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3225904075377270889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1295,7 +1295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7547193037870681394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1413,7 +1413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3058478902173317135}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1447,7 +1447,7 @@ GameObject:
   - component: {fileID: 4204460688758797775}
   - component: {fileID: 4204460688758797776}
   - component: {fileID: 4204460688758797777}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1510,7 +1510,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10898969, y: 0.2556413, z: -0.0048363404}
+  m_ConnectedAnchor: {x: 0.108989716, y: 0.2556413, z: -0.0048363516}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1556,7 +1556,7 @@ GameObject:
   - component: {fileID: 4097971515339185333}
   - component: {fileID: 4097971515339185331}
   - component: {fileID: 4097971515339185332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1619,7 +1619,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000002856832, y: 0.14916922, z: 0.00000008195639}
+  m_ConnectedAnchor: {x: -0.00000030198134, y: 0.14916928, z: 0.00000008940697}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1662,7 +1662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1660765292087703297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,7 +1692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5087547094779949921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1723,7 +1723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9155218860240805128}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1753,7 +1753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5883402080087473261}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1784,7 +1784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9126099570283875459}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1815,7 +1815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2399907297144516319}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1846,7 +1846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 968721661087073059}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1877,7 +1877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3088272797033108084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1947,7 +1947,7 @@ GameObject:
   - component: {fileID: 1883240588740526327}
   - component: {fileID: 1883240588740526325}
   - component: {fileID: 1883240588740526326}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2010,7 +2010,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0005437345, y: 0.22082764, z: -0.0008526598}
+  m_ConnectedAnchor: {x: -0.0005437569, y: 0.22082764, z: -0.00085271103}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2053,7 +2053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3059359986628522636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2087,7 +2087,7 @@ GameObject:
   - component: {fileID: 1734315980612310623}
   - component: {fileID: 1734315980612310621}
   - component: {fileID: 1734315980612310622}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2150,7 +2150,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000007819326, y: 0.14941016, z: -0.0000024400651}
+  m_ConnectedAnchor: {x: 0.0000007840281, y: 0.14941016, z: -0.0000024437904}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -2193,7 +2193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 665947242896719413}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2227,7 +2227,7 @@ GameObject:
   - component: {fileID: 151183351118556802}
   - component: {fileID: 151183351118556800}
   - component: {fileID: 151183351118556801}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2291,7 +2291,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000671339, y: 0.17323416, z: -0.0036251587}
+  m_ConnectedAnchor: {x: 0.000006700507, y: 0.17323416, z: -0.0036251382}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2421,7 +2421,7 @@ GameObject:
   - component: {fileID: 80430762719458597}
   - component: {fileID: 80430762719458598}
   - component: {fileID: 80430762719458599}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2484,7 +2484,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.08538561, y: -0.03650466, z: 0.002396337}
+  m_ConnectedAnchor: {x: -0.085385635, y: -0.03650466, z: 0.00239632}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2543,7 +2543,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8864583558801971845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1918727422292439054}
@@ -2559,7 +2559,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8864583558801971845}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 517ed4b332493504b87fa2eca86657a5, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1
@@ -2579,7 +2579,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3926262460701311831}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2612,7 +2612,7 @@ GameObject:
   - component: {fileID: 7083936361881845302}
   - component: {fileID: 596765092360831547}
   - component: {fileID: 596765092360831548}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}

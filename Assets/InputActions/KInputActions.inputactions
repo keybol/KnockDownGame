@@ -46,7 +46,7 @@
                     "interactions": "Press(behavior=2)"
                 },
                 {
-                    "name": "Fire1",
+                    "name": "Crouch",
                     "type": "Button",
                     "id": "d6906a36-f914-4760-827d-ace43857d22e",
                     "expectedControlType": "Button",
@@ -54,9 +54,17 @@
                     "interactions": "Press(behavior=2)"
                 },
                 {
-                    "name": "Fire2",
+                    "name": "DodgeLeft",
                     "type": "Button",
                     "id": "4db126bc-0c65-4805-8eeb-c0d1abe00fbc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                },
+                {
+                    "name": "DodgeRight",
+                    "type": "Button",
+                    "id": "407c677a-a5e3-4a1a-8a3e-41887a77ea5b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Press(behavior=2)"
@@ -259,7 +267,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Fire1",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1571d686-0a13-41e9-a5da-c8a3f0b0d9a5",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Crouch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -270,29 +289,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Fire1",
+                    "action": "Crouch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "a34de7fc-5b52-4af8-8483-6f8bfb1e311f",
-                    "path": "<Keyboard>/l",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Fire2",
+                    "action": "DodgeLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "12ed69a9-f865-4aea-a645-8b6132f576f6",
-                    "path": "<Gamepad>/buttonEast",
+                    "path": "<Gamepad>/leftShoulder",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Fire2",
+                    "action": "DodgeLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -370,6 +389,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "RightInputHold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8a31ebac-d997-4ef9-8725-c7e936b7ca57",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "DodgeRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7ab1654-4bfd-4499-91e0-c30622a2c4ff",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "DodgeRight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

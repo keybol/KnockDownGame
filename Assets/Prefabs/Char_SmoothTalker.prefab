@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5281981555755470606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277402624205610861}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480280749486574218}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1108173659140339983}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 5285190732865973427}
   - component: {fileID: 5948341912439648523}
   - component: {fileID: 3060211644061967246}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4191014652131190400}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7180628591797554133}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9188536236917513822}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2509170582870174035}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4120034104775866071}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7495607758055426311}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1116074984812907369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 4897027710877935481}
   - component: {fileID: 6848096883944890946}
   - component: {fileID: 6863771242861699594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Glasses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8677616825973160048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1229960187329092863}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -636,7 +636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1990066757771879098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SmoothTalker_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 800069607113830406}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7895104045933113604}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4971238866739375278}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5018411293443283180}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -913,7 +913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3848724127706648336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -947,7 +947,7 @@ GameObject:
   - component: {fileID: 8782050201960856127}
   - component: {fileID: 8495492827373592342}
   - component: {fileID: 6774344904462749937}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +996,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000030229068, y: 0.50622946, z: -0.005178795}
+  m_ConnectedAnchor: {x: 0.000030279964, y: 0.50622946, z: -0.005178795}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1055,7 +1055,7 @@ GameObject:
   - component: {fileID: 3869965356123196083}
   - component: {fileID: 935561559887871102}
   - component: {fileID: 4071758559203971175}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1104,7 +1104,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.16151072, y: 0.39951771, z: -0.0048361286}
+  m_ConnectedAnchor: {x: 0.16151062, y: 0.39951771, z: -0.0048361286}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1161,7 +1161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4473695178713055396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 1585791527243554758}
   - component: {fileID: 3294957410810072679}
   - component: {fileID: 1429243196891546985}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,7 +1259,7 @@ GameObject:
   - component: {fileID: 8986906041920103200}
   - component: {fileID: 7870505045709503777}
   - component: {fileID: 8043485376533487906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1308,7 +1308,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0011611381, y: 0.1438571, z: 0.0027416935}
+  m_ConnectedAnchor: {x: -0.0011611604, y: 0.1438571, z: 0.0027416935}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1365,7 +1365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6899407936075822322}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4243363461921786408}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1426,7 +1426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2029581802542871642}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,7 +1460,7 @@ GameObject:
   - component: {fileID: 8532462257521796104}
   - component: {fileID: 7593634416528029287}
   - component: {fileID: 7073167542646811598}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1509,7 +1509,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000005499314, y: 0.17216338, z: -0.0000054575503}
+  m_ConnectedAnchor: {x: 0.00000055016426, y: 0.17216364, z: -0.000005453825}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1566,7 +1566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4826107749102600792}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1600,7 +1600,7 @@ GameObject:
   - component: {fileID: 718264097617280669}
   - component: {fileID: 93430297167283938}
   - component: {fileID: 1072160530866602757}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1706,7 +1706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993956714655411226}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,7 +1737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1406727421430827789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1771,7 +1771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1278557739099667167}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1903,7 +1903,7 @@ GameObject:
   - component: {fileID: 7306292697816125313}
   - component: {fileID: 3209565056980118419}
   - component: {fileID: 6680119346762146167}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1952,7 +1952,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.16144463, y: 0.3995462, z: -0.0073743905}
+  m_ConnectedAnchor: {x: -0.16144475, y: 0.3995462, z: -0.0073743905}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -2012,7 +2012,7 @@ GameObject:
   - component: {fileID: 5800457329525449774}
   - component: {fileID: 7780062113343337449}
   - component: {fileID: 3346597426229026004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2063,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000016834947, y: 0.3171143, z: -0.0036251377}
+  m_ConnectedAnchor: {x: 0.000016885842, y: 0.3171143, z: -0.0036251377}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2119,7 +2119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4511352741201625684}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2150,7 +2150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 731990322687429513}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2181,7 +2181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6910304550834422879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2213,7 +2213,7 @@ GameObject:
   - component: {fileID: 1445185129479526535}
   - component: {fileID: 113674615208856170}
   - component: {fileID: 8388927792319343686}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:SmoothTalker_Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2292,7 +2292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3876211553104516118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2325,7 +2325,7 @@ GameObject:
   - component: {fileID: 6780349939918451759}
   - component: {fileID: 3705307234355392399}
   - component: {fileID: 6075769715552825780}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2374,7 +2374,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08538339, y: -0.08242359, z: 0.0003937039}
+  m_ConnectedAnchor: {x: 0.08538338, y: -0.08242359, z: 0.0003937039}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2447,7 +2447,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8270311932455735878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.75, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 376135658145696448}
@@ -2463,7 +2463,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8270311932455735878}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 2b7fbba7520d35544a229fdbfbc745b8, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1
@@ -2486,7 +2486,7 @@ GameObject:
   - component: {fileID: 416820832633814462}
   - component: {fileID: 9150718481410921794}
   - component: {fileID: 3409483301416862118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2535,7 +2535,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.08539488, y: -0.08241127, z: 0.00039298375}
+  m_ConnectedAnchor: {x: -0.08539491, y: -0.08241127, z: 0.00039298375}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2594,7 +2594,7 @@ GameObject:
   - component: {fileID: 7046553846834097905}
   - component: {fileID: 5449225911084891699}
   - component: {fileID: 2458406780971859689}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}

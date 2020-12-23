@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 387838767708820816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8449085988956709562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5541189751019713264}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 7826844791239676845}
   - component: {fileID: 7826844791239676843}
   - component: {fileID: 7826844791239676844}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000013954123, y: 0.2755772, z: -0.0036251587}
+  m_ConnectedAnchor: {x: 0.000013945415, y: 0.2755772, z: -0.0036251382}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3673256818927490351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4156354766204165738}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 7448297461824213416}
   - component: {fileID: 7448297461824213417}
   - component: {fileID: 7448297461824213418}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08538614, y: -0.04354873, z: 0.00039368856}
+  m_ConnectedAnchor: {x: 0.08538613, y: -0.04354873, z: 0.00039370393}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 971268793939763279}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 9151200235101515147}
   - component: {fileID: 9151200235101515148}
   - component: {fileID: 9151200235101515149}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -481,7 +481,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10899693, y: 0.35798433, z: -0.0048363404}
+  m_ConnectedAnchor: {x: 0.10899694, y: 0.35798433, z: -0.0048363507}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 8151688811027887625}
   - component: {fileID: 8151688811027887623}
   - component: {fileID: 8151688811027887624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -589,7 +589,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000022321366, y: 0.39368165, z: -0.0051788134}
+  m_ConnectedAnchor: {x: 0.000022312657, y: 0.39368165, z: -0.0051787957}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -632,7 +632,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8355499370904860195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 782051777320855874}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -727,7 +727,7 @@ GameObject:
   - component: {fileID: 7980325424975901767}
   - component: {fileID: 7917643059904587396}
   - component: {fileID: 7607599467672259932}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   - component: {fileID: 5736483458152246371}
   - component: {fileID: 9141463539040985886}
   - component: {fileID: 1747695092530942641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8474122347610682656}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 8577408997004579283}
   - component: {fileID: 8577408997004579284}
   - component: {fileID: 8577408997004579285}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +983,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.10895924, y: 0.35800537, z: -0.0073741563}
+  m_ConnectedAnchor: {x: -0.10895927, y: 0.35800537, z: -0.0073741656}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1026,7 +1026,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4170639233138577084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,7 +1185,7 @@ GameObject:
   - component: {fileID: 5665896104167085524}
   - component: {fileID: 5665896104167085522}
   - component: {fileID: 5665896104167085523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1248,7 +1248,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000060210004, y: 0.19637844, z: 0.00006144121}
+  m_ConnectedAnchor: {x: 0.0000005797483, y: 0.19637844, z: 0.0000614617}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1291,7 +1291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4073370709312255942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,7 +1322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3920718738506417878}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3858708059229875006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1384,7 +1384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 372957542930138323}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1415,7 +1415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1356333659680387273}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4383699985174782322}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 4507326560235484244}
   - component: {fileID: 6879151450176323220}
   - component: {fileID: 6879151450176323221}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1542,7 +1542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8787927873072940204}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1576,7 +1576,7 @@ GameObject:
   - component: {fileID: 5847299888644846432}
   - component: {fileID: 5847299888644846430}
   - component: {fileID: 5847299888644846431}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1639,7 +1639,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000010384247, y: 0.12925453, z: -0.0000034421682}
+  m_ConnectedAnchor: {x: -0.00000009617361, y: 0.12925452, z: -0.0000034496188}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1682,7 +1682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1287500438507041539}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1712,7 +1712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5954100369545840465}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1743,7 +1743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8979509457529665158}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6401232501853966750}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1808,7 +1808,7 @@ GameObject:
   - component: {fileID: 2816799022549511124}
   - component: {fileID: 2816799022549511122}
   - component: {fileID: 2816799022549511123}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1871,7 +1871,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000003541354, y: 0.12901382, z: 0.0000005401671}
+  m_ConnectedAnchor: {x: 0.00000033853576, y: 0.12901379, z: 0.0000005438924}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1917,7 +1917,7 @@ GameObject:
   - component: {fileID: 2824293508343315011}
   - component: {fileID: 2824293508343315012}
   - component: {fileID: 2824293508343315013}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1980,7 +1980,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.08538612, y: -0.043548737, z: 0.002396337}
+  m_ConnectedAnchor: {x: -0.08538614, y: -0.043548737, z: 0.00239632}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2023,7 +2023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7922662234407398392}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2053,7 +2053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4333832561543306687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2084,7 +2084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4586639832348448758}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2120,7 +2120,7 @@ GameObject:
   - component: {fileID: 4175254994464956258}
   - component: {fileID: 2707494504488726560}
   - component: {fileID: 8341876955477907899}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Eyes1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2293,7 +2293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3429555154088770938}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2324,7 +2324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8810186699495165000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2355,7 +2355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8717667624585458653}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2386,7 +2386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5472498197643761359}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2417,7 +2417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 567693137823108737}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2447,7 +2447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8222823019941916101}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2493,7 +2493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7266929226091015962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.75, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 732837327882129551}
@@ -2509,7 +2509,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7266929226091015962}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: f6df76ddc596ad949bb73a3206d768af, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1
@@ -2531,7 +2531,7 @@ GameObject:
   - component: {fileID: 7343863248530263226}
   - component: {fileID: 615208167008650031}
   - component: {fileID: 6315203504070449929}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:cap_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2613,7 +2613,7 @@ GameObject:
   - component: {fileID: 1798260206856162257}
   - component: {fileID: 1798260206856162255}
   - component: {fileID: 1798260206856162256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2676,7 +2676,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000039162114, y: 0.19617192, z: 0.00003856467}
+  m_ConnectedAnchor: {x: -0.00000037671998, y: 0.19617192, z: 0.000038551632}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2719,7 +2719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5300480633915227128}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2750,7 +2750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5968861286654657395}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco:Casual_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}

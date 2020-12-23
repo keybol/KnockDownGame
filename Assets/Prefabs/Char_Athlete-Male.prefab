@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7851093289070499367}
   - component: {fileID: 7851093289070499368}
   - component: {fileID: 7851093289070499369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.08538567, y: -0.03650466, z: 0.002396337}
+  m_ConnectedAnchor: {x: -0.085385635, y: -0.03650466, z: 0.00239632}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 7920706918387947007}
   - component: {fileID: 7920706918387947005}
   - component: {fileID: 7920706918387947006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000015021038, y: 0.29133874, z: -0.0051788134}
+  m_ConnectedAnchor: {x: 0.000015067759, y: 0.29133874, z: -0.0051787966}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -226,7 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4743935098296788803}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7828619624162829591}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6348422884737526038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4285622407325549378}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1006611375864820037}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1379270463254736920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2347586769410019062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5366896919571872714}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1027799630581177059}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -592,7 +592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4894162220431187052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5924509938514320688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2578363935955159725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4235711777746009726}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -925,7 +925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6894984346337539356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 6161981076244749004}
   - component: {fileID: 6161981076244749005}
   - component: {fileID: 6161981076244749006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1022,7 +1022,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.108966485, y: 0.25566235, z: -0.0073741563}
+  m_ConnectedAnchor: {x: -0.108966514, y: 0.25566235, z: -0.0073741665}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1065,7 +1065,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7864639271176039122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7488412468554017758}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1213,7 +1213,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 358679377098225836}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1244,7 +1244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4795392741908538292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,7 +1275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1133123284064759147}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1394,7 +1394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3538728812775475063}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1428,7 +1428,7 @@ GameObject:
   - component: {fileID: 2637614300357039679}
   - component: {fileID: 2637614300357039680}
   - component: {fileID: 2637614300357039681}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1491,7 +1491,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10898981, y: 0.2556413, z: -0.0048363404}
+  m_ConnectedAnchor: {x: 0.108989716, y: 0.2556413, z: -0.0048363516}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1537,7 +1537,7 @@ GameObject:
   - component: {fileID: 2841962133814320908}
   - component: {fileID: 2841962133814320906}
   - component: {fileID: 2841962133814320907}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1600,7 +1600,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000002856832, y: 0.14916922, z: 0.00000008195639}
+  m_ConnectedAnchor: {x: -0.00000030198134, y: 0.14916928, z: 0.00000008940697}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1643,7 +1643,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8268596071486989389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1677,7 +1677,7 @@ GameObject:
   - component: {fileID: 4112486901286481924}
   - component: {fileID: 4112486901286481922}
   - component: {fileID: 4112486901286481923}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1741,7 +1741,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000066537855, y: 0.17323416, z: -0.0036251587}
+  m_ConnectedAnchor: {x: 0.000006700507, y: 0.17323416, z: -0.0036251382}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1784,7 +1784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9107072143308857611}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1817,7 +1817,7 @@ GameObject:
   - component: {fileID: 3656898044760423723}
   - component: {fileID: 3537365580051490732}
   - component: {fileID: 3537365580051490733}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1895,7 +1895,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6954840088860603235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.25, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6793499561321985417}
@@ -1911,7 +1911,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6954840088860603235}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 58602b63cbf92e9468efa3bf5f59fd3b, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1
@@ -1931,7 +1931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 953158835892301082}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1966,7 +1966,7 @@ GameObject:
   - component: {fileID: 1136043162980860026}
   - component: {fileID: 1136043162980860027}
   - component: {fileID: 1136043162980860028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2029,7 +2029,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08538665, y: -0.036504652, z: 0.00039368856}
+  m_ConnectedAnchor: {x: 0.08538663, y: -0.036504652, z: 0.00039370393}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2072,7 +2072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6047275146413907496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2137,7 +2137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7409959270998648621}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2168,7 +2168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2683643573373191439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2199,7 +2199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8776120913540795377}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2233,7 +2233,7 @@ GameObject:
   - component: {fileID: 174097711373860063}
   - component: {fileID: 174097711373860061}
   - component: {fileID: 174097711373860062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2296,7 +2296,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0005436004, y: 0.22094591, z: -0.0012315707}
+  m_ConnectedAnchor: {x: 0.00054354826, y: 0.22094591, z: -0.00123158}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2339,7 +2339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5075087092057811090}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2369,7 +2369,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8491019968196824641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2402,7 +2402,7 @@ GameObject:
   - component: {fileID: 2132114998171862623}
   - component: {fileID: 2132114998171862621}
   - component: {fileID: 2132114998171862622}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2465,7 +2465,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000007816998, y: 0.1494101, z: -0.0000024363399}
+  m_ConnectedAnchor: {x: 0.0000007840281, y: 0.14941016, z: -0.0000024437904}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -2508,7 +2508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4568888294225873830}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete:Male_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2539,7 +2539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7734259633210972285}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2572,7 +2572,7 @@ GameObject:
   - component: {fileID: 1466728917997869458}
   - component: {fileID: 1466728917997869456}
   - component: {fileID: 1466728917997869457}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2635,7 +2635,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00054365676, y: 0.22082752, z: -0.00086644245}
+  m_ConnectedAnchor: {x: -0.00054362, y: 0.22082752, z: -0.00086647226}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ed18608ab7e254395d2136ea34df74, type: 3}
+  m_Name: Suzzysaur
+  m_EditorClassIdentifier: 
+  characterModel:
+  - {fileID: 1289083706109245189, guid: 38df44204386edf4b93e244320fa3ab7, type: 3}
+  - {fileID: 8582191321261660613, guid: 0a323a5001882d94eb440a862380bc70, type: 3}
+  - {fileID: 5766295165864796637, guid: d36a8c551b03a3748a3315b9c67e5f28, type: 3}
+  Name: []
+  HP: 0
+  Speed: 0
+  Power: 0
+  Special: 0
+  Gauntlet: 0
+  armLength: 0
+  winAnimation: Test
+  poseAnimation: Test

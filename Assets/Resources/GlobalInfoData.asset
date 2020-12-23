@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050dba14de5a380429aa19db361ed058, type: 3}
+  m_Name: GlobalInfoData
+  m_EditorClassIdentifier: 
+  Debugging: 0
+  gameLevel: 0
+  roomPlayersCount: 4
+  roomMusic: Platform Action LOOP
+  currentHealth: 0
+  maxHealth: 0
+  MaxStableMoveSpeed: 3
+  MaxCrouchMoveSpeed: 1
+  StableMovementSharpness: 100
+  OrientationSharpness: 100
+  MaxAirMoveSpeed: 1
+  AirAccelerationSpeed: 100
+  Drag: 0.5
+  AllowJumpingWhenSliding: 0
+  JumpUpSpeed: 12
+  JumpScalableForwardSpeed: 0
+  JumpPreGroundingGraceTime: 0
+  JumpPostGroundingGraceTime: 0.1
+  DodgeSpeedY: 6
+  DodgeSpeedX: 0.75
+  Stamina: 5
+  InvincibilityLength: 5
+  ThrowPower: 2.5
+  ThrowHeight: 0
+  maxEscapeTime: 5
+  maxWarmup: 1
+  maxDodgeCooldown: 1
+  maxSpecial: 100
+  plusSpecial: 25
+  initialForceMultiplier: 1
+  impactSpeed: 4
+  aimRadius: 0.5
+  ShieldLength: 10
+  SpeedLength: 10
+  SpeedBonus: 4
+  DizzinessLength: 5
+  PoisonLength: 5
+  cardCostMult: 2
+  upgradeCostMult: 50

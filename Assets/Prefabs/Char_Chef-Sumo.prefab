@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3622608078767328593}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6832187945430935917}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1379713661211498532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftToeEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 8569253617728111492}
   - component: {fileID: 8569253617728111490}
   - component: {fileID: 8569253617728111491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.16688418, y: -0.000000031460104, z: 4.7827133e-17}
+  m_ConnectedAnchor: {x: 0.16688412, y: -0.000000031460104, z: -2.223343e-16}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -210,7 +210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1790185944096384558}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef:Sumo_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3597268179060340383}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightToeEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2597573266645743786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5596817983074859843}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 3580791622539290432}
   - component: {fileID: 7150362657762373956}
   - component: {fileID: 7150362657762373957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 7342952264594598981}
   - component: {fileID: 7342952264594598982}
   - component: {fileID: 7342952264594598983}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.35574985, y: 0.38297945, z: -5.703097e-17}
+  m_ConnectedAnchor: {x: 0.35574985, y: 0.38297945, z: -1.0485811e-16}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 7762939517120457669}
   - component: {fileID: 7762939517120457667}
   - component: {fileID: 7762939517120457668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -5.703097e-17, y: 0.51349777, z: -5.703097e-17}
+  m_ConnectedAnchor: {x: 2.2803895e-16, y: 0.51349777, z: 6.009428e-16}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 7918772936997956875}
   - component: {fileID: 7918772936997956873}
   - component: {fileID: 7918772936997956874}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +764,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.1726564, y: 0.000000011455313, z: -9.000771e-16}
+  m_ConnectedAnchor: {x: -0.17265646, y: 0.000000011455313, z: 2.3002471e-16}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -807,7 +807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4439566844271853859}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ GameObject:
   - component: {fileID: 7967248257466039174}
   - component: {fileID: 7967248257466039175}
   - component: {fileID: 7967248257466039176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.21000004, y: -0.12842232, z: -5.703097e-17}
+  m_ConnectedAnchor: {x: -0.21000001, y: -0.12842232, z: -5.703097e-17}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -946,7 +946,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7763797578403475999}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:HeadEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,7 +976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4076656962719929664}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,7 +1007,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4830508442048265899}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1038,7 +1038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 975533987460078481}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1069,7 +1069,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 99942197581459778}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404008411192788941}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 4856495731401106070}
   - component: {fileID: 4856495731401106071}
   - component: {fileID: 4856495731401106072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1198,7 +1198,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.21000004, y: -0.12842232, z: -5.703097e-17}
+  m_ConnectedAnchor: {x: 0.21000001, y: -0.12842232, z: -5.703097e-17}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1244,7 +1244,7 @@ GameObject:
   - component: {fileID: 4805076883123072458}
   - component: {fileID: 4805076883123072456}
   - component: {fileID: 4805076883123072457}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1307,7 +1307,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000029802322, y: -0.20663951, z: -0.000000059604645}
+  m_ConnectedAnchor: {x: -0.000000014901161, y: -0.20663954, z: -0.00000006370167}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1350,7 +1350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6485164886639469397}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1381,7 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1579884567269748489}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1412,7 +1412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6854038204521589084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1443,7 +1443,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1797667284912654606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1474,7 +1474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5016490249663993504}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1505,7 +1505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5690285313113285972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1535,7 +1535,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8472118698435854632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1569,7 +1569,7 @@ GameObject:
   - component: {fileID: 4075181116132102892}
   - component: {fileID: 4075181116132102893}
   - component: {fileID: 4075181116132102894}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1632,7 +1632,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.3557496, y: 0.38297743, z: -5.703097e-17}
+  m_ConnectedAnchor: {x: -0.35574976, y: 0.38297743, z: 8.430461e-16}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1675,7 +1675,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4272323399066838274}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1706,7 +1706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1560101010304362403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,7 +1737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 894625442445641648}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1767,7 +1767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 794071924468925529}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1798,7 +1798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7702093678942129726}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,7 +1832,7 @@ GameObject:
   - component: {fileID: 1400362013157774263}
   - component: {fileID: 1400362013157774261}
   - component: {fileID: 1400362013157774262}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1895,7 +1895,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000029802322, y: -0.20663951, z: 0.0000032186508}
+  m_ConnectedAnchor: {x: 0.000000029802322, y: -0.20663954, z: 0.0000031777522}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2146,7 +2146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4831443495675429745}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2177,7 +2177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7756456184909797407}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2209,7 +2209,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4721988302099612608}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2327,7 +2327,7 @@ GameObject:
   - component: {fileID: 857040151180146327}
   - component: {fileID: 857040151180146325}
   - component: {fileID: 857040151180146326}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2391,7 +2391,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -5.703097e-17, y: 0.38906485, z: -5.703097e-17}
+  m_ConnectedAnchor: {x: 1.7277969e-16, y: 0.38906485, z: 3.7990563e-16}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2434,7 +2434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2413485393607523218}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2465,7 +2465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1299139074196495616}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Sumo:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2511,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9057469122241887805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.75, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8496920400269719579}
@@ -2527,7 +2527,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9057469122241887805}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: d794ac17120b5514aab80cbbc5ceee4e, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1

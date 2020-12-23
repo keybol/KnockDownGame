@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7549505881754188572}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 6519822638039517456}
   - component: {fileID: 3834967048324693945}
   - component: {fileID: 4773945017655171362}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.16144463, y: 0.3995462, z: -0.0073744385}
+  m_ConnectedAnchor: {x: -0.16144475, y: 0.3995462, z: -0.007374391}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -149,7 +149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 668768960880670242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8010594770088062446}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4717655927268447984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4392203827718377292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7851858897912908469}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5510326571740228111}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 1058357190688510833}
   - component: {fileID: 3098600255741665847}
   - component: {fileID: 8504587722131319635}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -387,7 +387,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.08539488, y: -0.08241127, z: 0.00039296513}
+  m_ConnectedAnchor: {x: -0.08539491, y: -0.08241127, z: 0.00039298375}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -444,7 +444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3960162263510053604}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3262513999612163256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422135356536836877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 4148771672806558520}
   - component: {fileID: 3058584973398020820}
   - component: {fileID: 6247092727512350394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 8243219963464360832}
   - component: {fileID: 1953085158367884057}
   - component: {fileID: 6108046781422580372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,7 +774,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0011608847, y: -0.14385675, z: -0.0027694628}
+  m_ConnectedAnchor: {x: 0.001161004, y: -0.14385675, z: -0.0027695028}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 2137299949715383679}
   - component: {fileID: 158425281112056764}
   - component: {fileID: 8676991880270043467}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000030229068, y: 0.50622946, z: -0.0051787538}
+  m_ConnectedAnchor: {x: 0.000030279964, y: 0.50622946, z: -0.0051787947}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -939,7 +939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6958331948167299384}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 753380036047085156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,7 +1001,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5146738667079947751}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7560197492535032620}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5774356644750519083}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1094,7 +1094,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 769712181910328983}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,7 +1124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2863085874981514394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1155,7 +1155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5372745623087111523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1293,7 +1293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5745452412339027551}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1324,7 +1324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5007301682682709213}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1355,7 +1355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9007290549828343464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 9220208195672748032}
   - component: {fileID: 167506290224430611}
   - component: {fileID: 522795370366553926}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1636,7 +1636,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000060730963, y: 0.17216338, z: -0.000005453825}
+  m_ConnectedAnchor: {x: 0.00000055010605, y: 0.17216364, z: -0.000005453825}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -1696,7 +1696,7 @@ GameObject:
   - component: {fileID: 6087796733248131997}
   - component: {fileID: 7581982190496947504}
   - component: {fileID: 2321517201246000440}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1745,7 +1745,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.001160997, y: 0.14385703, z: 0.002744974}
+  m_ConnectedAnchor: {x: -0.0011610265, y: 0.14385703, z: 0.002744948}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1892,7 +1892,7 @@ GameObject:
   - component: {fileID: 6591632524960009366}
   - component: {fileID: 8158171088960193601}
   - component: {fileID: 2617554169555091462}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1941,7 +1941,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08538339, y: -0.08242359, z: 0.00039368853}
+  m_ConnectedAnchor: {x: 0.08538338, y: -0.08242359, z: 0.0003937039}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2001,7 +2001,7 @@ GameObject:
   - component: {fileID: 7124734224324679204}
   - component: {fileID: 7009212906802154722}
   - component: {fileID: 8837544443930078047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2050,7 +2050,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.16151072, y: 0.39951771, z: -0.0048361775}
+  m_ConnectedAnchor: {x: 0.16151062, y: 0.39951771, z: -0.004836129}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -2107,7 +2107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7699955753778407824}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2138,7 +2138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 275910257025793680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2169,7 +2169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6740891327171577372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2201,7 +2201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2468542567117093486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2247,7 +2247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7205625527956084916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.75, y: 0.5, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4579427532837541582}
@@ -2263,7 +2263,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7205625527956084916}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: de06c229172d024459548a67e6f45e86, type: 3}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 1
@@ -2283,7 +2283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9004933048228894359}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2317,7 +2317,7 @@ GameObject:
   - component: {fileID: 1570167521889895838}
   - component: {fileID: 6434652014360601646}
   - component: {fileID: 8530445555648870126}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2368,7 +2368,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000016834947, y: 0.3171143, z: -0.003625099}
+  m_ConnectedAnchor: {x: 0.000016885842, y: 0.3171143, z: -0.0036251377}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2424,7 +2424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9211921735317642687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2455,7 +2455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8529690890691828329}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2486,7 +2486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5263519962306068806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2516,7 +2516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4644872342715865028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker:Lawyer_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2547,7 +2547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2143444264659459526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2581,7 +2581,7 @@ GameObject:
   - component: {fileID: 5408063923835201235}
   - component: {fileID: 1108289392523295635}
   - component: {fileID: 4352979690281427287}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2630,7 +2630,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000202097, y: 0.17531742, z: 0.00000013411045}
+  m_ConnectedAnchor: {x: -0.00000017229468, y: 0.17531742, z: 0.00000013038516}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:

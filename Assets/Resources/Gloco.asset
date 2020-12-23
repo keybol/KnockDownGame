@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ed18608ab7e254395d2136ea34df74, type: 3}
+  m_Name: Gloco
+  m_EditorClassIdentifier: 
+  characterModel:
+  - {fileID: 576485853765624060, guid: 8e0a5a6b8f4bfff4bbf87b784c7a7710, type: 3}
+  - {fileID: 1625311331462505701, guid: 715be30cc16fec24a9f26a8a3db2c912, type: 3}
+  - {fileID: 7266929226091015962, guid: 6e9324498433863488ed3af5634f4dc1, type: 3}
+  Name: []
+  HP: 0
+  Speed: 0
+  Power: 0
+  Special: 0
+  Gauntlet: 0
+  armLength: 0
+  winAnimation: Test
+  poseAnimation: Test

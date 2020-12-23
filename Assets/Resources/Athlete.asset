@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ed18608ab7e254395d2136ea34df74, type: 3}
+  m_Name: Athlete
+  m_EditorClassIdentifier: 
+  characterModel:
+  - {fileID: 4116201325493186920, guid: 5786aa224902c6747a2e3259def9914e, type: 3}
+  - {fileID: 6954840088860603235, guid: c393b3c2278dafc4a8bc00965c3fe60d, type: 3}
+  - {fileID: 6030873628465671682, guid: 4f8d184a86311004da5d18ff9bafae74, type: 3}
+  Name: []
+  HP: 0
+  Speed: 0
+  Power: 0
+  Special: 0
+  Gauntlet: 0
+  armLength: 0
+  winAnimation: Test
+  poseAnimation: Test
