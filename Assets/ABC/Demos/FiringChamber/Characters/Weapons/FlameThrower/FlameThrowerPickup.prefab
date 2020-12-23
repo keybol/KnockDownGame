@@ -1,0 +1,1033 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1136680629760138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4391456077330284}
+  - component: {fileID: 137397021392373656}
+  m_Layer: 0
+  m_Name: P90
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4391456077330284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136680629760138}
+  m_LocalRotation: {x: -0.68649787, y: -1.5468876e-16, z: 8.298347e-17, w: 0.72713184}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 107.993195, y: 107.993195, z: 107.993225}
+  m_Children: []
+  m_Father: {fileID: 4813135956712746}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137397021392373656
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136680629760138}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0e37d965bb89a8547a09b3f66abe360a, type: 2}
+  - {fileID: 2100000, guid: d1cdc0488caaf35488dd270dac6de7ab, type: 2}
+  - {fileID: 2100000, guid: 146ab8424f6a0bf47aad405cddb7f1ad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300004, guid: 1dae22782794f094c82e53b8bf5a7201, type: 3}
+  m_Bones:
+  - {fileID: 4636036768370862}
+  - {fileID: 4359811672444770}
+  - {fileID: 4437810299963798}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4636036768370862}
+  m_AABB:
+    m_Center: {x: -0.00033488078, y: 0.030389061, z: -0.0020526536}
+    m_Extent: {x: 0.00685405, y: 0.05541607, z: 0.01786751}
+  m_DirtyAABB: 0
+--- !u!1 &1197594973560830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4855206518459776}
+  m_Layer: 0
+  m_Name: Magazine_end 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4855206518459776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197594973560830}
+  m_LocalRotation: {x: -0.0000000018626451, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.027785685, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4437810299963798}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1247119408955218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4234003605023312}
+  m_Layer: 0
+  m_Name: GunInitiation
+  m_TagString: GunInitiation
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4234003605023312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247119408955218}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0.0003, y: -0.00698, z: 0.0488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4626424795899346}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!1 &1313333432210232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224957875537426706}
+  - component: {fileID: 223806933979379132}
+  - component: {fileID: 114452591414478058}
+  - component: {fileID: 114412608722394742}
+  - component: {fileID: 95217043849940310}
+  m_Layer: 0
+  m_Name: WeaponUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224957875537426706
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313333432210232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 224770951515447392}
+  m_Father: {fileID: 4813135956712746}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &223806933979379132
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313333432210232}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
+--- !u!114 &114452591414478058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313333432210232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &114412608722394742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313333432210232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!95 &95217043849940310
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313333432210232}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1368368472030918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4216249139467404}
+  m_Layer: 0
+  m_Name: Trigger_end 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4216249139467404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368368472030918}
+  m_LocalRotation: {x: -1.8e-43, y: -1.0587913e-22, z: -1.694066e-21, w: 1}
+  m_LocalPosition: {x: -0, y: 0.01, z: 0.0000000011920929}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 4359811672444770}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1466575683639172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4636036768370862}
+  m_Layer: 0
+  m_Name: Control 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4636036768370862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466575683639172}
+  m_LocalRotation: {x: -0.00000039055988, y: 0.7071067, z: 0.7071068, w: -0.00000039055985}
+  m_LocalPosition: {x: -0.00030414222, y: -0.003074053, z: -0.03539645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4437810299963798}
+  - {fileID: 4359811672444770}
+  m_Father: {fileID: 4626424795899346}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1563083863993860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4437810299963798}
+  m_Layer: 0
+  m_Name: Magazine 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4437810299963798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563083863993860}
+  m_LocalRotation: {x: 5.3588908e-14, y: 1, z: 0.00000009685755, w: 0.0000005523351}
+  m_LocalPosition: {x: -0.0003041327, y: 0.029333916, z: -0.00797641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4855206518459776}
+  m_Father: {fileID: 4636036768370862}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1670989512710258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813135956712746}
+  - component: {fileID: 135128933883054420}
+  - component: {fileID: 54869920959481406}
+  - component: {fileID: 114809840275015920}
+  m_Layer: 0
+  m_Name: FlameThrowerPickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813135956712746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670989512710258}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -50.892418, y: -15.930046, z: 13.780956}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children:
+  - {fileID: 4391456077330284}
+  - {fileID: 4626424795899346}
+  - {fileID: 224957875537426706}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &135128933883054420
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670989512710258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &54869920959481406
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670989512710258}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &114809840275015920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670989512710258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec97c2d0198d724e84f3ef55acedc88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpMode: 0
+  enableWeaponUsingName: 0
+  enableOrImportWeaponDelay: 0
+  weaponLinkName: 
+  weaponLinkID: 1015514
+  ABCObjLink:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  ABCObjLinkDirectImport: 0
+  ABCObjLinkWeapon:
+    weaponName: 
+    weaponID: 0
+    weaponDescription: ' '
+    weaponIconImage:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    inspectorEquipWeapon: 0
+    weaponEnabled: 1
+    allowWeaponGroupAssignment: 0
+    assignedGroupIDs: 
+    enableAbilitiesWhenEquipped: 0
+    enableAbilityIDs: 
+    disableAllOtherAbilitiesNotListed: 0
+    disableAbilitiesWhenEquipped: 0
+    disableAbilityIDs: 
+    enableAllOtherAbilitiesNotListed: 0
+    enableAbilityGroupsWhenEquipped: 0
+    enableAbilityGroupIDs: 
+    disableAllOtherGroupsNotListed: 0
+    disableAbilityGroupWhenEquipped: 0
+    disableAbilityGroupIDs: 
+    enableAllOtherGroupsNotListed: 0
+    weaponSwitchTemporarilyDisableMovement: 1
+    weaponSwitchDisableMovementFreezePosition: 0
+    weaponSwitchDisableMovementDisableComponents: 1
+    weaponSwitchTemporarilyDisableAbilityActivation: 1
+    disableAbilityActivationDuration: 1
+    enableDuration: 1
+    disableDuration: 1
+    enableWeaponOnCycle: 1
+    enableWeaponOnInput: 0
+    weaponEnableInputType: 0
+    weaponEnableButton: 
+    weaponEnableKey: 0
+    useWeaponAnimations: 0
+    weaponGraphics: []
+    weaponEnableAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponEnableAnimationRunnerClipSpeed: 1
+    weaponEnableAnimationRunnerClipDelay: 0
+    weaponEnableAnimationRunnerClipDuration: 1
+    weaponEnableAnimationRunnerOnEntity: 1
+    weaponEnableAnimationRunnerOnScrollGraphic: 0
+    weaponEnableAnimationRunnerOnWeapon: 0
+    weaponEnableAnimatorParameter: 
+    weaponEnableAnimatorParameterType: 0
+    weaponEnableAnimatorOnValue: 
+    weaponEnableAnimatorOffValue: 
+    weaponEnableAnimatorDuration: 3
+    weaponEnableAnimateOnEntity: 1
+    weaponEnableAnimateOnScrollGraphic: 0
+    weaponEnableAnimateOnWeapon: 0
+    weaponDisableAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponDisableAnimationRunnerClipSpeed: 1
+    weaponDisableAnimationRunnerClipDelay: 0
+    weaponDisableAnimationRunnerClipDuration: 1
+    weaponDisableAnimationRunnerOnEntity: 1
+    weaponDisableAnimationRunnerOnScrollGraphic: 0
+    weaponDisableAnimationRunnerOnWeapon: 0
+    weaponDisableAnimatorParameter: 
+    weaponDisableAnimatorParameterType: 0
+    weaponDisableAnimatorOnValue: 
+    weaponDisableAnimatorOffValue: 
+    weaponDisableAnimatorDuration: 3
+    weaponDisableAnimateOnEntity: 1
+    weaponDisableAnimateOnScrollGraphic: 0
+    weaponDisableAnimateOnWeapon: 0
+    UseWeaponAmmo: 0
+    weaponAmmoCount: 100
+    useWeaponReload: 0
+    weaponClipSize: 50
+    weaponReloadDuration: 1
+    weaponReloadRestrictAbilityActivationDuration: 1
+    autoReloadWeaponWhenRequired: 1
+    weaponReloadFillClip: 0
+    weaponReloadFillClipRepeatGraphic: 1
+    useReloadWeaponAesthetics: 0
+    reloadWeaponAnimateOnEntity: 1
+    reloadWeaponAnimateOnScrollGraphic: 0
+    reloadWeaponAnimateOnWeapon: 0
+    reloadWeaponAnimatorParameter: 
+    reloadWeaponAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    reloadWeaponAnimationRunnerClipSpeed: 1
+    reloadWeaponAnimationRunnerClipDelay: 0
+    reloadWeaponAnimationRunnerOnEntity: 1
+    reloadWeaponAnimationRunnerOnScrollGraphic: 0
+    reloadWeaponAnimationRunnerOnWeapon: 0
+    reloadWeaponAnimatorParameterType: 0
+    reloadWeaponAnimatorOnValue: 
+    reloadWeaponAnimatorOffValue: 
+    reloadWeaponGraphic:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    reloadWeaponSubGraphic:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    reloadWeaponAestheticDuration: 2
+    reloadWeaponAestheticDelay: 0
+    reloadWeaponStartPosition: 0
+    reloadWeaponPositionOnObject:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    reloadWeaponPositionOnTag: 
+    reloadWeaponAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+    reloadWeaponAestheticsPositionForwardOffset: 0
+    reloadWeaponAestheticsPositionRightOffset: 0
+    enableWeaponParry: 0
+    weaponParryDelay: 0.2
+    weaponParryDuration: 0.5
+    weaponParryCooldown: 1
+    weaponParryFaceAbilityRequired: 0
+    weaponParryTurnToAbilityHitPoint: 1
+    enableAbilitiesAfterParrying: 0
+    enableAbilitiesAfterParryingDuration: 1
+    abilityIDsToEnableAfterParrying: 
+    activateAbilityAfterParrying: 0
+    abilityIDToActivateAfterParrying: 0
+    activateAbilityAfterParryListChoice: 0
+    useWeaponParryAesthetics: 0
+    weaponParryAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponParryAnimationRunnerClipSpeed: 1
+    weaponParryAnimationRunnerClipDelay: 0
+    weaponParryAnimationRunnerClipDuration: 1
+    weaponParryAnimationRunnerOnEntity: 1
+    weaponParryAnimationRunnerOnScrollGraphic: 0
+    weaponParryAnimationRunnerOnWeapon: 0
+    weaponParryAnimatorParameter: 
+    weaponParryAnimatorParameterType: 0
+    weaponParryAnimatorOnValue: 
+    weaponParryAnimatorOffValue: 
+    weaponParryAnimatorDuration: 3
+    weaponParryAnimateOnEntity: 1
+    weaponParryAnimateOnScrollGraphic: 0
+    weaponParryAnimateOnWeapon: 0
+    weaponParryEffectGraphic:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponParryEffectSubGraphic:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponParryEffectAestheticDuration: 2
+    weaponParryEffectAestheticDelay: 0
+    weaponParryEffectStartPosition: 0
+    weaponParryEffectPositionOnObject:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponParryEffectAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+    weaponParryEffectAestheticsPositionForwardOffset: 0
+    weaponParryEffectAestheticsPositionRightOffset: 0
+    weaponParryEffectPositionOnTag: 
+    enableWeaponBlock: 0
+    weaponBlockFaceAbilityRequired: 1
+    weaponBlockTurnToAbilityHitPoint: 0
+    interruptBlockedMeleeAttack: 0
+    weaponBlockIncreaseStat: 0
+    weaponBlockStatToIncrease: Defence
+    weaponBlockStatPercentageIncrease: 0
+    weaponBlockMitigateMeleeDamagePercentage: 30
+    weaponBlockMitigateProjectileDamagePercentage: 30
+    weaponBlockPreventMeleeEffects: 0
+    weaponBlockPreventProjectileEffects: 0
+    weaponBlockDurabilityReduction: 50
+    weaponBlockModifyStats: 0
+    weaponBlockStatModifications: []
+    enableAbilitiesAfterBlocking: 0
+    enableAbilitiesAfterBlockingDuration: 1
+    abilityIDsToEnableAfterBlocking: 
+    activateAbilityAfterBlocking: 0
+    abilityIDToActivateAfterBlocking: 0
+    activateAbilityAfterBlockListChoice: 0
+    useWeaponBlockAesthetics: 0
+    weaponBlockEffectGraphic:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponBlockEffectSubGraphic:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponBlockEffectAestheticDuration: 2
+    weaponBlockEffectAestheticDelay: 0
+    weaponBlockEffectStartPosition: 0
+    weaponBlockEffectPositionOnObject:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponBlockEffectAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+    weaponBlockEffectAestheticsPositionForwardOffset: 0
+    weaponBlockEffectAestheticsPositionRightOffset: 0
+    weaponBlockEffectPositionOnTag: 
+    weaponBlockAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponBlockAnimationRunnerClipSpeed: 1
+    weaponBlockAnimationRunnerClipDelay: 0
+    weaponBlockAnimationRunnerClipDuration: 1
+    weaponBlockAnimationRunnerOnEntity: 1
+    weaponBlockAnimationRunnerOnScrollGraphic: 0
+    weaponBlockAnimationRunnerOnWeapon: 0
+    weaponBlockAnimatorParameter: 
+    weaponBlockAnimatorParameterType: 0
+    weaponBlockAnimatorOnValue: 
+    weaponBlockAnimatorOffValue: 
+    weaponBlockAnimateOnEntity: 1
+    weaponBlockAnimateOnScrollGraphic: 0
+    weaponBlockAnimateOnWeapon: 0
+    weaponBlockReactionAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponBlockReactionAnimationRunnerClipSpeed: 1
+    weaponBlockReactionAnimationRunnerClipDelay: 0
+    weaponBlockReactionAnimationRunnerClipDuration: 1
+    weaponBlockReactionAnimationRunnerOnEntity: 1
+    weaponBlockReactionAnimationRunnerOnScrollGraphic: 0
+    weaponBlockReactionAnimationRunnerOnWeapon: 0
+    weaponBlockReactionAnimatorParameter: 
+    weaponBlockReactionAnimatorParameterType: 0
+    weaponBlockReactionAnimatorOnValue: 
+    weaponBlockReactionAnimatorOffValue: 
+    weaponBlockReactionAnimatorDuration: 3
+    weaponBlockReactionAnimateOnEntity: 1
+    weaponBlockReactionAnimateOnScrollGraphic: 0
+    weaponBlockReactionAnimateOnWeapon: 0
+    useWeaponMeleeAttackReflectedAnimations: 0
+    weaponMeleeAttackReflectedAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponMeleeAttackReflectedAnimationRunnerClipSpeed: 1
+    weaponMeleeAttackReflectedAnimationRunnerClipDelay: 0
+    weaponMeleeAttackReflectedAnimationRunnerClipDuration: 1
+    weaponMeleeAttackReflectedAnimationRunnerOnEntity: 1
+    weaponMeleeAttackReflectedAnimationRunnerOnScrollGraphic: 0
+    weaponMeleeAttackReflectedAnimationRunnerOnWeapon: 0
+    weaponMeleeAttackReflectedAnimatorParameter: 
+    weaponMeleeAttackReflectedAnimatorParameterType: 0
+    weaponMeleeAttackReflectedAnimatorOnValue: 
+    weaponMeleeAttackReflectedAnimatorOffValue: 
+    weaponMeleeAttackReflectedAnimatorDuration: 3
+    weaponMeleeAttackReflectedAnimateOnEntity: 1
+    weaponMeleeAttackReflectedAnimateOnScrollGraphic: 0
+    weaponMeleeAttackReflectedAnimateOnWeapon: 0
+    enableWeaponDrop: 0
+    weaponDropDuration: 1
+    weaponDropAction: 1
+    weaponDropActionApplyToWeaponEnableAbilities: 1
+    weaponDropActionApplyToAssignedGroups: 1
+    weaponDropActionApplyToAssignedUI: 1
+    useWeaponDropObject: 0
+    weaponDropObject:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponDropObjectDelay: 0.5
+    weaponDropObjectDuration: 0
+    updateWeaponDropAmmo: 0
+    weaponDropAnimationRunnerClip:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    weaponDropAnimationRunnerClipSpeed: 1
+    weaponDropAnimationRunnerClipDelay: 0
+    weaponDropAnimationRunnerClipDuration: 1
+    weaponDropAnimatorParameter: 
+    weaponDropAnimatorParameterType: 0
+    weaponDropAnimatorOnValue: 
+    weaponDropAnimatorOffValue: 
+    weaponDropAnimatorDuration: 3
+    abilitiesListChoice: 0
+    abilityGroupListChoice: 0
+    currentWeaponAmmoClipCount: -1
+  ABCObjLinkAbilities: []
+  ABCObjLinkGroups: []
+  ABCObjLinkIcons: []
+  importABCLinkWeaponsEnableAbilities: 1
+  importABCLinkWeaponsGroups: 1
+  importABCLinkWeaponsUI: 1
+  equipWeaponOnPickup: 1
+  dropCurrentWeaponOnPickUp: 1
+  unequipCurrentWeaponBeforePickUp: 0
+  disableOnPickUp: 1
+  updateAmmoOnPickup: 1
+  ammoAmount: 125
+  pickUpTagRequired: 1
+  pickUpTags:
+  - Player
+  triggerRequiredToPickUp: 1
+  pickUpInputType: 0
+  keyButton: 
+  key: 117
+  usePickUpGraphic: 0
+  pickUpGraphic:
+    refVal: {fileID: 0}
+    refName: ShotgunPickup
+    refUpdateDateTime: 
+  addPickupCollider: 0
+  isTrigger: 1
+  colliderRadius: 1
+  colliderOffset: {x: 0, y: 0, z: 0}
+  usePickUpAnimations: 0
+  weaponPickUpAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  weaponPickUpAnimationRunnerClipSpeed: 1
+  weaponPickUpAnimationRunnerClipDelay: 0
+  weaponPickUpAnimationRunnerClipDuration: 1
+  weaponPickUpAnimationRunnerOnEntity: 1
+  weaponPickUpAnimationRunnerOnScrollGraphic: 0
+  weaponPickUpAnimationRunnerOnWeapon: 0
+  weaponPickUpAnimatorParameter: 
+  weaponPickUpAnimatorParameterType: 0
+  weaponPickUpAnimatorOnValue: 
+  weaponPickUpAnimatorOffValue: 
+  weaponPickUpAnimatorDuration: 3
+  displayPickUpText: 1
+  displayTextObject:
+    refVal: {fileID: 0}
+    refName: PickUpText
+    refUpdateDateTime: 
+  textToDisplay: Press #Key# to pick up Flamethrower
+  onlyDisplayWhenColliding: 1
+  onlyDisplayForPickUpTags: 1
+  alwaysFaceCamera: 0
+  showHelpInformation: 1
+  updateEditorAtRunTime: 0
+  abcLinkWeaponListChoice: 0
+--- !u!1 &1703147935956934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224427169349626738}
+  - component: {fileID: 222315013323119270}
+  - component: {fileID: 114703853927175086}
+  m_Layer: 5
+  m_Name: txtWeaponPickUpOverlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224427169349626738
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703147935956934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224770951515447392}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.000038146973, y: 16}
+  m_SizeDelta: {x: 145.3, y: 29.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222315013323119270
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703147935956934}
+  m_CullTransparentMesh: 0
+--- !u!114 &114703853927175086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703147935956934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.12104459, b: 0.5661765, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Press [U] to pick up FlameThrower
+--- !u!1 &1739518534404516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224770951515447392}
+  - component: {fileID: 222959467463885792}
+  - component: {fileID: 114038466248477334}
+  m_Layer: 5
+  m_Name: txtWeaponPickUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224770951515447392
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739518534404516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.96000004, y: 0.96000004, z: 0.96000004}
+  m_Children:
+  - {fileID: 224427169349626738}
+  m_Father: {fileID: 224957875537426706}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -56, y: 332.00006}
+  m_SizeDelta: {x: 145.3, y: 29.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222959467463885792
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739518534404516}
+  m_CullTransparentMesh: 0
+--- !u!114 &114038466248477334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739518534404516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.751724, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Press [U] to pick up FlameThrower
+--- !u!1 &1764017472043740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4626424795899346}
+  - component: {fileID: 135037856856589074}
+  m_Layer: 0
+  m_Name: P90Armature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4626424795899346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764017472043740}
+  m_LocalRotation: {x: 0.6752325, y: 0.6539289, z: 0.26006922, w: 0.22091213}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.0957785, y: 4.0957785, z: 4.0957785}
+  m_Children:
+  - {fileID: 4636036768370862}
+  - {fileID: 4234003605023312}
+  m_Father: {fileID: 4813135956712746}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2.3960001, y: 140.156, z: -267.29498}
+--- !u!135 &135037856856589074
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764017472043740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0003
+  m_Center: {x: 0.000088978675, y: 0, z: -0.0000042123065}
+--- !u!1 &1996056858339440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4359811672444770}
+  m_Layer: 0
+  m_Name: Trigger 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4359811672444770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996056858339440}
+  m_LocalRotation: {x: 3.0444424e-14, y: 1, z: 0.000000065192566, w: 0.00000055233517}
+  m_LocalPosition: {x: -0.0003041458, y: 0.035396453, z: 0.0030740583}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 4216249139467404}
+  m_Father: {fileID: 4636036768370862}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

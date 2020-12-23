@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - KnifeInitiation
+  - GunInitiation
+  - ThrowInitiation
+  - Enemy
+  - ClawLeft
+  - ClawRight
+  - Headshot
+  - Turret
+  - Debris
+  - ABCSwordPointLeft
+  - Environment
+  - ABCInitiationLeft
+  - ABCInitiationRight
   layers:
   - Default
   - TransparentFX
@@ -13,9 +26,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Skin
+  - Player
+  - RagdollParts
   - 
   - 
   - 
