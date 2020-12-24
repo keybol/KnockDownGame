@@ -17,6 +17,8 @@ TagManager:
   - Environment
   - ABCInitiationLeft
   - ABCInitiationRight
+  - Bullet
+  - Missile
   layers:
   - Default
   - TransparentFX
@@ -29,7 +31,7 @@ TagManager:
   - Skin
   - Player
   - RagdollParts
-  - 
+  - Pickup
   - 
   - 
   - 

@@ -16,6 +16,9 @@ GameObject:
   - component: {fileID: 3813557656818710889}
   - component: {fileID: 3813557656818710891}
   - component: {fileID: 3813557656818710870}
+  - component: {fileID: 6655827189109091450}
+  - component: {fileID: 4955885442554072529}
+  - component: {fileID: 8837650225908451134}
   m_Layer: 9
   m_Name: CharacterPrefab
   m_TagString: Untagged
@@ -49,7 +52,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e451b9859c28049b588c15219679f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterModel: {fileID: 11400000, guid: 1f1f8746191d1714aa8fd3c6bc67981b, type: 2}
+  playerUIPrefab: {fileID: 8819041250553792172, guid: e051a802b9320a74f89fb30be390ca30, type: 3}
+  pv: {fileID: 6655827189109091450}
+  smoothSync: {fileID: 4955885442554072529}
+  characterModel: {fileID: 11400000, guid: 5a0a426956676fe4980f0e5b96e1d58f, type: 2}
   PlayerCharacter: {fileID: 0}
   skinNumber: 0
   kcc: {fileID: 3813557656818710893}
@@ -58,9 +64,14 @@ MonoBehaviour:
   ABCEvents: {fileID: 0}
   ABCcontroller: {fileID: 0}
   cvm: {fileID: 0}
+  Name: Guest
   MovementStickValue: {x: 0, y: 0}
   Jump: 0
   Crouch: 0
+  PlayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  heat: 0
 --- !u!114 &3813557656818710893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +86,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kplayer: {fileID: 3813557656818710890}
   Motor: {fileID: 3813557656818710891}
+  Stamina: 0
+  InvincibilityLength: 0
+  ThrowPower: 0
+  ThrowHeight: 0
+  initialForceMultiplier: 0
+  maxEscapeTime: 0
+  maxWarmup: 0
+  maxDodgeCooldown: 0
+  maxSpecial: 0
   RestrictMovement: 0
   DefyGravity: 0
   MaxStableMoveSpeed: 7
@@ -91,7 +111,7 @@ MonoBehaviour:
   AllowWallJump: 0
   JumpUpSpeed: 12
   JumpScalableForwardSpeed: 0
-  JumpPreGroundingGraceTime: 0
+  JumpPreGroundingGraceTime: 0.1
   JumpPostGroundingGraceTime: 0.1
   ChargeSpeed: 15
   MaxChargeTime: 1.5
@@ -113,7 +133,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3813557656818710894}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 0c9c27570b29b9746a400e1ad35ebc72, type: 3}
+  m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 5fa53475ddc907e4096b60375386dacd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -601,3 +621,120 @@ MonoBehaviour:
   abilityWorldTargetOutRangeIndicatorDefaultSize: {x: 1, y: 1, z: 1}
   showCrossHairOverride: 0
   foldOutIntegration: 0
+--- !u!114 &6655827189109091450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 4955885442554072529}
+  - {fileID: 8837650225908451134}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &4955885442554072529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8069ffa6ab7df7340ad5ce0c3da47526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interpolationBackTime: 0.034
+  extrapolationMode: 1
+  useExtrapolationTimeLimit: 1
+  extrapolationTimeLimit: 5
+  useExtrapolationDistanceLimit: 0
+  extrapolationDistanceLimit: 20
+  sendPositionThreshold: 0
+  sendRotationThreshold: 0
+  sendScaleThreshold: 0
+  sendVelocityThreshold: 0
+  sendAngularVelocityThreshold: 0
+  receivedPositionThreshold: 0
+  receivedRotationThreshold: 0
+  snapPositionThreshold: 0
+  snapRotationThreshold: 0
+  snapScaleThreshold: 0
+  positionLerpSpeed: 0.85
+  rotationLerpSpeed: 0.85
+  scaleLerpSpeed: 0.85
+  timeCorrectionSpeed: 0.3
+  snapTimeThreshold: 3
+  syncPosition: 0
+  syncRotation: 5
+  syncScale: 7
+  syncVelocity: 7
+  syncAngularVelocity: 7
+  isPositionCompressed: 0
+  isRotationCompressed: 0
+  isScaleCompressed: 0
+  isVelocityCompressed: 0
+  isAngularVelocityCompressed: 0
+  whenToUpdateTransform: 1
+  childObjectToSync: {fileID: 0}
+  setVelocityInsteadOfPositionOnNonOwners: 0
+  useLocalTransformOnly: 0
+  maxPositionDifferenceForVelocitySyncing: 10
+  receivedStatesCounter: 0
+--- !u!114 &8837650225908451134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 1
+    Name: Movement
+  - Type: 4
+    SynchronizeType: 1
+    Name: IsGrounded
+  - Type: 4
+    SynchronizeType: 1
+    Name: Crouching
+  - Type: 4
+    SynchronizeType: 1
+    Name: Carrying
+  - Type: 1
+    SynchronizeType: 0
+    Name: Size
+  - Type: 9
+    SynchronizeType: 1
+    Name: Throw
+  - Type: 9
+    SynchronizeType: 1
+    Name: Suplex
+  - Type: 4
+    SynchronizeType: 0
+    Name: PickUp
+  m_SynchronizeLayers:
+  - SynchronizeType: 1
+    LayerIndex: 0
+  - SynchronizeType: 1
+    LayerIndex: 1

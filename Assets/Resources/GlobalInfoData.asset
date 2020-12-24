@@ -18,17 +18,17 @@ MonoBehaviour:
   roomMusic: Platform Action LOOP
   currentHealth: 0
   maxHealth: 0
-  MaxStableMoveSpeed: 3
+  MaxStableMoveSpeed: 4
   MaxCrouchMoveSpeed: 1
   StableMovementSharpness: 100
-  OrientationSharpness: 100
+  OrientationSharpness: 40
   MaxAirMoveSpeed: 1
   AirAccelerationSpeed: 100
   Drag: 0.5
   AllowJumpingWhenSliding: 0
   JumpUpSpeed: 12
   JumpScalableForwardSpeed: 0
-  JumpPreGroundingGraceTime: 0
+  JumpPreGroundingGraceTime: 0.1
   JumpPostGroundingGraceTime: 0.1
   DodgeSpeedY: 6
   DodgeSpeedX: 0.75

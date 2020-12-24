@@ -13,6 +13,8 @@ public class KAnimator : MonoBehaviour
 
 	private void Update()
     {
+		if (!kplayer.pv.IsMine)
+			return;
 		//anim.SetBool("Dodging", kplayer.Dodge);
 		//anim.SetFloat("DodgeAxis", kplayer.DodgeAxis);
 		anim.SetBool("Crouching", kplayer.Crouch);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using KinematicCharacterController;
 using System;
+using Photon.Pun;
 
 public enum KCharacterState
 {
@@ -27,6 +28,17 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 {
 	[SerializeField] public KPlayer kplayer;
 	[SerializeField] public KinematicCharacterMotor Motor;
+
+	[Header("Stats")]
+	public float Stamina;
+	public float InvincibilityLength;
+	public float ThrowPower;
+	public float ThrowHeight;
+	public float initialForceMultiplier;
+	public float maxEscapeTime;
+	public float maxWarmup;
+	public float maxDodgeCooldown;
+	public float maxSpecial;
 
 	[Header("Stable Movement")]
 	public bool RestrictMovement;
@@ -68,7 +80,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	public Vector3 targetPosition;
 	public KCharacterState CurrentCharacterState;
 	
-	
+	private Vector3 halfScale;
 	private Collider[] _probedColliders = new Collider[8];
 	private RaycastHit[] _probedHits = new RaycastHit[8];
 	private Vector3 _moveInputVector;
@@ -97,6 +109,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 		TransitionToState(KCharacterState.Default);
 		Motor.CharacterController = this;
 		SetGlobalInfoData();
+		halfScale = new Vector3(Motor.CapsuleRadius, Motor.CapsuleHeight, Motor.CapsuleYOffset);
 	}
 
 	private void Update()
@@ -121,15 +134,31 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 		JumpPostGroundingGraceTime = GlobalInfo.GlobalInfoData.JumpPostGroundingGraceTime;
 		//DodgeSpeedX = GlobalInfo.GlobalInfoData.DodgeSpeedX;
 		//DodgeSpeedY = GlobalInfo.GlobalInfoData.DodgeSpeedY;
-		//Stamina = GlobalInfo.GlobalInfoData.Stamina;
-		//InvincibilityLength = GlobalInfo.GlobalInfoData.InvincibilityLength;
-		//ThrowPower = GlobalInfo.GlobalInfoData.ThrowPower;
-		//ThrowHeight = GlobalInfo.GlobalInfoData.ThrowHeight;
-		//maxEscapeTime = GlobalInfo.GlobalInfoData.maxEscapeTime;
-		//maxWarmup = GlobalInfo.GlobalInfoData.maxWarmup;
-		//maxDodgeCooldown = GlobalInfo.GlobalInfoData.maxDodgeCooldown;
-		//maxSpecial = GlobalInfo.GlobalInfoData.maxSpecial;
-		//initialForceMultiplier = GlobalInfo.GlobalInfoData.initialForceMultiplier;
+		Stamina = GlobalInfo.GlobalInfoData.Stamina;
+		InvincibilityLength = GlobalInfo.GlobalInfoData.InvincibilityLength;
+		ThrowPower = GlobalInfo.GlobalInfoData.ThrowPower;
+		ThrowHeight = GlobalInfo.GlobalInfoData.ThrowHeight;
+		maxEscapeTime = GlobalInfo.GlobalInfoData.maxEscapeTime;
+		maxWarmup = GlobalInfo.GlobalInfoData.maxWarmup;
+		maxDodgeCooldown = GlobalInfo.GlobalInfoData.maxDodgeCooldown;
+		maxSpecial = GlobalInfo.GlobalInfoData.maxSpecial;
+		initialForceMultiplier = GlobalInfo.GlobalInfoData.initialForceMultiplier;
+	}
+
+	private void FixedUpdate()
+	{
+		if (!kplayer.pv.IsMine)
+		{
+			Motor.enabled = false;
+			Vector3 bodyWorldPosition = kplayer.smoothSync.getPosition();
+			Quaternion bodyWorldRotation = kplayer.smoothSync.getRotation();
+			Motor.SetPosition(bodyWorldPosition, false);
+			Motor.SetRotation(bodyWorldRotation, false);
+		}
+		else
+		{
+			Motor.enabled = true;
+		}
 	}
 
 	/// <summary>
@@ -245,6 +274,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 					{
 						_timeSinceJumpRequested = 0f;
 						_jumpRequested = true;
+						kplayer.Jump = false;
 					}
 
 					if (kplayer.Crouch)
@@ -254,7 +284,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 						if (!_isCrouching)
 						{
 							_isCrouching = true;
-							Motor.SetCapsuleDimensions(0.5f, 1f, 0.5f);
+							Motor.SetCapsuleDimensions(halfScale.x, halfScale.y/2, halfScale.z/2);
 						}
 					}
 					else if (!kplayer.Crouch)
@@ -546,7 +576,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 					if (_isCrouching && !_shouldBeCrouching)
 					{
 						// Do an overlap test with the character's standing height to see if there are any obstructions
-						Motor.SetCapsuleDimensions(0.5f, 2f, 1f);
+						Motor.SetCapsuleDimensions(halfScale.x, halfScale.y, halfScale.z);
 						if (Motor.CharacterOverlap(
 							Motor.TransientPosition,
 							Motor.TransientRotation,
@@ -555,7 +585,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 							QueryTriggerInteraction.Ignore) > 0)
 						{
 							// If obstructions, just stick to crouching dimensions
-							Motor.SetCapsuleDimensions(0.5f, 1f, 0.5f);
+							Motor.SetCapsuleDimensions(halfScale.x, halfScale.y/2, halfScale.z/2);
 						}
 						else
 						{
@@ -659,8 +689,18 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 
 	protected void OnLanded()
 	{
-		if (kplayer)
-			kplayer.Jump = false;
+		kplayer.pv.RPC("SyncOnLanded", Photon.Pun.RpcTarget.All, transform.position);
+	}
+
+	[PunRPC]
+	void SyncOnLanded(Vector3 pos)
+	{
+		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledObject();
+		if(landSmoke != null)
+		{
+			landSmoke.transform.position = pos;
+			landSmoke.SetActive(true);
+		}
 	}
 
 	protected void OnLeaveStableGround()

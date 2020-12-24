@@ -658,7 +658,7 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""627cb858-293e-4e78-a122-73fac025d867"",
-                    ""path"": ""<Keyboard>/r"",
+                    ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
