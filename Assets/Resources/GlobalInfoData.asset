@@ -34,8 +34,9 @@ MonoBehaviour:
   DodgeSpeedX: 0.75
   Stamina: 5
   InvincibilityLength: 5
-  ThrowPower: 20
-  ThrowHeight: 1
+  MinThrowPower: 2
+  ThrowPower: 10
+  ThrowHeight: 0
   maxEscapeTime: 5
   maxWarmup: 1
   maxDodgeCooldown: 1

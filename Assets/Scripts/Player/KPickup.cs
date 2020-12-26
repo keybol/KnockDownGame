@@ -11,6 +11,8 @@ public class KPickup : MonoBehaviour, ICharacterController
 	public List<Collider> IgnoredColliders = new List<Collider>();
 	public PhotonView pv;
 	public Vector3 Gravity = new Vector3(0, -30f, 0);
+	public KPlayer pickupKPlayer;
+	private KPlayer kplayer;
 
 	private void Awake()
 	{
@@ -18,28 +20,45 @@ public class KPickup : MonoBehaviour, ICharacterController
 	}
 
 	[PunRPC]
-	public void SyncPickup(int _playerIndex, Vector3 _position)
+	public void SyncPickup(int _playerIndex)
 	{
+		if (pickupKPlayer)
+		{
+			pickupKPlayer.Carried = true;
+			pickupKPlayer.smoothSync.enabled = false;
+			pickupKPlayer.kcc.enabled = false;
+			pickupKPlayer.enabled = false;
+			Motor.CharacterController = this;
+		}
 		Motor.enabled = false;
-		KPlayer kplayer = KGameManager.Instance.kPlayers[_playerIndex];
+		kplayer = KGameManager.Instance.kPlayers[_playerIndex];
 		kplayer.kcc.IgnoredColliders.Add(this.GetComponent<Collider>());
 		transform.parent = kplayer.itemAnchor;
 		transform.localPosition = new Vector3(0, kplayer.kcc.ThrowHeight, 0f);
+		transform.localRotation = Quaternion.Euler(Vector3.zero);
+		if (pickupKPlayer)
+		{
+			transform.localPosition = new Vector3(0, 0.5f, 0);
+			transform.localRotation = Quaternion.Euler(new Vector3(0, -90, 0f));
+		}
 	}
 
 	[PunRPC]
-	public void SyncThrow(int _playerIndex, float _heatThrowPower, Vector3 _position, Vector3 _rotation)
+	public void SyncThrow(int _playerIndex, float _heatThrowPower, Vector3 _position, float _rotationY)
 	{
-		KPlayer kplayer = KGameManager.Instance.kPlayers[_playerIndex];
-		Vector3 finalPos = transform.position;
-		if (_heatThrowPower < 0)
-			finalPos.y = kplayer.itemAnchor.position.y + kplayer.kcc.ThrowHeight;
-		Motor.SetPosition(finalPos, true);
-		Motor.SetRotation(Quaternion.Euler(_rotation), true);
+		kplayer = KGameManager.Instance.kPlayers[_playerIndex];
+		Motor.SetPosition(_position, true);
+		Motor.SetRotation(Quaternion.Euler(new Vector3(0, _rotationY, 0)), true);
 		Motor.enabled = true;
-		kplayer.kcc.IgnoredColliders.Remove(this.GetComponent<Collider>());
-		Motor.BaseVelocity = transform.forward * _heatThrowPower;
+		Motor.BaseVelocity = kplayer.transform.forward * _heatThrowPower;
+		StartCoroutine("IgnorePlayerCollider");
 		transform.parent = null;
+	}
+
+	IEnumerator IgnorePlayerCollider()
+	{
+		yield return new WaitForSeconds(0.5f);
+		kplayer.kcc.IgnoredColliders.Remove(this.GetComponent<Collider>());
 	}
 
 	public void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
@@ -59,7 +78,6 @@ public class KPickup : MonoBehaviour, ICharacterController
 
 	public void PostGroundingUpdate(float deltaTime)
 	{
-		// Handle landing and leaving ground
 		if (Motor.GroundingStatus.IsStableOnGround && !Motor.LastGroundingStatus.IsStableOnGround)
 		{
 			OnLanded();
@@ -97,7 +115,6 @@ public class KPickup : MonoBehaviour, ICharacterController
 
 	public void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
 	{
-		
 	}
 
 	public void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport)
@@ -112,7 +129,28 @@ public class KPickup : MonoBehaviour, ICharacterController
 
 	protected void OnLanded()
 	{
+		pv.RPC("SyncOnPickupLanded", RpcTarget.All, transform.position);
+	}
+
+	[PunRPC]
+	public void SyncOnPickupLanded(Vector3 _position)
+	{
 		Motor.BaseVelocity = Vector3.zero;
+		if (pickupKPlayer)
+		{
+			pickupKPlayer.Carried = false;
+			pickupKPlayer.smoothSync.enabled = true;
+			pickupKPlayer.kcc.enabled = true;
+			pickupKPlayer.enabled = true;
+			Motor.SetPosition(_position, true);
+			Motor.CharacterController = pickupKPlayer.kcc;
+		}
+		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledObject();
+		if (landSmoke != null)
+		{
+			landSmoke.transform.position = _position;
+			landSmoke.SetActive(true);
+		}
 	}
 
 	protected void OnLeaveStableGround()

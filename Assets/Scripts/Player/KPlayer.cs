@@ -24,6 +24,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public int playerIndex;
 	public KCharacterController kcc;
 	public KAnimator kanim;
+	public KPickup playerKPickup;
 	public KPickup kpickup;
 	public CinemachineVirtualCamera cvm;
 	public Transform itemAnchor;
@@ -31,6 +32,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public Vector2 MovementStickValue;
 	public bool Jump;
 	public bool Crouch;
+	public bool Carried;
 	public LayerMask PlayerMask;
 	private GameObject objectInSight;
 	private bool PressedHoldThrow;
@@ -70,6 +72,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 
 	public void Awake()
 	{
+		playerKPickup.enabled = false;
 		PlayerCharacter = Instantiate(characterModel.characterModel[skinNumber], transform);
 		kanim.anim.avatar = PlayerCharacter.GetComponent<Animator>().avatar;
 		itemAnchor = kanim.anim.GetBoneTransform(HumanBodyBones.Head);
@@ -102,13 +105,13 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		{
 			var button = context.control as ButtonControl;
 			if (button.wasPressedThisFrame)
-				DashPressed();
+				DodgePressed();
 		};
 		controls.Player.DodgeRight.performed += context =>
 		{
 			var button = context.control as ButtonControl;
 			if (button.wasPressedThisFrame)
-				DashPressed();
+				DodgePressed();
 		};
 		controls.UI.Exit.performed += context =>
 		{
@@ -182,8 +185,12 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	{
 		if (kpickup)
 		{
-			float heatThrowPower = 4 + heat * kcc.ThrowPower;
-			kpickup.pv.RPC("SyncThrow", RpcTarget.AllBuffered, playerIndex, heatThrowPower * direction, transform.position, transform.rotation.eulerAngles);
+			float heatThrowPower = kcc.MinThrowPower + heat * kcc.ThrowPower;
+			Vector3 throwPosition = kpickup.transform.position;
+			throwPosition.y = 1.27f;
+			if(kpickup.pickupKPlayer)
+				throwPosition.y = 1.77f;
+			kpickup.pv.RPC("SyncThrow", RpcTarget.AllBuffered, playerIndex, heatThrowPower * direction, throwPosition, kpickup.transform.rotation.eulerAngles.y);
 			pv.RPC("syncThrowPickup", RpcTarget.All);
 		}
 	}
@@ -191,19 +198,15 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	[PunRPC]
 	public void syncThrowPickup()
 	{
-		kpickup = null;
 		kanim.anim.SetBool("PickUp", false);
 		kanim.anim.SetBool("Carrying", false);
 		heat = 0f;
-		heatBar = heat / kcc.maxWarmup;
+		kpickup = null;
 	}
 
-	private void DashPressed()
+	private void DodgePressed()
 	{
-		//if (kcc.Motor.GroundingStatus.IsStableOnGround)
-		//	ABCcontroller.TriggerAbility(1034061);
-		//else
-		//	ABCcontroller.TriggerAbility(1034021);
+
 	}
 
 	private void ExitPressed()
@@ -214,24 +217,21 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	[PunRPC]
 	public void syncStartPickup()
 	{
-		kanim.anim.SetBool("PickUp", true);
 		StartCoroutine("PickupObject");
 	}
 
 	IEnumerator PickupObject()
 	{
+		kanim.anim.SetBool("PickUp", true);
 		yield return new WaitForSeconds(0.5f);
-		if (kpickup)
-		{
-			kpickup.pv.RPC("SyncPickup", RpcTarget.AllBuffered, playerIndex, transform.position);
-			kanim.anim.SetBool("PickUp", false);
-			kanim.anim.SetBool("Carrying", true);
-		}
+		kanim.anim.SetBool("PickUp", false);
+		kanim.anim.SetBool("Carrying", true);
 	}
 
 	public void StartPickup()
 	{
 		kpickup = objectInSight.GetComponent<KPickup>();
+		kpickup.pv.RPC("SyncPickup", RpcTarget.AllBuffered, playerIndex);
 		pv.RPC("syncStartPickup", RpcTarget.All);
 	}
 

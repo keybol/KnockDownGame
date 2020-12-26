@@ -65,6 +65,8 @@ public class GlobalInfoData : ScriptableObject
 	[SerializeField]
 	public float InvincibilityLength = 5f;
 	[SerializeField]
+	public float MinThrowPower = 3f;
+	[SerializeField]
 	public float ThrowPower = 10f;
 	[SerializeField]
 	public float ThrowHeight = 3f;

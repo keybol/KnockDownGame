@@ -32,6 +32,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	[Header("Stats")]
 	public float Stamina;
 	public float InvincibilityLength;
+	public float MinThrowPower;
 	public float ThrowPower;
 	public float ThrowHeight;
 	public float initialForceMultiplier;
@@ -107,11 +108,14 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	private void Awake()
 	{
 		TransitionToState(KCharacterState.Default);
-		Motor.CharacterController = this;
 		SetGlobalInfoData();
 		halfScale = new Vector3(Motor.CapsuleRadius, Motor.CapsuleHeight, Motor.CapsuleYOffset);
 	}
 
+	private void Start()
+	{
+		Motor.CharacterController = this;
+	}
 	private void Update()
 	{
 		SetGlobalInfoData();
@@ -136,6 +140,7 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 		//DodgeSpeedY = GlobalInfo.GlobalInfoData.DodgeSpeedY;
 		Stamina = GlobalInfo.GlobalInfoData.Stamina;
 		InvincibilityLength = GlobalInfo.GlobalInfoData.InvincibilityLength;
+		MinThrowPower = GlobalInfo.GlobalInfoData.MinThrowPower;
 		ThrowPower = GlobalInfo.GlobalInfoData.ThrowPower;
 		ThrowHeight = GlobalInfo.GlobalInfoData.ThrowHeight;
 		maxEscapeTime = GlobalInfo.GlobalInfoData.maxEscapeTime;
