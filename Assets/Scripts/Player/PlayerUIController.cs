@@ -21,7 +21,7 @@ public class PlayerUIController : MonoBehaviour
 			finalPosition.y = targetTransform.position.y + 1.75f;
 			transform.position = Camera.main.WorldToScreenPoint(finalPosition);
 		}
-		playerNameText.text = target.Name;
+		playerNameText.text = target.playerIndex + "-" + target.Name;
 	}
 
 	public void SetTarget(KPlayer _target)

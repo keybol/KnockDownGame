@@ -10,28 +10,29 @@ using Cinemachine;
 using UnityEngine.InputSystem.Controls;
 using Photon.Pun;
 using Smooth;
+using Photon.Realtime;
 
-public class KPlayer : MonoBehaviour
+public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 {
 	[SerializeField] GameObject playerUIPrefab;
+	public Collider myCollider;
 	public PhotonView pv;
 	public SmoothSyncPUN2 smoothSync;
 	public CharacterModel characterModel;
 	public GameObject PlayerCharacter;
 	public int skinNumber;
+	public int playerIndex;
 	public KCharacterController kcc;
 	public KAnimator kanim;
 	public KPickup kpickup;
-	public ABC_StateManager ABCEvents;
-	public ABC_Controller ABCcontroller;
 	public CinemachineVirtualCamera cvm;
+	public Transform itemAnchor;
 	public string Name = "Guest";
 	public Vector2 MovementStickValue;
 	public bool Jump;
 	public bool Crouch;
 	public LayerMask PlayerMask;
 	private GameObject objectInSight;
-	private GameObject pickedUpObject;
 	private bool PressedHoldThrow;
 	private RaycastHit hit;
 	private Vector3 rayOrigin;
@@ -44,20 +45,19 @@ public class KPlayer : MonoBehaviour
 	public float heat = 0f;
 	private float heatBar = 0f;
 
+	public void OnPhotonInstantiate(PhotonMessageInfo info)
+	{
+		object[] objecttype = pv.InstantiationData;
+		playerIndex = (int)objecttype[0];
+		KGameManager.Instance.kPlayers[playerIndex] = this;
+	}
+
 	public void OnEnable()
 	{
 		if (!pv.IsMine)
 			return;
 		if (controls != null)
 			controls.Enable();
-		if (ABCEvents != null)
-		{
-			ABCEvents.onEnableMovement += EnableMovement;
-			ABCEvents.onDisableMovement += DisableMovement;
-
-			ABCEvents.onEnableGravity += EnableGravity;
-			ABCEvents.onDisableGravity += DisableGravity;
-		}
 	}
 
 	public void OnDisable()
@@ -66,41 +66,13 @@ public class KPlayer : MonoBehaviour
 			return;
 		if (controls != null)
 			controls.Disable();
-		if (ABCEvents != null)
-		{
-			ABCEvents.onEnableMovement -= EnableMovement;
-			ABCEvents.onDisableMovement -= DisableMovement;
-
-			ABCEvents.onEnableGravity -= EnableGravity;
-			ABCEvents.onDisableGravity -= DisableGravity;
-		}
-	}
-
-	public void EnableMovement()
-	{
-		kcc.RestrictMovement = false;
-	}
-
-	public void DisableMovement()
-	{
-		kcc.RestrictMovement = true;
-	}
-
-	public void EnableGravity()
-	{
-		kcc.DefyGravity = false;
-	}
-
-	public void DisableGravity()
-	{
-		kcc.DefyGravity = true;
 	}
 
 	public void Awake()
 	{
 		PlayerCharacter = Instantiate(characterModel.characterModel[skinNumber], transform);
 		kanim.anim.avatar = PlayerCharacter.GetComponent<Animator>().avatar;
-
+		itemAnchor = kanim.anim.GetBoneTransform(HumanBodyBones.Head);
 		if (!pv.IsMine)
 			return;
 		controls = new KInputActions();
@@ -147,13 +119,20 @@ public class KPlayer : MonoBehaviour
 	private void JumpPressed()
 	{
 		if (kpickup)
-			StartThrow(-1);
+		{
+			PressedHoldThrow = true;
+		}
 		else
 			Jump = true;
 	}
 
 	private void JumpReleased()
 	{
+		if (kpickup)
+		{
+			if (heat > 0)
+				StartThrow(-1);
+		}
 		Jump = false;
 	}
 
@@ -201,8 +180,10 @@ public class KPlayer : MonoBehaviour
 
 	public void ThrowPickup(int direction)
 	{
-		if (pickedUpObject)
+		if (kpickup)
 		{
+			float heatThrowPower = 4 + heat * kcc.ThrowPower;
+			kpickup.pv.RPC("SyncThrow", RpcTarget.AllBuffered, playerIndex, heatThrowPower * direction, transform.position, transform.rotation.eulerAngles);
 			pv.RPC("syncThrowPickup", RpcTarget.All);
 		}
 	}
@@ -210,7 +191,6 @@ public class KPlayer : MonoBehaviour
 	[PunRPC]
 	public void syncThrowPickup()
 	{
-		pickedUpObject = null;
 		kpickup = null;
 		kanim.anim.SetBool("PickUp", false);
 		kanim.anim.SetBool("Carrying", false);
@@ -243,6 +223,7 @@ public class KPlayer : MonoBehaviour
 		yield return new WaitForSeconds(0.5f);
 		if (kpickup)
 		{
+			kpickup.pv.RPC("SyncPickup", RpcTarget.AllBuffered, playerIndex, transform.position);
 			kanim.anim.SetBool("PickUp", false);
 			kanim.anim.SetBool("Carrying", true);
 		}
@@ -250,8 +231,7 @@ public class KPlayer : MonoBehaviour
 
 	public void StartPickup()
 	{
-		pickedUpObject = objectInSight;
-		kpickup = pickedUpObject.GetComponent<KPickup>();
+		kpickup = objectInSight.GetComponent<KPickup>();
 		pv.RPC("syncStartPickup", RpcTarget.All);
 	}
 

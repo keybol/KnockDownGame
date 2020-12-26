@@ -48,6 +48,10 @@ MonoBehaviour:
   - SyncOnLanded
   - syncStartPickup
   - syncThrowPickup
+  - Dropped
+  - PickedUp
+  - SyncPickup
+  - SyncThrow
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

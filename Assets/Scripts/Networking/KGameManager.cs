@@ -8,10 +8,10 @@ using UnityEngine.UI;
 
 public class KGameManager : MonoBehaviour
 {
-	[SerializeField] public int playerIndex;
 	[SerializeField] public PhotonView pv;
 	[SerializeField] public PlayerSpawner playerSpawner;
 	[SerializeField] public GameObject playerUIPanel;
+	public List<KPlayer> kPlayers;
 	private static KGameManager instance;
 
 	public static KGameManager Instance
