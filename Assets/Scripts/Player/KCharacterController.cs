@@ -28,6 +28,8 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 {
 	[SerializeField] public KPlayer kplayer;
 	[SerializeField] public KinematicCharacterMotor Motor;
+	public Vector3 spawnPoint;
+	public Quaternion spawnRotation;
 
 	[Header("Stats")]
 	public float Stamina;
@@ -115,9 +117,13 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	private void Start()
 	{
 		Motor.CharacterController = this;
+		spawnPoint = Motor.TransientPosition;
+		spawnRotation = Motor.TransientRotation;
 	}
 	private void Update()
 	{
+		if (transform.position.y < -5)
+			Motor.SetPositionAndRotation(spawnPoint, spawnRotation);
 		SetGlobalInfoData();
 		SetInputs();
 	}

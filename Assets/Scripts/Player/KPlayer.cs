@@ -282,7 +282,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	{
 		if (!pv.IsMine)
 			return;
-		if(humanPlayer)
+		if (humanPlayer)
 			MovementStickValue = controls.Player.Move.ReadValue<Vector2>();
 		forward = transform.TransformDirection(Vector3.forward);
 		rayOrigin = transform.position + transform.up * 0.25f;
@@ -316,6 +316,11 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		if(!humanPlayer)
 			navMesh.enabled = true;
 		smoothSync.enabled = true;
+	}
+
+	public void ShakeScreen()
+	{
+		ScreenShaker.Instance.ShakeScreen(0.2f);
 	}
 
 	void OnDrawGizmos()

@@ -137,6 +137,7 @@ public class KPickup : MonoBehaviour, ICharacterController
 		kplayer.kcc.IgnoredColliders.Remove(this.GetComponent<Collider>());
 		if (pickupKPlayer)
 		{
+			ScreenShaker.Instance.ShakeScreen(0.2f);
 			pickupKPlayer.Carried = false;
 			pickupKPlayer.kanim.anim.Play("GetUp.StandUpFromBack");
 			//pickupKPlayer.smoothSync.enabled = true;

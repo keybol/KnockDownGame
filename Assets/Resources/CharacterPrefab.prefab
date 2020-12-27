@@ -104,6 +104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kplayer: {fileID: 3813557656818710890}
   Motor: {fileID: 3813557656818710891}
+  spawnPoint: {x: 0, y: 0, z: 0}
+  spawnRotation: {x: 0, y: 0, z: 0, w: 0}
   Stamina: 0
   InvincibilityLength: 0
   MinThrowPower: 0
