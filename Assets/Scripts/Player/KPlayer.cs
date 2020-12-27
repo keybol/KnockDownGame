@@ -11,6 +11,7 @@ using UnityEngine.InputSystem.Controls;
 using Photon.Pun;
 using Smooth;
 using Photon.Realtime;
+using UnityEngine.AI;
 
 public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 {
@@ -18,9 +19,16 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public Collider myCollider;
 	public PhotonView pv;
 	public SmoothSyncPUN2 smoothSync;
-	public CharacterModel characterModel;
+	public CharacterModel[] characterModel;
 	public GameObject PlayerCharacter;
+	public NavMeshAgent navMesh;
+	public AINavigation aiNav;
+	public bool humanPlayer;
+	public int characterNumber;
 	public int skinNumber;
+	public string botName;
+	public int botCharacterNumber;
+	public int botSkinNumber;
 	public int playerIndex;
 	public KCharacterController kcc;
 	public KAnimator kanim;
@@ -51,6 +59,13 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	{
 		object[] objecttype = pv.InstantiationData;
 		playerIndex = (int)objecttype[0];
+		if (objecttype.Length == 4)
+		{
+			humanPlayer = false;
+			botName = (string)objecttype[1];
+			botCharacterNumber = (int)objecttype[2];
+			botSkinNumber = (int)objecttype[3];
+		}
 		KGameManager.Instance.kPlayers[playerIndex] = this;
 	}
 
@@ -73,19 +88,12 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public void Awake()
 	{
 		playerKPickup.enabled = false;
-		PlayerCharacter = Instantiate(characterModel.characterModel[skinNumber], transform);
-		kanim.anim.avatar = PlayerCharacter.GetComponent<Animator>().avatar;
-		itemAnchor = kanim.anim.GetBoneTransform(HumanBodyBones.Head);
 		if (!pv.IsMine)
 			return;
 		controls = new KInputActions();
-		controls.Player.Move.performed += context =>
-		{
-			MovementStickValue = context.ReadValue<Vector2>();
-		};
 		controls.Player.Jump.performed += context =>
 		{
-			if (Crouch)
+			if (Crouch || !humanPlayer)
 				return;
 			var button = context.control as ButtonControl;
 			if (button.wasPressedThisFrame)
@@ -95,6 +103,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		};
 		controls.Player.Crouch.performed += context =>
 		{
+			if (!humanPlayer)
+				return;
 			var button = context.control as ButtonControl;
 			if (button.wasPressedThisFrame)
 				ActionPressed();
@@ -103,18 +113,24 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		};
 		controls.Player.DodgeLeft.performed += context =>
 		{
+			if (!humanPlayer)
+				return;
 			var button = context.control as ButtonControl;
 			if (button.wasPressedThisFrame)
 				DodgePressed();
 		};
 		controls.Player.DodgeRight.performed += context =>
 		{
+			if (!humanPlayer)
+				return;
 			var button = context.control as ButtonControl;
 			if (button.wasPressedThisFrame)
 				DodgePressed();
 		};
 		controls.UI.Exit.performed += context =>
 		{
+			if (!humanPlayer)
+				return;
 			ExitPressed();
 		};
 	}
@@ -187,10 +203,11 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		{
 			float heatThrowPower = kcc.MinThrowPower + heat * kcc.ThrowPower;
 			Vector3 throwPosition = kpickup.transform.position;
-			throwPosition.y = 1.27f;
+			if(direction == -1)
+				throwPosition.y = transform.position.y + 1.02f;
 			if(kpickup.pickupKPlayer)
-				throwPosition.y = 1.77f;
-			kpickup.pv.RPC("SyncThrow", RpcTarget.AllBuffered, playerIndex, heatThrowPower * direction, throwPosition, kpickup.transform.rotation.eulerAngles.y);
+				throwPosition.y = transform.position.y + 1.52f;
+			kpickup.pv.RPC("SyncThrow", RpcTarget.All, playerIndex, heatThrowPower * direction, throwPosition, kpickup.transform.rotation.eulerAngles.y);
 			pv.RPC("syncThrowPickup", RpcTarget.All);
 		}
 	}
@@ -231,13 +248,32 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public void StartPickup()
 	{
 		kpickup = objectInSight.GetComponent<KPickup>();
-		kpickup.pv.RPC("SyncPickup", RpcTarget.AllBuffered, playerIndex);
+		kpickup.pv.RPC("SyncPickup", RpcTarget.All, playerIndex);
 		pv.RPC("syncStartPickup", RpcTarget.All);
 	}
 
 	private void Start()
 	{
-		Name = pv.Owner.NickName;
+		KGameManager.Instance.cvgroup.m_Targets[playerIndex].target = transform;
+		KGameManager.Instance.cvgroup.m_Targets[playerIndex].radius = 0.25f;
+		if (humanPlayer)
+		{
+			KGameManager.Instance.cvgroup.m_Targets[playerIndex].radius = 4;
+			characterNumber = (int)pv.Owner.CustomProperties["CharacterNumber"];
+			skinNumber = (int)pv.Owner.CustomProperties["SkinNumber"];
+			Name = pv.Owner.NickName;
+			aiNav.enabled = false;
+			navMesh.enabled = false;
+		}
+		else
+		{
+			characterNumber = botCharacterNumber;
+			skinNumber = botSkinNumber;
+			Name = botName;
+		}
+		PlayerCharacter = Instantiate(characterModel[characterNumber].characterModel[skinNumber], transform);
+		kanim.anim.avatar = PlayerCharacter.GetComponent<Animator>().avatar;
+		itemAnchor = kanim.anim.GetBoneTransform(HumanBodyBones.Head);
 		playerUIPrefab = Instantiate(playerUIPrefab);
 		playerUIPrefab.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
 	}
@@ -246,6 +282,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	{
 		if (!pv.IsMine)
 			return;
+		if(humanPlayer)
+			MovementStickValue = controls.Player.Move.ReadValue<Vector2>();
 		forward = transform.TransformDirection(Vector3.forward);
 		rayOrigin = transform.position + transform.up * 0.25f;
 		if (CheckRaycast())
@@ -271,6 +309,13 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		if (Physics.SphereCast(rayOrigin, assistRadius, forward, out hit, pickupDist, PlayerMask))
 			return true;
 		return false;
+	}
+
+	public void EnableSmoothSync()
+	{
+		if(!humanPlayer)
+			navMesh.enabled = true;
+		smoothSync.enabled = true;
 	}
 
 	void OnDrawGizmos()

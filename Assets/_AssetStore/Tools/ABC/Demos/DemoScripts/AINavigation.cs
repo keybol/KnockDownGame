@@ -436,152 +436,6 @@ public class AINavigation : MonoBehaviour {
 	}
 
     /// <summary>
-    /// Starts an animation for the component depending on the state given
-    /// </summary>
-    /// <param name="State">The animation to play</param>
-    private void StartAnimation(AnimationState State) {
-
-        if (this.ani == null)
-            return;
-
-        // set variables to be used later 
-        string animatorParameter = "";
-        float animatorOnValue = 0;
-
-
-
-        switch (State) {
-            case AnimationState.Wander:
-
-                animatorParameter = this.wanderAnimatorParameter;
-                animatorOnValue = this.wanderSpeed;
-
-                break;
-            case AnimationState.ToDestination:
-
-                animatorParameter = this.destinationAnimatorParameter;
-                animatorOnValue = this.speed;
-
-                break;
-            case AnimationState.RotateAroundRight:
-
-                animatorParameter = this.rotateAroundRightAnimatorParameter;
-                animatorOnValue = this.rotationSpeed;
-
-                break;
-            case AnimationState.RotateAroundLeft:
-
-                animatorParameter = this.rotateAroundLeftAnimatorParameter;
-                animatorOnValue = this.rotationSpeed;
-
-                break;
-            case AnimationState.ChangeDistanceForward:
-
-                animatorParameter = this.moveTowardsAnimatorParameter;
-                animatorOnValue = this.moveTowardsSpeed;
-
-                break;
-            case AnimationState.ChangeDistanceBackward:
-
-                animatorParameter = this.moveBackAnimatorParameter;
-                animatorOnValue = this.moveBackSpeed;
-
-                break;
-        }
-
-
-        // if animator parameter is null then  end here. 
-        if (animatorParameter == "")
-            return;
-
-        //Start Animation
-        ani.SetFloat(animatorParameter, animatorOnValue);
-
-
-    }
-
-
-    /// <summary>
-    /// Ends an animation for the component depending on the state given
-    /// </summary>
-    /// <param name="State">The animation to play</param>
-    private void EndAnimation(AnimationState State) {
-
-        if (this.ani == null || this.ani.gameObject.activeInHierarchy == false)
-            return;
-
-        // set variables to be used later 
-        string animatorParameter = "";
-        float animatorOffValue = 0;
-
-
-
-        switch (State) {
-            case AnimationState.Wander:
-
-                animatorParameter = this.wanderAnimatorParameter;
-                animatorOffValue = 0;
-
-                break;
-            case AnimationState.ToDestination:
-
-                animatorParameter = this.destinationAnimatorParameter;
-                animatorOffValue = 0;
-
-                break;
-            case AnimationState.RotateAroundRight:
-
-                animatorParameter = this.rotateAroundRightAnimatorParameter;
-                animatorOffValue = 0;
-
-                break;
-            case AnimationState.RotateAroundLeft:
-
-                animatorParameter = this.rotateAroundLeftAnimatorParameter;
-                animatorOffValue = 0;
-
-                break;
-            case AnimationState.ChangeDistanceForward:
-
-                animatorParameter = this.moveTowardsAnimatorParameter;
-                animatorOffValue = 0;
-
-                break;
-            case AnimationState.ChangeDistanceBackward:
-
-                animatorParameter = this.moveBackAnimatorParameter;
-                animatorOffValue = 0;
-
-                break;
-        }
-
-
-        // if animator parameter is null then  end here. 
-        if (animatorParameter == "")
-            return;
-
-        //Start Animation
-        ani.SetFloat(animatorParameter, animatorOffValue);
-
-
-    }
-
-    /// <summary>
-    /// Ends all known animations for the component
-    /// </summary>
-    /// <param name="State">The animation to play</param>
-    private void EndAllAnimations() {
-
-        if (this.ani == null)
-            return;
-
-        foreach (AnimationState state in System.Enum.GetValues(typeof(AnimationState))) {
-            this.EndAnimation(state);
-        }
-
-    }
-
-    /// <summary>
     /// Will search in a radius and set the destination if the correct tag has been found
     /// </summary>
     private void FindDestination() {
@@ -674,11 +528,9 @@ public class AINavigation : MonoBehaviour {
             this.navAgent.ResetPath();
         }
  
-        this.destination = null;
+       this.destination = null;
        this.destinationSet = false;
        this.wanderSet = false;
-       this.EndAllAnimations();
-       
     }
 
     /// <summary>
@@ -711,17 +563,13 @@ public class AINavigation : MonoBehaviour {
         Vector3 randomDestination = meTransform.position + Random.insideUnitSphere * this.wanderAreaRange;
         NavMeshHit hit;
 
-
-
         //if Position is not found then return
         if (NavMesh.SamplePosition(randomDestination, out hit, this.wanderRange, 1) == false)
             return;
 
-
         // else set destination to new random destination 
         navAgent.SetDestination(hit.position);
-		navAgent.speed = this.wanderSpeed;
-		kplayer.MovementStickValue = new Vector2(navAgent.velocity.x, navAgent.velocity.z);
+		//navAgent.speed = this.wanderSpeed;
 
 		//No longer require a stopping distance as this is a random wander so will set it to a hardcoded value
 		navAgent.stoppingDistance = 2f;
@@ -733,12 +581,6 @@ public class AINavigation : MonoBehaviour {
         //we are wandering
         this.wanderSet = true;
         this.wanderSetTime = Time.time;
-
-        //Start wander animation
-        this.StartAnimation(AnimationState.Wander);
-
-
-
     }
 
     /// <summary>
@@ -780,7 +622,6 @@ public class AINavigation : MonoBehaviour {
 
         if (this.wanderSet) {
             this.wanderSet = false;
-            this.EndAnimation(AnimationState.Wander);
         }
 
 
@@ -789,28 +630,20 @@ public class AINavigation : MonoBehaviour {
 
             this.AtDestinationBehaviourManager();
 
-        } else if (this.changeDestinationMovingTowards && Vector3.Distance(this.meTransform.position, this.destination.position) <= this.changeDestinationMoveTowardsStartingDistance+1) {    
-            // else if entity is moving towards destination and the distance between entity and destination has not increased since the entity started moving then start the move forward animation and set the speed 
-            this.StartAnimation(AnimationState.ChangeDistanceForward);
-			navAgent.speed = this.moveTowardsSpeed;
-			kplayer.MovementStickValue = new Vector2(navAgent.velocity.x, navAgent.velocity.z);
+        } else if (this.changeDestinationMovingTowards && Vector3.Distance(this.meTransform.position, this.destination.position) <= this.changeDestinationMoveTowardsStartingDistance+1) {
+			// else if entity is moving towards destination and the distance between entity and destination has not increased since the entity started moving then start the move forward animation and set the speed 
+			//navAgent.speed = this.moveTowardsSpeed;
 
 		} else { 
             // else move towards destination as normal stopping any previous stop at destination behaviours
             this.StopDestinationBehaviours();
 
-            //set speed and start animation
-            this.StartAnimation(AnimationState.ToDestination);
-			navAgent.speed = this.speed;
-			kplayer.MovementStickValue = new Vector2(navAgent.velocity.x, navAgent.velocity.z);
-
+			//navAgent.speed = this.speed;
 		}
 
         //If the agent was stopped previously start it up again
         if (navAgent.isStopped == true)
             navAgent.isStopped = false;
-
-
     }
 
     /// <summary>
@@ -818,16 +651,12 @@ public class AINavigation : MonoBehaviour {
     /// </summary>
     private void AtDestinationBehaviourManager() {
 
-        //Stop main movement animation
-        this.EndAnimation(AnimationState.ToDestination);
-
         if (this.destinationSet == false)
             return;
 
         //If we was previously in the behaviour of changing distance and moving towards we can turn this off now 
         if (this.changeDestinationMovingTowards) {
             this.changeDestinationMovingTowards = false;
-            this.EndAnimation(AnimationState.ChangeDistanceForward);
         }
 
 
@@ -860,22 +689,18 @@ public class AINavigation : MonoBehaviour {
         //Stop moving away
         if (this.changeDestinationMovingAway) {
             this.changeDestinationMovingAway = false;
-            this.EndAnimation(AnimationState.ChangeDistanceBackward);
         }
 
         //Stop moving towards
         if (this.changeDestinationMovingTowards) {
             this.changeDestinationMovingTowards = false;
             this.changeDestinationMoveTowardsStartingDistance = 0f;
-            this.EndAnimation(AnimationState.ChangeDistanceForward);
         }
 
         //Stop rotating around
         if (this.rotateAroundDestination) {
             this.rotateAroundDestination = false;
             this.rotateAroundDirection = 0;
-            this.EndAnimation(AnimationState.RotateAroundRight);
-            this.EndAnimation(AnimationState.RotateAroundLeft);
         }
 
     }
@@ -891,7 +716,6 @@ public class AINavigation : MonoBehaviour {
         //if we have rotated for the duration set then make sure to turn off rotation
         if (Time.time - rotateAroundDestinationStartTime > this.rotateAroundDestinationDuration) {
             this.rotateAroundDestination = false;   
-            this.EndAnimation(this.rotateAroundDirection == 1 ? AnimationState.RotateAroundRight : AnimationState.RotateAroundLeft);
             //reset direction
             this.rotateAroundDirection = 0; 
         }
@@ -907,10 +731,6 @@ public class AINavigation : MonoBehaviour {
 
         //Rotate around destination by speed set
         transform.RotateAround(this.destination.position, this.rotateAroundDirection == 1 ? Vector3.down : Vector3.up, this.rotationSpeed * Time.deltaTime);
-
-        //Start Animation
-        this.StartAnimation(this.rotateAroundDirection == 1 ? AnimationState.RotateAroundRight : AnimationState.RotateAroundLeft);
-
     }
 
 
@@ -939,8 +759,6 @@ public class AINavigation : MonoBehaviour {
                 navAgent.stoppingDistance = Random.Range(navAgent.stoppingDistance, this.minimumStopDistance);
                 //Tell rest of component we are moving towards destination
                 this.changeDestinationMovingTowards = true;
-                //Start the moving forward animation to get a head start
-                StartAnimation(AnimationState.ChangeDistanceForward);
                 //Track the current distance between destination and entity. If this distance ever grows then this behaviour will stop as entity is no longer at destination and needs to reach it via normal method
                 this.changeDestinationMoveTowardsStartingDistance = Vector3.Distance(meTransform.position, destination.position);
                 //Stop loop
@@ -980,21 +798,13 @@ public class AINavigation : MonoBehaviour {
         //If we are close to the stopping distance then end the moving away 
         if (Vector3.Distance(this.meTransform.position, this.destination.position) >= navAgent.stoppingDistance - 2.5) {
             this.changeDestinationMovingAway = false;
-            this.EndAnimation(AnimationState.ChangeDistanceBackward);
             return;
         }
 
         //else move back
         transform.position = Vector3.MoveTowards(this.meTransform.position, this.destination.position, -1 * this.moveBackSpeed * Time.deltaTime);
-
-        //Start Animation
-        this.StartAnimation(AnimationState.ChangeDistanceBackward);
     }
-
-
-
-
-
+	
     #endregion
 
 
@@ -1015,8 +825,6 @@ public class AINavigation : MonoBehaviour {
        this.navAgent = meTransform.GetComponent<NavMeshAgent>();
        this.ani = meTransform.GetComponentInChildren<Animator>();
 
-
-
         //Invoke our wander and set destination methods
         InvokeRepeating("WanderManager", 0.5f, 1f);
         InvokeRepeating("DestinationManager", Random.Range(this.setDestinationMinDelay, this.setDestinationMaxDelay), 0.5f);
@@ -1033,24 +841,21 @@ public class AINavigation : MonoBehaviour {
             this.ABCEventsCont.onAbilityActivation -= this.DisableNavigation;
             this.ABCEventsCont.onAbilityActivationComplete -= this.EnableNavigation;
         }
-
-
     }
 
 
 
 
-    void Update() {
-
-
-        //If enabled then rotate around destination
-        if (this.rotateAroundDestination)
+    void Update()
+	{
+		kplayer.MovementStickValue = new Vector2(navAgent.velocity.x, navAgent.velocity.z);
+		//If enabled then rotate around destination
+		if (this.rotateAroundDestination)
             this.RotateAroundDestination();
 
         //If enabled then move away from destination
         if (this.changeDestinationMovingAway)
             this.MoveAwayFromDestination();
-
     }
 
     private void FixedUpdate() {

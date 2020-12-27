@@ -20,12 +20,14 @@ public class ConnectionManager : MonoBehaviourPunCallbacks
 	[SerializeField] private TextMeshProUGUI statusText;
 	[SerializeField] private TextMeshProUGUI versionText;
 	[SerializeField] private TextMeshProUGUI ccuText;
+	[SerializeField] private Button[] skinButtons;
 	[SerializeField] private Button[] serverButtons;
 	private bool tryConnecting;
 	private bool isConnecting;
 	private int randomRoomNumber;
 	private string joinCode = "";
 	private ConnectionMode connectionMode = ConnectionMode.Create;
+	private ExitGames.Client.Photon.Hashtable MyPlayerProperties = new ExitGames.Client.Photon.Hashtable();
 
 	public override void OnEnable()
 	{
@@ -86,8 +88,16 @@ public class ConnectionManager : MonoBehaviourPunCallbacks
 			if (joinCode == "" || joinCode.Length < 4)
 				return;
 			StartCoroutine(StartConnecting());
+			SetCustomProperties();
 			tryConnecting = true;
 		}
+	}
+
+	void SetCustomProperties()
+	{
+		MyPlayerProperties["CharacterNumber"] = AvatarManager.Instance.characterNumber;
+		MyPlayerProperties["SkinNumber"] = AvatarManager.Instance.skinNumber;
+		PhotonNetwork.LocalPlayer.CustomProperties = MyPlayerProperties;
 	}
 
 	public override void OnConnectedToMaster()

@@ -81,30 +81,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""Press(behavior=2)""
-                },
-                {
-                    ""name"": ""LMB"",
-                    ""type"": ""Button"",
-                    ""id"": ""2c08951a-323f-4a9d-9d9d-8b023d305c68"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": ""Press(behavior=2)""
-                },
-                {
-                    ""name"": ""RMB"",
-                    ""type"": ""Button"",
-                    ""id"": ""f0d9a823-74c2-4356-82ee-4193abadafa3"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": ""Press(behavior=2)""
-                },
-                {
-                    ""name"": ""RightInputHold"",
-                    ""type"": ""Button"",
-                    ""id"": ""f3f2a5cf-b4c2-4658-9c8a-a2fead9cddda"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": ""Press(behavior=2)""
                 }
             ],
             ""bindings"": [
@@ -330,28 +306,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""375d554f-5e67-4b78-9b33-052ebbb908be"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""LMB"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""864f1dd4-c221-4e06-a688-b42723461b7d"",
-                    ""path"": ""<Mouse>/rightButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""RMB"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""e089a838-d772-4929-9f19-9a4345bc4987"",
                     ""path"": ""<Touchscreen>/touch0/delta"",
                     ""interactions"": """",
@@ -391,17 +345,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""processors"": ""ScaleVector2(x=5,y=5)"",
                     ""groups"": ""Gamepad"",
                     ""action"": ""LookGamepad"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9c705ef1-340a-4f3d-80a5-7bc06e475b4e"",
-                    ""path"": ""<Gamepad>/rightShoulder"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""RightInputHold"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -518,6 +461,14 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""type"": ""Button"",
                     ""id"": ""4b27b03f-902a-4006-a183-d5e1bd228e79"",
                     ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Rotate"",
+                    ""type"": ""Value"",
+                    ""id"": ""cde4e190-44bd-4cbc-9005-5a917f3d4553"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -951,6 +902,17 @@ public class @KInputActions : IInputActionCollection, IDisposable
                     ""action"": ""Cancel"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b23cbc0c-5335-4689-b66b-510a1aa14d68"",
+                    ""path"": ""<Gamepad>/rightStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -1028,9 +990,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
         m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
         m_Player_DodgeLeft = m_Player.FindAction("DodgeLeft", throwIfNotFound: true);
         m_Player_DodgeRight = m_Player.FindAction("DodgeRight", throwIfNotFound: true);
-        m_Player_LMB = m_Player.FindAction("LMB", throwIfNotFound: true);
-        m_Player_RMB = m_Player.FindAction("RMB", throwIfNotFound: true);
-        m_Player_RightInputHold = m_Player.FindAction("RightInputHold", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Point = m_UI.FindAction("Point", throwIfNotFound: true);
@@ -1044,6 +1003,7 @@ public class @KInputActions : IInputActionCollection, IDisposable
         m_UI_Submit = m_UI.FindAction("Submit", throwIfNotFound: true);
         m_UI_Exit = m_UI.FindAction("Exit", throwIfNotFound: true);
         m_UI_Cancel = m_UI.FindAction("Cancel", throwIfNotFound: true);
+        m_UI_Rotate = m_UI.FindAction("Rotate", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1101,9 +1061,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Crouch;
     private readonly InputAction m_Player_DodgeLeft;
     private readonly InputAction m_Player_DodgeRight;
-    private readonly InputAction m_Player_LMB;
-    private readonly InputAction m_Player_RMB;
-    private readonly InputAction m_Player_RightInputHold;
     public struct PlayerActions
     {
         private @KInputActions m_Wrapper;
@@ -1116,9 +1073,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
         public InputAction @Crouch => m_Wrapper.m_Player_Crouch;
         public InputAction @DodgeLeft => m_Wrapper.m_Player_DodgeLeft;
         public InputAction @DodgeRight => m_Wrapper.m_Player_DodgeRight;
-        public InputAction @LMB => m_Wrapper.m_Player_LMB;
-        public InputAction @RMB => m_Wrapper.m_Player_RMB;
-        public InputAction @RightInputHold => m_Wrapper.m_Player_RightInputHold;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1152,15 +1106,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 @DodgeRight.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeRight;
                 @DodgeRight.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeRight;
                 @DodgeRight.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodgeRight;
-                @LMB.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLMB;
-                @LMB.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLMB;
-                @LMB.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLMB;
-                @RMB.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRMB;
-                @RMB.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRMB;
-                @RMB.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRMB;
-                @RightInputHold.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightInputHold;
-                @RightInputHold.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightInputHold;
-                @RightInputHold.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightInputHold;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1189,15 +1134,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 @DodgeRight.started += instance.OnDodgeRight;
                 @DodgeRight.performed += instance.OnDodgeRight;
                 @DodgeRight.canceled += instance.OnDodgeRight;
-                @LMB.started += instance.OnLMB;
-                @LMB.performed += instance.OnLMB;
-                @LMB.canceled += instance.OnLMB;
-                @RMB.started += instance.OnRMB;
-                @RMB.performed += instance.OnRMB;
-                @RMB.canceled += instance.OnRMB;
-                @RightInputHold.started += instance.OnRightInputHold;
-                @RightInputHold.performed += instance.OnRightInputHold;
-                @RightInputHold.canceled += instance.OnRightInputHold;
             }
         }
     }
@@ -1217,6 +1153,7 @@ public class @KInputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_UI_Submit;
     private readonly InputAction m_UI_Exit;
     private readonly InputAction m_UI_Cancel;
+    private readonly InputAction m_UI_Rotate;
     public struct UIActions
     {
         private @KInputActions m_Wrapper;
@@ -1232,6 +1169,7 @@ public class @KInputActions : IInputActionCollection, IDisposable
         public InputAction @Submit => m_Wrapper.m_UI_Submit;
         public InputAction @Exit => m_Wrapper.m_UI_Exit;
         public InputAction @Cancel => m_Wrapper.m_UI_Cancel;
+        public InputAction @Rotate => m_Wrapper.m_UI_Rotate;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1274,6 +1212,9 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 @Cancel.started -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
                 @Cancel.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
                 @Cancel.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
+                @Rotate.started -= m_Wrapper.m_UIActionsCallbackInterface.OnRotate;
+                @Rotate.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnRotate;
+                @Rotate.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnRotate;
             }
             m_Wrapper.m_UIActionsCallbackInterface = instance;
             if (instance != null)
@@ -1311,6 +1252,9 @@ public class @KInputActions : IInputActionCollection, IDisposable
                 @Cancel.started += instance.OnCancel;
                 @Cancel.performed += instance.OnCancel;
                 @Cancel.canceled += instance.OnCancel;
+                @Rotate.started += instance.OnRotate;
+                @Rotate.performed += instance.OnRotate;
+                @Rotate.canceled += instance.OnRotate;
             }
         }
     }
@@ -1370,9 +1314,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
         void OnCrouch(InputAction.CallbackContext context);
         void OnDodgeLeft(InputAction.CallbackContext context);
         void OnDodgeRight(InputAction.CallbackContext context);
-        void OnLMB(InputAction.CallbackContext context);
-        void OnRMB(InputAction.CallbackContext context);
-        void OnRightInputHold(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
@@ -1387,5 +1328,6 @@ public class @KInputActions : IInputActionCollection, IDisposable
         void OnSubmit(InputAction.CallbackContext context);
         void OnExit(InputAction.CallbackContext context);
         void OnCancel(InputAction.CallbackContext context);
+        void OnRotate(InputAction.CallbackContext context);
     }
 }

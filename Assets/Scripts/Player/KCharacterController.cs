@@ -155,10 +155,6 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 		if (!kplayer.pv.IsMine)
 		{
 			Motor.enabled = false;
-			Vector3 bodyWorldPosition = kplayer.smoothSync.getPosition();
-			Quaternion bodyWorldRotation = kplayer.smoothSync.getRotation();
-			Motor.SetPosition(bodyWorldPosition, false);
-			Motor.SetRotation(bodyWorldRotation, false);
 		}
 		else
 		{

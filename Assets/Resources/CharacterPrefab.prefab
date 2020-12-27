@@ -19,6 +19,8 @@ GameObject:
   - component: {fileID: 4955885442554072529}
   - component: {fileID: 8837650225908451134}
   - component: {fileID: 675622845151156941}
+  - component: {fileID: 5336136372179446762}
+  - component: {fileID: 5970541072048095272}
   m_Layer: 9
   m_Name: CharacterPrefab
   m_TagString: Untagged
@@ -56,9 +58,22 @@ MonoBehaviour:
   myCollider: {fileID: 3813557656818710888}
   pv: {fileID: 6655827189109091450}
   smoothSync: {fileID: 4955885442554072529}
-  characterModel: {fileID: 11400000, guid: 5a0a426956676fe4980f0e5b96e1d58f, type: 2}
+  characterModel:
+  - {fileID: 11400000, guid: 0298730c336e1d64a912d0f38f48f6c9, type: 2}
+  - {fileID: 11400000, guid: 9db9d3c7981c8ae40a616f0d064ed2bf, type: 2}
+  - {fileID: 11400000, guid: 2216736f3cf09614a99f920b74803871, type: 2}
+  - {fileID: 11400000, guid: ec80e94ff316c5a4e91cb39fe9bce36c, type: 2}
+  - {fileID: 11400000, guid: 1f1f8746191d1714aa8fd3c6bc67981b, type: 2}
+  - {fileID: 11400000, guid: 5a0a426956676fe4980f0e5b96e1d58f, type: 2}
   PlayerCharacter: {fileID: 0}
-  skinNumber: 0
+  navMesh: {fileID: 5970541072048095272}
+  aiNav: {fileID: 5336136372179446762}
+  humanPlayer: 1
+  characterNumber: 0
+  skinNumber: 2
+  botName: 
+  botCharacterNumber: 0
+  botSkinNumber: 0
   playerIndex: 0
   kcc: {fileID: 3813557656818710893}
   kanim: {fileID: 3813557656818710889}
@@ -157,7 +172,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.25
+  m_Radius: 0.3
   m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
@@ -189,7 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Capsule: {fileID: 3813557656818710888}
-  CapsuleRadius: 0.25
+  CapsuleRadius: 0.3
   CapsuleHeight: 1.4
   CapsuleYOffset: 0.7
   CapsulePhysicsMaterial: {fileID: 0}
@@ -202,7 +217,7 @@ MonoBehaviour:
   StepHandling: 1
   MaxStepHeight: 0.5
   AllowSteppingWithoutStableGrounding: 0
-  MinRequiredStepDepth: 0.1
+  MinRequiredStepDepth: 0
   LedgeAndDenivelationHandling: 0
   MaxStableDistanceFromLedge: 0
   MaxVelocityForLedgeSnap: 0
@@ -355,3 +370,80 @@ MonoBehaviour:
   pv: {fileID: 6655827189109091450}
   Gravity: {x: 0, y: -9.81, z: 0}
   pickupKPlayer: {fileID: 3813557656818710890}
+--- !u!114 &5336136372179446762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e91e3d21312db4baedfe431a41c24a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kplayer: {fileID: 3813557656818710890}
+  navEnabled: 1
+  disableOnABCActivation: 1
+  wanderTillDestinationSet: 1
+  wanderInterval: 0
+  wanderAreaRange: 10
+  wanderRange: 5
+  wanderSpeed: 3
+  wanderAnimatorParameter: WalkForward
+  destinationTag: 
+  destinationSearchRadius: 10
+  clearDestinationInterval: 0
+  setDestinationMinDelay: 1
+  setDestinationMaxDelay: 5
+  speed: 10
+  destinationAnimatorParameter: Run
+  minimumStopDistance: 1
+  maximumStopDistance: 1
+  stopDistanceCheckVelocity: 1
+  alwaysFaceDestination: 1
+  lineOfSightRequired: 0
+  lineOfSightRange: 10
+  enableRotationBehaviour: 1
+  rotationInterval: 20
+  rotationMinChance: 0
+  rotationMaxChance: 42
+  rotationSpeed: 10
+  rotateAroundLeftAnimatorParameter: SideStepLeft
+  rotateAroundRightAnimatorParameter: SideStepRight
+  rotationMinDuration: 0
+  rotationMaxDuration: 0
+  enableDistanceBehaviour: 0
+  distanceChangeInterval: 20
+  distanceChangeMinChance: 50
+  distanceChangeMaxChance: 100
+  moveBackMinChance: 0
+  moveBackMaxChance: 50
+  moveBackSpeed: 3
+  moveBackAnimatorParameter: WalkBack
+  moveForwardMinChance: 51
+  moveForwardMaxChance: 100
+  moveTowardsSpeed: 3
+  moveTowardsAnimatorParameter: WalkForward
+--- !u!195 &5970541072048095272
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

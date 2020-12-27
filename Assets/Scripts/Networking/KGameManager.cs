@@ -11,6 +11,8 @@ public class KGameManager : MonoBehaviour
 	[SerializeField] public PhotonView pv;
 	[SerializeField] public PlayerSpawner playerSpawner;
 	[SerializeField] public GameObject playerUIPanel;
+	[SerializeField] public CinemachineVirtualCamera cvm;
+	[SerializeField] public CinemachineTargetGroup cvgroup;
 	public List<KPlayer> kPlayers;
 	private static KGameManager instance;
 

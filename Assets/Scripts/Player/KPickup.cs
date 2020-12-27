@@ -4,6 +4,7 @@ using Smooth;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class KPickup : MonoBehaviour, ICharacterController
 {
@@ -28,17 +29,19 @@ public class KPickup : MonoBehaviour, ICharacterController
 			pickupKPlayer.smoothSync.enabled = false;
 			pickupKPlayer.kcc.enabled = false;
 			pickupKPlayer.enabled = false;
+			if(!pickupKPlayer.humanPlayer)
+				pickupKPlayer.navMesh.enabled = false;
 			Motor.CharacterController = this;
 		}
 		Motor.enabled = false;
 		kplayer = KGameManager.Instance.kPlayers[_playerIndex];
 		kplayer.kcc.IgnoredColliders.Add(this.GetComponent<Collider>());
 		transform.parent = kplayer.itemAnchor;
-		transform.localPosition = new Vector3(0, kplayer.kcc.ThrowHeight, 0f);
+		transform.localPosition = new Vector3(0, -0.25f, 0f);
 		transform.localRotation = Quaternion.Euler(Vector3.zero);
 		if (pickupKPlayer)
 		{
-			transform.localPosition = new Vector3(0, 0.5f, 0);
+			transform.localPosition = new Vector3(0, 0.25f, 0);
 			transform.localRotation = Quaternion.Euler(new Vector3(0, -90, 0f));
 		}
 	}
@@ -51,14 +54,7 @@ public class KPickup : MonoBehaviour, ICharacterController
 		Motor.SetRotation(Quaternion.Euler(new Vector3(0, _rotationY, 0)), true);
 		Motor.enabled = true;
 		Motor.BaseVelocity = kplayer.transform.forward * _heatThrowPower;
-		StartCoroutine("IgnorePlayerCollider");
 		transform.parent = null;
-	}
-
-	IEnumerator IgnorePlayerCollider()
-	{
-		yield return new WaitForSeconds(0.5f);
-		kplayer.kcc.IgnoredColliders.Remove(this.GetComponent<Collider>());
 	}
 
 	public void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
@@ -135,14 +131,17 @@ public class KPickup : MonoBehaviour, ICharacterController
 	[PunRPC]
 	public void SyncOnPickupLanded(Vector3 _position)
 	{
+		if (!kplayer)
+			return;
 		Motor.BaseVelocity = Vector3.zero;
+		kplayer.kcc.IgnoredColliders.Remove(this.GetComponent<Collider>());
 		if (pickupKPlayer)
 		{
 			pickupKPlayer.Carried = false;
-			pickupKPlayer.smoothSync.enabled = true;
+			pickupKPlayer.kanim.anim.Play("GetUp.StandUpFromBack");
+			//pickupKPlayer.smoothSync.enabled = true;
 			pickupKPlayer.kcc.enabled = true;
 			pickupKPlayer.enabled = true;
-			Motor.SetPosition(_position, true);
 			Motor.CharacterController = pickupKPlayer.kcc;
 		}
 		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledObject();

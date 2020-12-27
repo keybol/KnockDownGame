@@ -68,30 +68,6 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Press(behavior=2)"
-                },
-                {
-                    "name": "LMB",
-                    "type": "Button",
-                    "id": "2c08951a-323f-4a9d-9d9d-8b023d305c68",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "Press(behavior=2)"
-                },
-                {
-                    "name": "RMB",
-                    "type": "Button",
-                    "id": "f0d9a823-74c2-4356-82ee-4193abadafa3",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "Press(behavior=2)"
-                },
-                {
-                    "name": "RightInputHold",
-                    "type": "Button",
-                    "id": "f3f2a5cf-b4c2-4658-9c8a-a2fead9cddda",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "Press(behavior=2)"
                 }
             ],
             "bindings": [
@@ -317,28 +293,6 @@
                 },
                 {
                     "name": "",
-                    "id": "375d554f-5e67-4b78-9b33-052ebbb908be",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "LMB",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "864f1dd4-c221-4e06-a688-b42723461b7d",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "RMB",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "e089a838-d772-4929-9f19-9a4345bc4987",
                     "path": "<Touchscreen>/touch0/delta",
                     "interactions": "",
@@ -378,17 +332,6 @@
                     "processors": "ScaleVector2(x=5,y=5)",
                     "groups": "Gamepad",
                     "action": "LookGamepad",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9c705ef1-340a-4f3d-80a5-7bc06e475b4e",
-                    "path": "<Gamepad>/rightShoulder",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "RightInputHold",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -505,6 +448,14 @@
                     "type": "Button",
                     "id": "4b27b03f-902a-4006-a183-d5e1bd228e79",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "cde4e190-44bd-4cbc-9005-5a917f3d4553",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 }
@@ -936,6 +887,17 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b23cbc0c-5335-4689-b66b-510a1aa14d68",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

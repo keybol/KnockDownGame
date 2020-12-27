@@ -61,6 +61,21 @@ public class PlayerSpawner : MonoBehaviourPunCallbacks
 		object[] objecttype = new object[1];
 		objecttype[0] = id;
 		var playerObject = PhotonNetwork.Instantiate(playerPrefab.name, SpawnPoints[id].position, SpawnPoints[id].rotation, 0, objecttype);
+		for(int i = 1; i < 8; i++)
+			SpawnBots(i);
+	}
+
+	void SpawnBots(int i)
+	{
+		int characterNumber = Random.Range(0, 6);
+		int skinNumber = Random.Range(0, 3);
+		object[] objecttype = new object[4];
+		id = i;
+		objecttype[0] = id;
+		objecttype[1] = "Bot";
+		objecttype[2] = characterNumber;
+		objecttype[3] = skinNumber;
+		var playerObject = PhotonNetwork.InstantiateSceneObject(playerPrefab.name, SpawnPoints[id].position, SpawnPoints[id].rotation, 0, objecttype);
 	}
 
 	IEnumerator DisconnectAndLoad()
