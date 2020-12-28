@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2778064816923753472}
   - component: {fileID: 2778064816923753485}
   - component: {fileID: 2778064816923753486}
+  - component: {fileID: 1941780701}
   m_Layer: 11
   m_Name: Pickup
-  m_TagString: Untagged
+  m_TagString: Pickup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +131,96 @@ MonoBehaviour:
   CheckMovementInitialOverlaps: 1
   KillVelocityWhenExceedMaxMovementIterations: 1
   KillRemainingMovementWhenExceedMaxMovementIterations: 1
+--- !u!114 &1941780701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778064816923753478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af183b8c245aef0489091d765103dde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showHelpInformation: 1
+  updateEditorAtRunTime: 0
+  ABCTag: []
+  TargeterLimitations: []
+  HitAnimations: []
+  activateHitAnimationsFromAbilityHit: 1
+  activateHitAnimationsFromAbilityEffect: 1
+  randomizeHitAnimations: 0
+  hitsStopMovement: 1
+  hitStopMovementDuration: 1
+  hitStopMovementFreezePosition: 0
+  hitStopMovementDisableComponents: 1
+  HealthGUIList: []
+  showGUIImageOnHealthReduction: 0
+  imageOnHealthReduction:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  imageOnHealthReductionDuration: 1
+  maxHealth: 500
+  healthABC: 500
+  healthIntergrationType: 0
+  gcHealthID: health
+  healthRegenPerSecond: 0
+  fullHealthOnEnable: 1
+  swapModelOnZeroHealth: 0
+  swapModelToDisable:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  swapModelToEnable:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  disableEntityOnZeroHealth: 1
+  disableDelay: 1.5
+  stopMovementOnZeroHealth: 1
+  stopMovementOnZeroHealthFreezePosition: 1
+  stopMovementOnZeroHealthDisableComponents: 0
+  zeroHealthAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  zeroHealthAnimationRunnerClipSpeed: 1
+  zeroHealthAnimationRunnerClipDelay: 0
+  zeroHealthAnimationRunnerClipDuration: 1
+  zeroHealthAnimationAnimatorParameter: 
+  zeroHealthAnimationAnimatorParameterType: 0
+  zeroHealthAnimationAnimatorOnValue: 
+  zeroHealthAnimationAnimatorOffValue: 
+  zeroHealthAnimationAnimatorDuration: 3
+  EntityStatList: []
+  blockDuplicateEffectActivation: 0
+  canDamage: 1
+  effectGraphicTextGUI:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  effectGraphicTextOffset: {x: 0, y: 0, z: 0}
+  effectGraphicTextForwardOffset: 0
+  effectGraphicTextRightOffset: 0
+  effectLogGUIText:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  effectLogMaxLines: 5
+  effectLogUseDuration: 0
+  effectLogDuration: 4
+  surroundingObjectLinkedProjectile: {fileID: 0}
+  surroundingObjectLinkIsKinematic: 0
+  surroundingObjectLinkIsTrigger: 0
+  surroundingObjectLinkInterpolateState: 0
+  blockSurroundingObjectStatus: 0
+  ignoreAbilityCollision: 0
+  effectProtection: 0
+  foldOutIntegration: 0
+  editorRecordActiveEffectHistory: 0
+  editorActiveEffectHistory: []
 --- !u!1 &6717038515250457071
 GameObject:
   m_ObjectHideFlags: 0

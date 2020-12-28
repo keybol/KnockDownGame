@@ -29,8 +29,12 @@ public class KPickup : MonoBehaviour, ICharacterController
 			pickupKPlayer.smoothSync.enabled = false;
 			pickupKPlayer.kcc.enabled = false;
 			pickupKPlayer.enabled = false;
-			if(!pickupKPlayer.humanPlayer)
+			if (!pickupKPlayer.humanPlayer)
+			{
+				pickupKPlayer.abcController.enabled = false;
+				pickupKPlayer.aiNav.enabled = false;
 				pickupKPlayer.navMesh.enabled = false;
+			}
 			Motor.CharacterController = this;
 		}
 		Motor.enabled = false;
@@ -143,6 +147,7 @@ public class KPickup : MonoBehaviour, ICharacterController
 			//pickupKPlayer.smoothSync.enabled = true;
 			pickupKPlayer.kcc.enabled = true;
 			pickupKPlayer.enabled = true;
+			pickupKPlayer.abcState.AdjustHealth(-10);
 			Motor.CharacterController = pickupKPlayer.kcc;
 		}
 		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledObject();

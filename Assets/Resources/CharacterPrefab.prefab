@@ -21,9 +21,12 @@ GameObject:
   - component: {fileID: 675622845151156941}
   - component: {fileID: 5336136372179446762}
   - component: {fileID: 5970541072048095272}
+  - component: {fileID: 7162599984476030005}
+  - component: {fileID: 3497264368428156967}
+  - component: {fileID: 7073638180428705240}
   m_Layer: 9
   m_Name: CharacterPrefab
-  m_TagString: Untagged
+  m_TagString: Pickup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,6 +71,8 @@ MonoBehaviour:
   PlayerCharacter: {fileID: 0}
   navMesh: {fileID: 5970541072048095272}
   aiNav: {fileID: 5336136372179446762}
+  abcState: {fileID: 3497264368428156967}
+  abcController: {fileID: 7162599984476030005}
   humanPlayer: 1
   characterNumber: 0
   skinNumber: 2
@@ -104,8 +109,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kplayer: {fileID: 3813557656818710890}
   Motor: {fileID: 3813557656818710891}
-  spawnPoint: {x: 0, y: 0, z: 0}
-  spawnRotation: {x: 0, y: 0, z: 0, w: 0}
   Stamina: 0
   InvincibilityLength: 0
   MinThrowPower: 0
@@ -449,3 +452,544 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &7162599984476030005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943c411cf2aa2b340845e286ed47b42c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isChildInHierarchy: 0
+  Weapons: []
+  AbilityGroups: []
+  Abilities: []
+  AIRules: []
+  ManaGUIList: []
+  IconUIs: []
+  CurrentIconUI: 0
+  CurrentAbilityGroup: 0
+  CurrentWeapon: 0
+  CurrentAI: 0
+  CurrentAbility: 0
+  DraggableMode: 0
+  importAbilitiesObj: {fileID: 0}
+  showAbilityQuickEdits: 0
+  showAbilitiesInGroup: 0
+  showHelpInformation: 1
+  updateEditorAtRunTime: 0
+  showAbilityListInWindow: 1
+  enableDiagnosticLogging: 0
+  logDiagnosticToConsole: 0
+  diagnosticLog: []
+  allowAbilitiesToRandomlySwapPositions: 1
+  abilityRandomPositionSwapInterval: 3
+  entityCamera:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  enableIdleModeToggle: 1
+  inIdleMode: 0
+  idleToggleInputType: 0
+  idleToggleButton: 
+  idleToggleKey: 279
+  idleToggleDelay: 0
+  deactiveIdleModeOnAbilityInput: 1
+  enableAI: 0
+  aiRestrictAbilityTriggers: 0
+  maxAIRange: 100
+  aiPotentialTargetRetrievalIntermission: 2
+  aiRandomizePotentialTargets: 0
+  minimumAICheckIntermission: 5
+  maximumAICheckIntermission: 8
+  randomizeAIRules: 1
+  navAIEnabled: 1
+  navAIToggleIdleMode: 0
+  navAIPreventMovementWhenSwitchingIdleMode: 1
+  wanderTillDestinationSet: 0
+  wanderInterval: 10
+  wanderAreaRange: 20
+  wanderSpeed: 2
+  wanderAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  wanderAnimationRunnerClipSpeed: 1
+  wanderAnimationRunnerClipDelay: 0
+  wanderAnimationRunnerClipDuration: 1
+  wanderAnimatorParameter: 
+  wanderAnimatorParameterType: 0
+  wanderAnimatorOnValue: 
+  wanderAnimatorOffValue: 
+  wanderAnimatorDuration: 3
+  destinationTag: Pickup
+  destinationSearchRadius: 30
+  clearDestinationInterval: 0
+  speed: 5
+  toDestinationAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  toDestinationAnimationRunnerClipSpeed: 1
+  toDestinationAnimationRunnerClipDelay: 0
+  toDestinationAnimatorParameter: 
+  toDestinationAnimatorParameterType: 0
+  toDestinationAnimatorOnValue: 
+  toDestinationAnimatorOffValue: 
+  minimumStopDistance: 1
+  maximumStopDistance: 1
+  stopDistanceCheckVelocity: 1
+  alwaysFaceDestination: 1
+  faceDestinationTurnSpeed: 20
+  lineOfSightRequired: 0
+  lineOfSightRange: 25
+  enableRotationBehaviour: 0
+  rotationInterval: 25
+  rotationSpeed: 10
+  rotateAroundLeftAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  rotateAroundLeftAnimationRunnerClipSpeed: 1
+  rotateAroundLeftAnimationRunnerClipDelay: 0
+  rotateAroundLeftAnimatorParameter: 
+  rotateAroundLeftAnimatorParameterType: 0
+  rotateAroundLeftAnimatorOnValue: 
+  rotateAroundLeftAnimatorOffValue: 
+  rotateAroundRightAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  rotateAroundRightAnimationRunnerClipSpeed: 1
+  rotateAroundRightAnimationRunnerClipDelay: 0
+  rotateAroundRightAnimatorParameter: 
+  rotateAroundRightAnimatorParameterType: 0
+  rotateAroundRightAnimatorOnValue: 
+  rotateAroundRightAnimatorOffValue: 
+  rotationMinDuration: 4
+  rotationMaxDuration: 9
+  enableDistanceBehaviour: 0
+  distanceChangeInterval: 40
+  moveBackSpeed: 1
+  moveBackAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  moveBackAnimationRunnerClipSpeed: 1
+  moveBackAnimationRunnerClipDelay: 0
+  moveBackAnimatorParameter: 
+  moveBackAnimatorParameterType: 0
+  moveBackAnimatorOnValue: 
+  moveBackAnimatorOffValue: 
+  moveForwardSpeed: 1
+  moveForwardAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  moveForwardAnimationRunnerClipSpeed: 1
+  moveForwardAnimationRunnerClipDelay: 0
+  moveForwardAnimatorParameter: 
+  moveForwardAnimatorParameterType: 0
+  moveForwardAnimatorOnValue: 
+  moveForwardAnimatorOffValue: 
+  inputComboRecycleInterval: 0.5
+  abilityActivationInterval: 0.4
+  globalAbilityCoolDownAdjustment: 100
+  globalAbilityPrepareTimeAdjustment: 100
+  globalAbilityMissChance: 0
+  abilityMissMinOffset: {x: -7, y: 0, z: -6}
+  abilityMissMaxOffset: {x: 8, y: 7, z: 6}
+  inputCancelEnabled: 1
+  inputCancelInputType: 0
+  inputCancelButton: 
+  inputCancelKey: 27
+  hitsPreventCasting: 1
+  hitsPreventCastingDuration: 1.5
+  hitsInterruptCasting: 1
+  maxMana: 500
+  manaABC: 500
+  manaIntergrationType: 0
+  gcManaID: mana
+  manaRegenPerSecond: 3
+  fullManaOnEnable: 1
+  nextWeapon: 0
+  nextWeaponInputType: 0
+  nextWeaponButton: 
+  nextWeaponKey: 0
+  previousWeapon: 0
+  previousWeaponInputType: 0
+  previousWeaponButton: 
+  previousWeaponKey: 0
+  cycleWeaponsUsingMouseScroll: 1
+  reloadWeaponInputType: 0
+  reloadWeaponButton: 
+  reloadWeaponKey: 0
+  restrictDropWeaponCount: 1
+  restrictDropWeaponIfWeaponCountLessOrEqualTo: 1
+  enableWeaponParry: 0
+  weaponParryInputType: 0
+  weaponParryButton: 
+  weaponParryKey: 0
+  enableWeaponBlock: 0
+  weaponBlockInputType: 0
+  weaponBlockButton: 
+  weaponBlockKey: 0
+  maxBlockDurability: 500
+  blockDurabilityABC: 500
+  blockDurabilityIntergrationType: 0
+  gcBlockDurabilityID: blockdurability
+  blockDurabilityRegenPerSecond: 10
+  blockDurabilityRegenWhenNotBlocking: 1
+  fullBlockDurabilityOnEnable: 1
+  allowWeaponDrop: 0
+  weaponDropInputType: 0
+  weaponDropButton: 
+  weaponDropKey: 0
+  nextScroll: 1
+  nextScrollInputType: 0
+  nextScrollButton: 
+  nextScrollKey: 0
+  previousScroll: 1
+  previousScrollInputType: 0
+  previousScrollButton: 
+  previousScrollKey: 0
+  reloadScrollAbilityInputType: 0
+  reloadScrollAbilityButton: 
+  reloadScrollAbilityKey: 0
+  activateCurrentScrollAbilityInputType: 0
+  activateCurrentScrollAbilityButton: 
+  activateCurrentScrollAbilityKey: 0
+  playScrollAnimationOnEnable: 0
+  targetSelectType: 0
+  selectSoftTarget: 0
+  targetSelectRange: 40
+  targetSelectInterval: 0
+  targetSelectLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  targetSelectRaiseEvent: 0
+  targetSelectLeeway: 0
+  targetSelectLeewayRadius: 0.5
+  crosshair:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  crosshairPositionX: 0.5
+  crosshairPositionY: 0.5
+  showCrossHairOnKey: 0
+  showCrossHairInputType: 0
+  showCrossHairButton: 
+  showCrossHairKey: 324
+  crossHairOverride:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  useCrossHairOverrideAesthetics: 0
+  crossHairOverrideAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+  crossHairOverrideAestheticsPositionForwardOffset: 0
+  crossHairOverrideAestheticsPositionRightOffset: 0
+  crossHairOverrideAnimateOnEntity: 1
+  crossHairOverrideAnimateOnScrollGraphic: 0
+  crossHairOverrideAnimateOnWeapon: 0
+  crossHairOverrideAnimatorParameter: 
+  crossHairOverrideAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  crossHairOverrideAnimationRunnerClipSpeed: 1
+  crossHairOverrideAnimationRunnerClipDelay: 0
+  crossHairOverrideAnimationRunnerOnEntity: 1
+  crossHairOverrideAnimationRunnerOnScrollGraphic: 0
+  crossHairOverrideAnimationRunnerOnWeapon: 0
+  crossHairOverrideAnimatorParameterType: 0
+  crossHairOverrideAnimatorOnValue: 
+  crossHairOverrideAnimatorOffValue: 
+  crossHairOverrideParticle:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  crossHairOverrideObject:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  crossHairOverrideStartPosition: 0
+  crossHairOverridePositionAuxiliarySoftTarget: 0
+  crossHairOverridePositionOnObject:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  crossHairOverridePositionOnTag: 
+  hoverForTarget: 0
+  clickForTarget: 1
+  clickForTargetInputType: 0
+  clickForTargetButton: 
+  clickForTargetKey: 323
+  disableDeselect: 0
+  selectTargetTagOnly: 0
+  selectTargetTags: []
+  tabThroughTargets: 1
+  tabSoftTarget: 0
+  tabTargetNextInputType: 0
+  tabTargetNextButton: 
+  tabTargetNextKey: 0
+  tabTargetPrevInputType: 0
+  tabTargetPrevButton: 
+  tabTargetPrevKey: 0
+  tabTargetTagOnly: 0
+  tabTargetTags: []
+  tabTargetInCamera: 0
+  tabTargetToSelf: 0
+  autoTargetSelect: 0
+  autoTargetSoftTarget: 1
+  autoTargetInterval: 0
+  autoTargetType: 0
+  autoTargetInputType: 0
+  autoTargetButton: 
+  autoTargetKey: 0
+  autoTargetTagOnly: 0
+  autoTargetTags: []
+  autoTargetInCamera: 1
+  autoTargetSelfFacing: 0
+  autoTargetSwapClosest: 1
+  selectedTargetShader:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  selectedTargetIndicator:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  targetIndicatorFreezeRotation: 1
+  targetIndicatorOffset: {x: 0, y: 0, z: 0}
+  targetIndicatorForwardOffset: 0
+  targetIndicatorRightOffset: 0
+  targetIndicatorScaleSize: 1
+  targetIndicatorScaleFactor: 1
+  softTargetShader:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  softTargetIndicator:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  softTargetIndicatorFreezeRotation: 1
+  softTargetIndicatorOffset: {x: 0, y: 0, z: 0}
+  softTargetIndicatorForwardOffset: 0
+  softTargetIndicatorRightOffset: 0
+  softTargetIndicatorScaleSize: 1
+  softTargetIndicatorScaleFactor: 1
+  softTargetConfirmInputType: 0
+  softTargetConfirmButton: 
+  softTargetConfirmKey: 271
+  softTargetSetRaiseEvent: 0
+  abilityWorldTargetIndicator:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  abilityWorldTargetOutRangeIndicator:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  preparingAbilityGUIBar:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  preparingAbilityGUIText:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  abilityLogGUIText:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  scrollAbilityammoGUIText:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  scrollAbilityImageGUI:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  weaponAmmoGUIText:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  weaponImageGUI:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  logReadyToCastAgain: 0
+  logRange: 1
+  logFacingTarget: 1
+  logFpsSelection: 0
+  logTargetSelection: 0
+  logSoftTargetSelection: 0
+  logWorldSelection: 0
+  logAbilityActivationError: 0
+  logNoMana: 0
+  logPreparing: 0
+  logAbilityInterruption: 0
+  logInitiating: 0
+  logAbilityActivation: 0
+  logScrollAbilityEquip: 0
+  logAmmoInformation: 0
+  logBlockingInformation: 0
+  logWeaponInformation: 0
+  logParryInformation: 0
+  abilityLogMaxLines: 5
+  abilityLogUseDuration: 0
+  abilityLogDuration: 4
+  currentComboKey: 0
+  currentComboButton: 
+  recordedKeyInputHistory: 
+  currentEquippedWeaponID: -1
+  currentScrollAbilityID: -1
+  hitRestrictsAbilityActivation: 0
+  toggledAbilityRestrictsAbilityActivation: 0
+  worldTargetObject: {fileID: 0}
+  worldTargetPosition: {x: 0, y: 0, z: 0}
+  abilityWorldTargetIndicatorObj: {fileID: 0}
+  abilityWorldTargetIndicatorDefaultSize: {x: 1, y: 1, z: 1}
+  abilityWorldTargetOutRangeIndicatorObj: {fileID: 0}
+  abilityWorldTargetOutRangeIndicatorDefaultSize: {x: 1, y: 1, z: 1}
+  showCrossHairOverride: 0
+  foldOutIntegration: 0
+--- !u!114 &3497264368428156967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af183b8c245aef0489091d765103dde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showHelpInformation: 1
+  updateEditorAtRunTime: 0
+  ABCTag: []
+  TargeterLimitations: []
+  HitAnimations: []
+  activateHitAnimationsFromAbilityHit: 1
+  activateHitAnimationsFromAbilityEffect: 1
+  randomizeHitAnimations: 0
+  hitsStopMovement: 1
+  hitStopMovementDuration: 1
+  hitStopMovementFreezePosition: 0
+  hitStopMovementDisableComponents: 1
+  HealthGUIList:
+  - healthSlider:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    healthOverTimeSlider:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    healthOverTimeSliderUpdateDelay: 0.5
+    healthOverTimeSliderUpdateDuration: 0.5
+    sliderShowing: 0
+    onlyShowSliderWhenSelected: 0
+    healthText:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    textShowing: 0
+    onlyShowTextWhenSelected: 0
+  showGUIImageOnHealthReduction: 0
+  imageOnHealthReduction:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  imageOnHealthReductionDuration: 1
+  maxHealth: 100
+  healthABC: 100
+  healthIntergrationType: 0
+  gcHealthID: health
+  healthRegenPerSecond: 0
+  fullHealthOnEnable: 0
+  swapModelOnZeroHealth: 0
+  swapModelToDisable:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  swapModelToEnable:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  disableEntityOnZeroHealth: 1
+  disableDelay: 1.5
+  stopMovementOnZeroHealth: 1
+  stopMovementOnZeroHealthFreezePosition: 1
+  stopMovementOnZeroHealthDisableComponents: 0
+  zeroHealthAnimationRunnerClip:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  zeroHealthAnimationRunnerClipSpeed: 1
+  zeroHealthAnimationRunnerClipDelay: 0
+  zeroHealthAnimationRunnerClipDuration: 1
+  zeroHealthAnimationAnimatorParameter: 
+  zeroHealthAnimationAnimatorParameterType: 0
+  zeroHealthAnimationAnimatorOnValue: 
+  zeroHealthAnimationAnimatorOffValue: 
+  zeroHealthAnimationAnimatorDuration: 3
+  EntityStatList:
+  - foldOut: 1
+    statName: 
+    statValue: 0
+    textStatName:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    textStatValue:
+      refVal: {fileID: 0}
+      refName: 
+      refUpdateDateTime: 
+    textShowing: 0
+    onlyShowTextWhenSelected: 0
+  blockDuplicateEffectActivation: 0
+  canDamage: 1
+  effectGraphicTextGUI:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  effectGraphicTextOffset: {x: 0, y: 0, z: 0}
+  effectGraphicTextForwardOffset: 0
+  effectGraphicTextRightOffset: 0
+  effectLogGUIText:
+    refVal: {fileID: 0}
+    refName: 
+    refUpdateDateTime: 
+  effectLogMaxLines: 5
+  effectLogUseDuration: 0
+  effectLogDuration: 4
+  surroundingObjectLinkedProjectile: {fileID: 0}
+  surroundingObjectLinkIsKinematic: 0
+  surroundingObjectLinkIsTrigger: 0
+  surroundingObjectLinkInterpolateState: 0
+  blockSurroundingObjectStatus: 0
+  ignoreAbilityCollision: 0
+  effectProtection: 0
+  foldOutIntegration: 0
+  editorRecordActiveEffectHistory: 0
+  editorActiveEffectHistory: []
+--- !u!114 &7073638180428705240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813557656818710894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2d1037fc3eb63409186f51d34e1532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Motor: {fileID: 3813557656818710891}

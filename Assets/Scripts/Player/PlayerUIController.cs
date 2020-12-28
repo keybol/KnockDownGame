@@ -6,6 +6,8 @@ using UnityEngine;
 public class PlayerUIController : MonoBehaviour
 {
 	[SerializeField] TextMeshProUGUI playerNameText;
+	[SerializeField] ABC_SliderReference healthSlider;
+	[SerializeField] ABC_SliderReference healthOverTimeSlider;
 	[SerializeField] CanvasGroup canvasGroup;
 	private KPlayer target;
 	private Transform targetTransform;
@@ -32,6 +34,8 @@ public class PlayerUIController : MonoBehaviour
 		}
 		target = _target;
 		targetTransform = target.transform;
+		target.abcState.HealthGUIList[0].healthSlider = healthSlider;
+		target.abcState.HealthGUIList[0].healthOverTimeSlider = healthOverTimeSlider;
 		if (target.pv.IsMine)
 		{
 			playerNameText.fontSize = 32;

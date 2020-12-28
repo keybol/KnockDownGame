@@ -429,12 +429,7 @@ public class AINavigation : MonoBehaviour {
             return false;
         }
     }
-
-	private void Start()
-	{
-		kplayer = GetComponent<KPlayer>();
-	}
-
+	
     /// <summary>
     /// Will search in a radius and set the destination if the correct tag has been found
     /// </summary>
@@ -849,8 +844,6 @@ public class AINavigation : MonoBehaviour {
     void Update()
 	{
 		kplayer.MovementStickValue = new Vector2(navAgent.velocity.x, navAgent.velocity.z);
-		if (transform.position.y < -5)
-			kplayer.kcc.Motor.SetPositionAndRotation(kplayer.kcc.spawnPoint, kplayer.kcc.spawnRotation);
 		//If enabled then rotate around destination
 		if (this.rotateAroundDestination)
             this.RotateAroundDestination();

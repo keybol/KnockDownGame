@@ -23,6 +23,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public GameObject PlayerCharacter;
 	public NavMeshAgent navMesh;
 	public AINavigation aiNav;
+	public ABC_StateManager abcState;
+	public ABC_Controller abcController;
 	public bool humanPlayer;
 	public int characterNumber;
 	public int skinNumber;
@@ -313,8 +315,12 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 
 	public void EnableSmoothSync()
 	{
-		if(!humanPlayer)
+		if (!humanPlayer)
+		{
+			abcController.enabled = true;
+			aiNav.enabled = true;
 			navMesh.enabled = true;
+		}
 		smoothSync.enabled = true;
 	}
 
