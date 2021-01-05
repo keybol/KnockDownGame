@@ -20,11 +20,12 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public PhotonView pv;
 	public SmoothSyncPUN2 smoothSync;
 	public CharacterModel[] characterModel;
-	public GameObject PlayerCharacter;
+	private GameObject PlayerCharacter;
 	public NavMeshAgent navMesh;
 	public AINavigation aiNav;
 	public ABC_StateManager abcState;
 	public ABC_Controller abcController;
+	public KEntity kEntity;
 	public bool humanPlayer;
 	public int characterNumber;
 	public int skinNumber;
@@ -217,6 +218,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	[PunRPC]
 	public void syncThrowPickup()
 	{
+		AudioManager.Instance.PlaySFX(2, kcc.Motor.TransientPosition);
 		kanim.anim.SetBool("PickUp", false);
 		kanim.anim.SetBool("Carrying", false);
 		heat = 0f;
@@ -245,6 +247,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		yield return new WaitForSeconds(0.5f);
 		kanim.anim.SetBool("PickUp", false);
 		kanim.anim.SetBool("Carrying", true);
+		AudioManager.Instance.PlaySFX(4, kcc.Motor.TransientPosition);
 	}
 
 	public void StartPickup()
@@ -288,7 +291,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 			MovementStickValue = controls.Player.Move.ReadValue<Vector2>();
 		forward = transform.TransformDirection(Vector3.forward);
 		rayOrigin = transform.position + transform.up * 0.25f;
-		if (CheckRaycast())
+		if (CheckValidPickup())
 		{
 			objectInSight = hit.transform.gameObject;
 		}
@@ -306,10 +309,17 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		}
 	}
 
-	public bool CheckRaycast()
+	public bool CheckValidPickup()
 	{
 		if (Physics.SphereCast(rayOrigin, assistRadius, forward, out hit, pickupDist, PlayerMask))
+		{
+			if (hit.transform.GetComponent<KPlayer>())
+			{
+				if (hit.transform.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsTag("GettingUp"))
+					return false;
+			}
 			return true;
+		}
 		return false;
 	}
 
@@ -324,8 +334,13 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		smoothSync.enabled = true;
 	}
 
-	public void ShakeScreen()
+	public void SuplexHitEffect()
 	{
+		MultiFunction.DoVibrate(MoreMountains.NiceVibrations.HapticTypes.HeavyImpact);
+		AudioManager.Instance.PlaySFX(UnityEngine.Random.Range(7, 9), kcc.Motor.TransientPosition);
+		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledLandSmokeObject();
+		landSmoke.transform.position = kpickup.transform.position;
+		landSmoke.SetActive(true);
 		ScreenShaker.Instance.ShakeScreen(0.2f);
 	}
 

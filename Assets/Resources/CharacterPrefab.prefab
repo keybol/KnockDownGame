@@ -68,11 +68,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ec80e94ff316c5a4e91cb39fe9bce36c, type: 2}
   - {fileID: 11400000, guid: 1f1f8746191d1714aa8fd3c6bc67981b, type: 2}
   - {fileID: 11400000, guid: 5a0a426956676fe4980f0e5b96e1d58f, type: 2}
-  PlayerCharacter: {fileID: 0}
   navMesh: {fileID: 5970541072048095272}
   aiNav: {fileID: 5336136372179446762}
   abcState: {fileID: 3497264368428156967}
   abcController: {fileID: 7162599984476030005}
+  kEntity: {fileID: 7073638180428705240}
   humanPlayer: 1
   characterNumber: 0
   skinNumber: 2
@@ -374,6 +374,7 @@ MonoBehaviour:
   IgnoredColliders: []
   pv: {fileID: 6655827189109091450}
   Gravity: {x: 0, y: -9.81, z: 0}
+  isThrown: 0
   pickupKPlayer: {fileID: 3813557656818710890}
 --- !u!114 &5336136372179446762
 MonoBehaviour:
@@ -382,7 +383,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3813557656818710894}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4e91e3d21312db4baedfe431a41c24a, type: 3}
   m_Name: 
@@ -924,7 +925,7 @@ MonoBehaviour:
     refName: 
     refUpdateDateTime: 
   disableEntityOnZeroHealth: 1
-  disableDelay: 1.5
+  disableDelay: 0
   stopMovementOnZeroHealth: 1
   stopMovementOnZeroHealthFreezePosition: 1
   stopMovementOnZeroHealthDisableComponents: 0
@@ -993,3 +994,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Motor: {fileID: 3813557656818710891}
+  pv: {fileID: 6655827189109091450}
+  abcState: {fileID: 3497264368428156967}

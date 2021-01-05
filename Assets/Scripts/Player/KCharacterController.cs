@@ -506,6 +506,8 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 							_jumpRequested = false;
 							_jumpConsumed = true;
 							_jumpedThisFrame = true;
+
+							AudioManager.Instance.PlaySFX(0, Motor.TransientPosition);
 						}
 					}
 
@@ -696,7 +698,8 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	[PunRPC]
 	void SyncOnLanded(Vector3 pos)
 	{
-		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledObject();
+		AudioManager.Instance.PlaySFX(1, Motor.TransientPosition);
+		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledLandSmokeObject();
 		if(landSmoke != null)
 		{
 			landSmoke.transform.position = pos;

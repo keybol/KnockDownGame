@@ -7,9 +7,12 @@ public class ObjectPoolerManager : MonoBehaviour
 
 	public static ObjectPoolerManager Instance;
 	public Transform pooledObjectsParent;
-	public List<GameObject> pooledObjects;
-	public GameObject objectToPool;
-	public int amountToPool;
+	public List<GameObject> pooledAudioObjects;
+	public GameObject audioObjectToPool;
+	public int audioAmountToPool;
+	public List<GameObject> pooledLandSmokeObjects;
+	public GameObject landSmokeObjectToPool;
+	public int landSmokeAmountToPool;
 
 	private void Awake()
 	{
@@ -18,23 +21,43 @@ public class ObjectPoolerManager : MonoBehaviour
 
 	void Start()
     {
-		pooledObjects = new List<GameObject>();
-		for(int i = 0; i < amountToPool; i++)
+		pooledAudioObjects = new List<GameObject>();
+		for (int i = 0; i < audioAmountToPool; i++)
 		{
-			GameObject obj = (GameObject)Instantiate(objectToPool);
+			GameObject obj = (GameObject)Instantiate(audioObjectToPool);
 			obj.SetActive(false);
 			obj.transform.parent = pooledObjectsParent;
-			pooledObjects.Add(obj);
-		}        
-    }
-
-	public GameObject GetPooledObject()
-	{
-		for (int i = 0; i < pooledObjects.Count; i++)
+			pooledAudioObjects.Add(obj);
+		}
+		pooledLandSmokeObjects = new List<GameObject>();
+		for(int i = 0; i < landSmokeAmountToPool; i++)
 		{
-			if (!pooledObjects[i].activeInHierarchy)
+			GameObject obj = (GameObject)Instantiate(landSmokeObjectToPool);
+			obj.SetActive(false);
+			obj.transform.parent = pooledObjectsParent;
+			pooledLandSmokeObjects.Add(obj);
+		}
+	}
+
+	public GameObject GetPooledAudioObject()
+	{
+		for (int i = 0; i < pooledAudioObjects.Count; i++)
+		{
+			if (!pooledAudioObjects[i].activeInHierarchy)
 			{
-				return pooledObjects[i];
+				return pooledAudioObjects[i];
+			}
+		}
+		return null;
+	}
+
+	public GameObject GetPooledLandSmokeObject()
+	{
+		for (int i = 0; i < pooledLandSmokeObjects.Count; i++)
+		{
+			if (!pooledLandSmokeObjects[i].activeInHierarchy)
+			{
+				return pooledLandSmokeObjects[i];
 			}
 		}
 		return null;

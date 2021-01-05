@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2778064816923753485}
   - component: {fileID: 2778064816923753486}
   - component: {fileID: 1941780701}
+  - component: {fileID: 583932215}
   m_Layer: 11
   m_Name: Pickup
   m_TagString: Pickup
@@ -52,6 +53,7 @@ MonoBehaviour:
   IgnoredColliders: []
   pv: {fileID: 2778064816923753472}
   Gravity: {x: 0, y: -9.81, z: 0}
+  isThrown: 0
   pickupKPlayer: {fileID: 0}
 --- !u!114 &2778064816923753472
 MonoBehaviour:
@@ -221,6 +223,21 @@ MonoBehaviour:
   foldOutIntegration: 0
   editorRecordActiveEffectHistory: 0
   editorActiveEffectHistory: []
+--- !u!114 &583932215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778064816923753478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2d1037fc3eb63409186f51d34e1532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Motor: {fileID: 2778064816923753486}
+  pv: {fileID: 2778064816923753472}
+  abcState: {fileID: 1941780701}
 --- !u!1 &6717038515250457071
 GameObject:
   m_ObjectHideFlags: 0
