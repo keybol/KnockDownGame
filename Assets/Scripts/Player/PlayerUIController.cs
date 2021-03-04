@@ -36,10 +36,15 @@ public class PlayerUIController : MonoBehaviour
 		targetTransform = target.transform;
 		target.abcState.HealthGUIList[0].healthSlider = healthSlider;
 		target.abcState.HealthGUIList[0].healthOverTimeSlider = healthOverTimeSlider;
-		if (target.pv.IsMine)
+		if (target.pv.IsMine && target.humanPlayer)
 		{
 			playerNameText.fontSize = 32;
 			playerNameText.fontStyle = FontStyles.Bold;
+		}
+		else
+		{
+			playerNameText.fontSize = 24;
+			playerNameText.fontStyle = FontStyles.Normal;
 		}
 		transform.parent = KGameManager.Instance.playerUIPanel.transform;
 	}

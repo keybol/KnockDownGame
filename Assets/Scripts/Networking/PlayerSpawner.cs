@@ -12,6 +12,7 @@ public class PlayerSpawner : MonoBehaviourPunCallbacks
 	[SerializeField] public GameObject playerPrefab;
 	[SerializeField] public List<Transform> SpawnPoints;
 	[SerializeField] public TextMeshProUGUI roomCodeText;
+	[SerializeField] private Lexic.NameGenerator namegen;
 	Player[] allPlayers;
 	private int id;
 
@@ -72,7 +73,8 @@ public class PlayerSpawner : MonoBehaviourPunCallbacks
 		object[] objecttype = new object[4];
 		id = i;
 		objecttype[0] = id;
-		objecttype[1] = "Bot";
+		string randomName = namegen.GetNextRandomName();
+		objecttype[1] = randomName;
 		objecttype[2] = characterNumber;
 		objecttype[3] = skinNumber;
 		var playerObject = PhotonNetwork.InstantiateSceneObject(playerPrefab.name, SpawnPoints[id].position, SpawnPoints[id].rotation, 0, objecttype);

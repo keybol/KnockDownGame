@@ -306,6 +306,17 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		outlineRenderingLayerMask = PlayerCharacter.GetComponentInChildren<Renderer>().renderingLayerMask;
 	}
 
+	public void EnableSmoothSync()
+	{
+		if (!humanPlayer)
+		{
+			abcController.enabled = true;
+			aiNav.enabled = true;
+			navMesh.enabled = true;
+		}
+		smoothSync.enabled = true;
+	}
+
 	private void Update()
 	{
 		if (!pv.IsMine)
@@ -372,17 +383,6 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 			return true;
 		}
 		return false;
-	}
-
-	public void EnableSmoothSync()
-	{
-		if (!humanPlayer)
-		{
-			abcController.enabled = true;
-			aiNav.enabled = true;
-			navMesh.enabled = true;
-		}
-		smoothSync.enabled = true;
 	}
 
 	public void SuplexHitEffect()
