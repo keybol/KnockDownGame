@@ -890,6 +890,14 @@ MonoBehaviour:
   pv: {fileID: 403708556}
   playerSpawner: {fileID: 403708557}
   playerUIPanel: {fileID: 1543178892}
+  jumpButtonSprite: {fileID: 21300000, guid: c83258ad12035034d89718cba3438ea2, type: 3}
+  suplexButtonSprite: {fileID: 21300000, guid: 9eafd848ea22d3245b55c7e8a06160e4, type: 3}
+  crouchButtonSprite: {fileID: 21300000, guid: 9beaf198e60f6f545b56587b96b7a515, type: 3}
+  pickupButtonSprite: {fileID: 21300000, guid: 427357d0b1daee249a1ff7077eec873b, type: 3}
+  throwButtonSprite: {fileID: 21300000, guid: 05080a545fc81184d855c2496bcb0656, type: 3}
+  jumpButtonImage: {fileID: 1303715734}
+  crouchButtonImage: {fileID: 1117325737}
+  specialButtonImage: {fileID: 1298139407}
   cvm: {fileID: 748770734}
   cvgroup: {fileID: 127535293}
   kPlayers:
@@ -1114,7 +1122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2778064816923753474, guid: c45ddfe4ffdd60541874b06cde3bad4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2778064816923753474, guid: c45ddfe4ffdd60541874b06cde3bad4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1151,6 +1159,10 @@ PrefabInstance:
     - target: {fileID: 2778064816923753478, guid: c45ddfe4ffdd60541874b06cde3bad4a, type: 3}
       propertyPath: m_Name
       value: Pickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778064816923753478, guid: c45ddfe4ffdd60541874b06cde3bad4a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45ddfe4ffdd60541874b06cde3bad4a, type: 3}
@@ -1421,7 +1433,7 @@ GameObject:
   - component: {fileID: 688627822}
   - component: {fileID: 688627824}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: ControlsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2251,7 +2263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05080a545fc81184d855c2496bcb0656, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9beaf198e60f6f545b56587b96b7a515, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2576,7 +2588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ControlPath: <Gamepad>/buttonWest
+  m_ControlPath: <Gamepad>/buttonNorth
 --- !u!114 &1298139407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2691,7 +2703,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9eafd848ea22d3245b55c7e8a06160e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c83258ad12035034d89718cba3438ea2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3061,7 +3073,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh323024
+  m_Name: pb_Mesh360976
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7428,7 +7440,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -7605,7 +7617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2778064816923753474, guid: c45ddfe4ffdd60541874b06cde3bad4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2778064816923753474, guid: c45ddfe4ffdd60541874b06cde3bad4a, type: 3}
       propertyPath: m_LocalPosition.z

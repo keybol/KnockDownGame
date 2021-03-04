@@ -12,6 +12,7 @@ using Photon.Pun;
 using Smooth;
 using Photon.Realtime;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 {
@@ -20,7 +21,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public PhotonView pv;
 	public SmoothSyncPUN2 smoothSync;
 	public CharacterModel[] characterModel;
-	private GameObject PlayerCharacter;
+	public GameObject PlayerCharacter;
 	public NavMeshAgent navMesh;
 	public AINavigation aiNav;
 	public ABC_StateManager abcState;
@@ -45,7 +46,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public bool Crouch;
 	public bool Carried;
 	public LayerMask PlayerMask;
-	private GameObject objectInSight;
+	public GameObject objectInSight;
+	public uint outlineRenderingLayerMask;
 	private bool PressedHoldThrow;
 	private RaycastHit hit;
 	private Vector3 rayOrigin;
@@ -57,6 +59,14 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	private float aimRadius = 0.5f;
 	public float heat = 0f;
 	private float heatBar = 0f;
+	private Sprite jumpButtonSprite;
+	private Sprite suplexButtonSprite;
+	private Sprite crouchButtonSprite;
+	private Sprite pickupButtonSprite;
+	private Sprite throwButtonSprite;
+	private Image jumpButtonImage;
+	private Image crouchButtonImage;
+	private Image specialButtonImage;
 
 	public void OnPhotonInstantiate(PhotonMessageInfo info)
 	{
@@ -90,9 +100,17 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 
 	public void Awake()
 	{
-		playerKPickup.enabled = false;
+		//playerKPickup.enabled = false;
 		if (!pv.IsMine)
 			return;
+		jumpButtonSprite = KGameManager.Instance.jumpButtonSprite;
+		suplexButtonSprite = KGameManager.Instance.suplexButtonSprite;
+		crouchButtonSprite = KGameManager.Instance.crouchButtonSprite;
+		pickupButtonSprite = KGameManager.Instance.pickupButtonSprite;
+		throwButtonSprite = KGameManager.Instance.throwButtonSprite;
+		jumpButtonImage = KGameManager.Instance.jumpButtonImage;
+		crouchButtonImage = KGameManager.Instance.crouchButtonImage;
+		specialButtonImage = KGameManager.Instance.specialButtonImage;
 		controls = new KInputActions();
 		controls.Player.Jump.performed += context =>
 		{
@@ -210,6 +228,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 				throwPosition.y = transform.position.y + 1.02f;
 			if(kpickup.pickupKPlayer)
 				throwPosition.y = transform.position.y + 1.52f;
+			crouchButtonImage.sprite = crouchButtonSprite;
+			jumpButtonImage.sprite = jumpButtonSprite;
 			kpickup.pv.RPC("SyncThrow", RpcTarget.All, playerIndex, heatThrowPower * direction, throwPosition, kpickup.transform.rotation.eulerAngles.y);
 			pv.RPC("syncThrowPickup", RpcTarget.All);
 		}
@@ -252,6 +272,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 
 	public void StartPickup()
 	{
+		crouchButtonImage.sprite = throwButtonSprite;
+		jumpButtonImage.sprite = suplexButtonSprite;
 		kpickup = objectInSight.GetComponent<KPickup>();
 		kpickup.pv.RPC("SyncPickup", RpcTarget.All, playerIndex);
 		pv.RPC("syncStartPickup", RpcTarget.All);
@@ -281,14 +303,13 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		itemAnchor = kanim.anim.GetBoneTransform(HumanBodyBones.Head);
 		playerUIPrefab = Instantiate(playerUIPrefab);
 		playerUIPrefab.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
+		outlineRenderingLayerMask = PlayerCharacter.GetComponentInChildren<Renderer>().renderingLayerMask;
 	}
 
 	private void Update()
 	{
 		if (!pv.IsMine)
 			return;
-		if (humanPlayer)
-			MovementStickValue = controls.Player.Move.ReadValue<Vector2>();
 		forward = transform.TransformDirection(Vector3.forward);
 		rayOrigin = transform.position + transform.up * 0.25f;
 		if (CheckValidPickup())
@@ -298,6 +319,36 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		else
 		{
 			objectInSight = null;
+		}
+
+		if (humanPlayer)
+		{
+			MovementStickValue = controls.Player.Move.ReadValue<Vector2>();
+			if (kpickup == null)
+			{
+				if (objectInSight == null)
+				{
+					crouchButtonImage.sprite = crouchButtonSprite;
+				}
+				else
+				{
+					crouchButtonImage.sprite = pickupButtonSprite;
+					if (objectInSight.GetComponent<KPlayer>())
+					{
+						foreach (Renderer go in objectInSight.GetComponent<KPlayer>().PlayerCharacter.GetComponentsInChildren<Renderer>())
+						{
+							go.renderingLayerMask = outlineRenderingLayerMask;
+						}
+					}
+					else
+					{
+						foreach (Renderer go in objectInSight.GetComponent<KPickup>().PickupObject.GetComponentsInChildren<Renderer>())
+						{
+							go.renderingLayerMask = outlineRenderingLayerMask;
+						}
+					}
+				}				
+			}
 		}
 		if (PressedHoldThrow)
 		{

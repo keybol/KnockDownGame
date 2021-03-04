@@ -9,6 +9,7 @@ using UnityEngine.AI;
 public class KPickup : MonoBehaviour, ICharacterController
 {
 	[SerializeField] KinematicCharacterMotor Motor;
+	public GameObject PickupObject;
 	public List<Collider> IgnoredColliders = new List<Collider>();
 	public PhotonView pv;
 	public Vector3 Gravity = new Vector3(0, -30f, 0);
@@ -20,6 +21,24 @@ public class KPickup : MonoBehaviour, ICharacterController
 	private void Awake()
 	{
 		Motor.CharacterController = this;
+	}
+
+	private void FixedUpdate()
+	{
+		if (pickupKPlayer)
+		{
+			foreach (Renderer go in pickupKPlayer.PlayerCharacter.GetComponentsInChildren<Renderer>())
+			{
+				go.renderingLayerMask = 1;
+			}
+		}
+		else
+		{
+			foreach (Renderer go in PickupObject.GetComponentsInChildren<Renderer>())
+			{
+				go.renderingLayerMask = 1;
+			}
+		}
 	}
 
 	[PunRPC]

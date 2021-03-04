@@ -42,6 +42,10 @@ public class AvatarManager : MonoBehaviour
 				go.GetComponent<Animator>().enabled = true;
 				go.GetComponent<Animator>().runtimeAnimatorController = animatorController;
 				go.SetActive(false);
+				foreach (Renderer ren in go.GetComponentsInChildren<Renderer>())
+				{
+					ren.renderingLayerMask = 1;
+				}
 				characters.Add(go);
 			}
 		}

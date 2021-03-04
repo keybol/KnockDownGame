@@ -68,6 +68,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ec80e94ff316c5a4e91cb39fe9bce36c, type: 2}
   - {fileID: 11400000, guid: 1f1f8746191d1714aa8fd3c6bc67981b, type: 2}
   - {fileID: 11400000, guid: 5a0a426956676fe4980f0e5b96e1d58f, type: 2}
+  PlayerCharacter: {fileID: 0}
   navMesh: {fileID: 5970541072048095272}
   aiNav: {fileID: 5336136372179446762}
   abcState: {fileID: 3497264368428156967}
@@ -94,6 +95,8 @@ MonoBehaviour:
   PlayerMask:
     serializedVersion: 2
     m_Bits: 2560
+  objectInSight: {fileID: 0}
+  outlineRenderingLayerMask: 0
   heat: 0
 --- !u!114 &3813557656818710893
 MonoBehaviour:
@@ -371,6 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Motor: {fileID: 3813557656818710891}
+  PickupObject: {fileID: 0}
   IgnoredColliders: []
   pv: {fileID: 6655827189109091450}
   Gravity: {x: 0, y: -9.81, z: 0}
@@ -500,7 +504,7 @@ MonoBehaviour:
   idleToggleKey: 279
   idleToggleDelay: 0
   deactiveIdleModeOnAbilityInput: 1
-  enableAI: 0
+  enableAI: 1
   aiRestrictAbilityTriggers: 0
   maxAIRange: 100
   aiPotentialTargetRetrievalIntermission: 2

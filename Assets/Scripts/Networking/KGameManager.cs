@@ -11,6 +11,14 @@ public class KGameManager : MonoBehaviour
 	[SerializeField] public PhotonView pv;
 	[SerializeField] public PlayerSpawner playerSpawner;
 	[SerializeField] public GameObject playerUIPanel;
+	[SerializeField] public Sprite jumpButtonSprite;
+	[SerializeField] public Sprite suplexButtonSprite;
+	[SerializeField] public Sprite crouchButtonSprite;
+	[SerializeField] public Sprite pickupButtonSprite;
+	[SerializeField] public Sprite throwButtonSprite;
+	[SerializeField] public Image jumpButtonImage;
+	[SerializeField] public Image crouchButtonImage;
+	[SerializeField] public Image specialButtonImage;
 	[SerializeField] public CinemachineVirtualCamera cvm;
 	[SerializeField] public CinemachineTargetGroup cvgroup;
 	public List<KPlayer> kPlayers;
@@ -33,12 +41,6 @@ public class KGameManager : MonoBehaviour
 	}
 
 	void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
     {
         
     }
