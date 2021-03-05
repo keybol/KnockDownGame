@@ -23,6 +23,8 @@ public class KEntity : MonoBehaviour
 
 	private void Update()
 	{
+		if (!kPlayer)
+			return;
 		if (Motor.TransientPosition.y < -5)
 		{
 			kPickup.pv.RPC("SyncPickup", RpcTarget.All, kPlayer.playerIndex);
