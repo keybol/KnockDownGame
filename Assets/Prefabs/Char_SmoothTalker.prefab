@@ -543,7 +543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 376135658145696448}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SmoothTalker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4033080566151484573}
   - component: {fileID: 1753942511874578024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:SmoothTalker_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6904949808005887338}
   - component: {fileID: 7543905906332062295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_:Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2432,7 +2432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8758899081780300028}
   - component: {fileID: 3417652238279987846}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_SmoothTalker
   m_TagString: Untagged
   m_Icon: {fileID: 0}

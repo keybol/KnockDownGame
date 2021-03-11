@@ -122,6 +122,63 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 		SetInputs();
 	}
 
+	private void LateUpdate()
+	{
+		//if (!kplayer.pv.IsMine)
+		//{
+		//	Motor.enabled = false;
+		//	if (kplayer.bzRagdoll.IsRagdolled)
+		//	{
+		//		Vector3 bodyWorldPosition = kplayer._hipsTransform.position;
+		//		Motor.SetPosition(bodyWorldPosition);
+		//		kplayer._hipsTransform.position = bodyWorldPosition;
+		//	}
+		//	else
+		//	{
+		//		Vector3 bodyWorldPosition = kplayer.smoothSync.getPosition();
+		//		Quaternion bodyWorldRotation = kplayer.smoothSync.getRotation();
+		//		Motor.SetPosition(bodyWorldPosition, false);
+		//		Motor.SetRotation(bodyWorldRotation, false);
+		//	}
+		//}
+		//else
+		//{
+		//	if (kplayer.bzRagdoll.IsRagdolled)
+		//	{
+		//		Motor.enabled = false;
+		//		Vector3 bodyWorldPosition = kplayer._hipsTransform.position;
+		//		Motor.SetPosition(bodyWorldPosition);
+		//		kplayer._hipsTransform.position = bodyWorldPosition;
+		//		//Quaternion bodyWorldRotation = kplayer._hipsTransform.rotation;
+		//		//Motor.SetRotation(bodyWorldRotation);
+		//		//kplayer._hipsTransform.rotation = bodyWorldRotation;
+		//	}
+		//	else
+		//	{
+		//		Motor.enabled = true;
+		//	}
+		//}
+		if (kplayer.pv.IsMine)
+		{
+			if (kplayer.bzRagdoll.IsRagdolled)
+			{
+				Motor.enabled = false;
+				Vector3 bodyWorldPosition = kplayer._hipsTransform.position;
+				Motor.SetPosition(bodyWorldPosition);
+				kplayer._hipsTransform.position = bodyWorldPosition;
+				Quaternion bodyWorldRotation = kplayer._hipsTransform.rotation;
+				Motor.SetRotation(bodyWorldRotation);
+				kplayer._hipsTransform.rotation = bodyWorldRotation;
+			}
+			else
+				Motor.enabled = true;
+		}
+		else
+		{
+			Motor.enabled = false;
+		}
+	}
+
 	private void SetGlobalInfoData()
 	{
 		MaxStableMoveSpeed = GlobalInfo.GlobalInfoData.MaxStableMoveSpeed;
@@ -148,18 +205,6 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 		maxDodgeCooldown = GlobalInfo.GlobalInfoData.maxDodgeCooldown;
 		maxSpecial = GlobalInfo.GlobalInfoData.maxSpecial;
 		initialForceMultiplier = GlobalInfo.GlobalInfoData.initialForceMultiplier;
-	}
-
-	private void FixedUpdate()
-	{
-		if (!kplayer.pv.IsMine)
-		{
-			Motor.enabled = false;
-		}
-		else
-		{
-			Motor.enabled = true;
-		}
 	}
 
 	/// <summary>
@@ -332,6 +377,8 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	/// </summary>
 	public void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
 	{
+		if (kplayer.bzRagdoll.IsRagdolled)
+			return;
 		switch (CurrentCharacterState)
 		{
 			case KCharacterState.Default:
@@ -395,6 +442,8 @@ public class KCharacterController : MonoBehaviour, ICharacterController
 	/// </summary>
 	public void UpdateVelocity(ref Vector3 currentVelocity, float deltaTime)
 	{
+		if (kplayer.bzRagdoll.IsRagdolled)
+			return;
 		_Gravity = Gravity;
 		switch (CurrentCharacterState)
 		{

@@ -444,7 +444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795861509085432803}
   - component: {fileID: 2587812433380617130}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:headband_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -655,7 +655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2346261781110583747}
   - component: {fileID: 3661285722716374095}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Body_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1100031998226248226}
   - component: {fileID: 4230279168836026901}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:hair_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373610472241314621}
   - component: {fileID: 725431786023988332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Eyes_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1307,7 +1307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8578370960311575188}
   - component: {fileID: 7515134537478513284}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_Male:Head_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1880,7 +1880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7768531901993642457}
   - component: {fileID: 4408868241596953507}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Athlete-Male
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2102,7 +2102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6793499561321985417}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete:Male_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}

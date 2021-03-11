@@ -447,7 +447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3329713205984946047}
   - component: {fileID: 4856427564167916772}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Ringmaster:Hair_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -964,7 +964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201377340947044783}
   - component: {fileID: 5322180803534843482}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Ringmaster:Body_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1516,7 +1516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707024590446247159}
   - component: {fileID: 5245320951158899905}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Ringmaster:Hat_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1909,7 +1909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3556786252386024924}
   - component: {fileID: 8798093357589128912}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_Ringmaster:Skin_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2361,7 +2361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4496783521567796342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef:Ringmaster_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2458,7 +2458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8879175809572040392}
   - component: {fileID: 3303680109708686514}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Chef-Ringmaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}

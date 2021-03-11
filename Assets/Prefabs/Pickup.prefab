@@ -110,7 +110,7 @@ MonoBehaviour:
   CapsuleYOffset: 1
   CapsulePhysicsMaterial: {fileID: 0}
   GroundDetectionExtraDistance: 0
-  MaxStableSlopeAngle: 60
+  MaxStableSlopeAngle: 15
   StableGroundLayers:
     serializedVersion: 2
     m_Bits: 1335
@@ -241,6 +241,12 @@ MonoBehaviour:
   abcState: {fileID: 1941780701}
   kPlayer: {fileID: 0}
   kPickup: {fileID: 0}
+  invincibleTime: 0
+  isInvincible: 0
+  timeToInvincible: 5
+  startIFrames: 0
+  flashCounter: 0
+  flashLength: 0.15
 --- !u!1 &3849755934805362019
 GameObject:
   m_ObjectHideFlags: 0

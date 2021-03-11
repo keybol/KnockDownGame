@@ -289,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8676131406350775316}
   - component: {fileID: 3775767578671534691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Body_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -565,7 +565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503134242970715768}
   - component: {fileID: 5651694059692263440}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Head_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3557850325402232787}
   - component: {fileID: 5659887033108376059}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:headset_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6451708117673291232}
   - component: {fileID: 6068983852400786957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:hair_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1909,7 +1909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1918727422292439054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kiasaya:FBGaming_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2335,7 +2335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6790980642854237669}
   - component: {fileID: 5601971479485782615}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_FBGaming:Eye_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2528,7 +2528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8092550076596518975}
   - component: {fileID: 2787358457079355973}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Kiasaya-FBGaming
   m_TagString: Untagged
   m_Icon: {fileID: 0}

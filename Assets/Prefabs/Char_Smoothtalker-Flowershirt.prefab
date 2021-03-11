@@ -211,7 +211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3764844265414040124}
   - component: {fileID: 7433167180196254099}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_FlowerShirt:Eyes_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5823733557307207023}
   - component: {fileID: 5038372565558418284}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_FlowerShirt:Body_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6748030322268992222}
   - component: {fileID: 3347056039277062098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_FlowerShirt:sunglasses_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1189,7 +1189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5588333819170401102}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker:Flowershirt_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3518439272436299360}
   - component: {fileID: 6723532548975118044}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_FlowerShirt:hair_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,7 +2206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7186830807898616310}
   - component: {fileID: 3845208071695281036}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Smoothtalker-Flowershirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2258,7 +2258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6932035626959850510}
   - component: {fileID: 5204920616645399141}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_FlowerShirt:head_Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

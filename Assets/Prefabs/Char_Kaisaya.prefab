@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4916830507547022143}
   - component: {fileID: 7690741733355836582}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Body_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1721305363923010529}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,7 +978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3568560532063010059}
   - component: {fileID: 7985152752390121152}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Head_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1129,7 +1129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1365851536074519142}
   - component: {fileID: 4546894416075713526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:hair_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1497,7 +1497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3599387551787367114}
   - component: {fileID: 7427486080934502576}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Kaisaya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1918,7 +1918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176702840249991993}
   - component: {fileID: 7688250954372598562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Backpack_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2035,7 +2035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6115077868261196622}
   - component: {fileID: 7922039367200346295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:glasses_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2153,7 +2153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3020691109089099123}
   - component: {fileID: 810490082814393941}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:Eye_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2240,7 +2240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 332766359073721377}
   - component: {fileID: 7897619434194657142}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Kaisaya:headset_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}

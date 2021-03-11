@@ -663,7 +663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 732837327882129551}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco:Casual_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,7 +1058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7766069579529934944}
   - component: {fileID: 832975580845087434}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2200,7 +2200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5397846515311944886}
   - component: {fileID: 4534724539068428668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_Casual:Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2478,7 +2478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8039630179854677408}
   - component: {fileID: 4139562155139837914}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Gloco_Casual
   m_TagString: Untagged
   m_Icon: {fileID: 0}

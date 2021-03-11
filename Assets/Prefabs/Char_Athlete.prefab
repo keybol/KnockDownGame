@@ -133,9 +133,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4080807668618786722}
-  - component: {fileID: 3715646918766734302}
-  - component: {fileID: 3715646918766734304}
-  - component: {fileID: 3715646918766734303}
+  - component: {fileID: 7662232992384209254}
+  - component: {fileID: 8591943815600910766}
+  - component: {fileID: 1500257508400026204}
   m_Layer: 10
   m_Name: Athlete_:RightArm
   m_TagString: Untagged
@@ -158,7 +158,21 @@ Transform:
   m_Father: {fileID: 8559208785857106826}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &3715646918766734302
+--- !u!136 &7662232992384209254
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454414627485801768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.037352536
+  m_Height: 0.14941014
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.07470507, z: 0}
+--- !u!54 &8591943815600910766
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,32 +188,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &3715646918766734304
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454414627485801768}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.03735253
-  m_Height: 0.14941011
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.07470506, z: 0}
---- !u!144 &3715646918766734303
+--- !u!144 &1500257508400026204
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454414627485801768}
-  m_ConnectedBody: {fileID: 6312490865031673229}
+  m_ConnectedBody: {fileID: 326628457851817366}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10897717, y: 0.08242367, z: -0.00012750109}
+  m_ConnectedAnchor: {x: 0.10897717, y: 0.13136977, z: -0.00086476735}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -507,7 +507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3286047467333799056}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: KneePad_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2844455521268559366}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: KneePad_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,9 +599,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616623051282019808}
-  - component: {fileID: 1330568631947612681}
-  - component: {fileID: 1330568631947612683}
-  - component: {fileID: 1330568631947612682}
+  - component: {fileID: 865356724233475486}
+  - component: {fileID: 603338702224209338}
+  - component: {fileID: 9162525400998800465}
   m_Layer: 10
   m_Name: Athlete_:RightUpLeg
   m_TagString: Untagged
@@ -624,7 +624,21 @@ Transform:
   m_Father: {fileID: 4752413948525539968}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1330568631947612681
+--- !u!136 &865356724233475486
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2858069986681169149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.06628387
+  m_Height: 0.22094621
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.110473104, z: 0}
+--- !u!54 &603338702224209338
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -640,28 +654,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &1330568631947612683
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2858069986681169149}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.06628386
-  m_Height: 0.22094618
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.1, z: 0}
---- !u!144 &1330568631947612682
+--- !u!144 &9162525400998800465
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2858069986681169149}
-  m_ConnectedBody: {fileID: 5926045679065714988}
+  m_ConnectedBody: {fileID: 4061385249064586509}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -708,9 +708,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2402194582102170851}
-  - component: {fileID: 2029569386559829881}
-  - component: {fileID: 2029569386559829882}
-  - component: {fileID: 2029569386559829880}
+  - component: {fileID: 4746487183904128422}
+  - component: {fileID: 334526284068557336}
+  - component: {fileID: 4566635368887359852}
   m_Layer: 10
   m_Name: Athlete_:RightForeArm
   m_TagString: Untagged
@@ -726,14 +726,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3023247988243956098}
   m_LocalRotation: {x: 0.000046331417, y: -0.013813334, z: -0.0000017156946, w: 0.99990463}
-  m_LocalPosition: {x: 0.00000079293187, y: 0.14941013, z: -0.0000024551598}
+  m_LocalPosition: {x: 0, y: 0.14941013, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2884395514056342531}
   m_Father: {fileID: 4080807668618786722}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2029569386559829881
+--- !u!136 &4746487183904128422
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3023247988243956098}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.05230021
+  m_Height: 0.26150104
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.13075052, z: 0}
+--- !u!54 &334526284068557336
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -749,28 +763,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &2029569386559829882
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3023247988243956098}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.03735253
-  m_Height: 0.2615009
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.13075045, z: 0}
---- !u!144 &2029569386559829880
+--- !u!144 &4566635368887359852
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3023247988243956098}
-  m_ConnectedBody: {fileID: 3715646918766734302}
+  m_ConnectedBody: {fileID: 8591943815600910766}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -962,7 +962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3626664202618481618}
   - component: {fileID: 7256516382837109160}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Athlete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1106,9 +1106,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 89679919735029464}
-  - component: {fileID: 8598432380919613994}
-  - component: {fileID: 8598432380919613995}
-  - component: {fileID: 8598432380919613993}
+  - component: {fileID: 3125705888911626748}
+  - component: {fileID: 3973855029661675638}
+  - component: {fileID: 8776259272887534843}
   m_Layer: 10
   m_Name: Athlete_:LeftForeArm
   m_TagString: Untagged
@@ -1131,7 +1131,21 @@ Transform:
   m_Father: {fileID: 2314993077139348932}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &8598432380919613994
+--- !u!136 &3125705888911626748
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795491567064055005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.052446283
+  m_Height: 0.2622314
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.1311157, z: 0}
+--- !u!54 &3973855029661675638
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1147,28 +1161,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &8598432380919613995
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4795491567064055005}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.03735253
-  m_Height: 0.2622314
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.1311157, z: 0}
---- !u!144 &8598432380919613993
+--- !u!144 &8776259272887534843
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4795491567064055005}
-  m_ConnectedBody: {fileID: 6963266172092261902}
+  m_ConnectedBody: {fileID: 6272381227354289026}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -1371,7 +1371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3973312299367702181}
   - component: {fileID: 3687512023577449177}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_:Body_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1482,9 +1482,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2314993077139348932}
-  - component: {fileID: 6963266172092261902}
-  - component: {fileID: 6963266172092261904}
-  - component: {fileID: 6963266172092261903}
+  - component: {fileID: 1762434071966053590}
+  - component: {fileID: 6272381227354289026}
+  - component: {fileID: 6620885244938056163}
   m_Layer: 10
   m_Name: Athlete_:LeftArm
   m_TagString: Untagged
@@ -1507,7 +1507,21 @@ Transform:
   m_Father: {fileID: 727295898217119030}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &6963266172092261902
+--- !u!136 &1762434071966053590
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6160004193690603768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.03729232
+  m_Height: 0.14916928
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.07458464, z: 0}
+--- !u!54 &6272381227354289026
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1523,32 +1537,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &6963266172092261904
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6160004193690603768}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.037292305
-  m_Height: 0.14916922
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.07458461, z: 0}
---- !u!144 &6963266172092261903
+--- !u!144 &6620885244938056163
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6160004193690603768}
-  m_ConnectedBody: {fileID: 6312490865031673229}
+  m_ConnectedBody: {fileID: 326628457851817366}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.10897907, y: 0.08246265, z: -0.0026640994}
+  m_ConnectedAnchor: {x: -0.10897907, y: 0.13140875, z: -0.0034013656}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1591,6 +1591,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3218702366050260110}
+  - component: {fileID: 8776765795002399538}
+  - component: {fileID: 1931706078026568847}
+  - component: {fileID: 7803968667994313144}
   m_Layer: 10
   m_Name: Athlete_:Head
   m_TagString: Untagged
@@ -1615,6 +1618,80 @@ Transform:
   m_Father: {fileID: 8113784424750930063}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8776765795002399538
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6214953169247547298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.18
+  m_Center: {x: 0, y: 0.18, z: 0}
+--- !u!54 &1931706078026568847
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6214953169247547298}
+  serializedVersion: 2
+  m_Mass: 1.25
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!144 &7803968667994313144
+CharacterJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6214953169247547298}
+  m_ConnectedBody: {fileID: 326628457851817366}
+  m_Anchor: {x: 0, y: 0, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: -3.6379513e-12, y: 0.22590399, z: 0.0078091417}
+  serializedVersion: 2
+  m_SwingAxis: {x: 0, y: 0, z: 1}
+  m_TwistLimitSpring:
+    spring: 0
+    damper: 0
+  m_LowTwistLimit:
+    limit: -40
+    bounciness: 0
+    contactDistance: 0
+  m_HighTwistLimit:
+    limit: 25
+    bounciness: 0
+    contactDistance: 0
+  m_SwingLimitSpring:
+    spring: 0
+    damper: 0
+  m_Swing1Limit:
+    limit: 25
+    bounciness: 0
+    contactDistance: 0
+  m_Swing2Limit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_EnableProjection: 1
+  m_ProjectionDistance: 0.1
+  m_ProjectionAngle: 180
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 0
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &6309709090998041409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,9 +1701,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3630076178863886693}
-  - component: {fileID: 7083687643441548726}
-  - component: {fileID: 7083687643441548727}
-  - component: {fileID: 7083687643441548725}
+  - component: {fileID: 6536564346522458986}
+  - component: {fileID: 7328928249449346795}
+  - component: {fileID: 8272457746731075141}
   m_Layer: 10
   m_Name: Athlete_:LeftLeg
   m_TagString: Untagged
@@ -1649,7 +1726,21 @@ Transform:
   m_Father: {fileID: 4463697625273277929}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &7083687643441548726
+--- !u!136 &6536564346522458986
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309709090998041409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.055737548
+  m_Height: 0.22295019
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.111475095, z: 0}
+--- !u!54 &7328928249449346795
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1665,28 +1756,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &7083687643441548727
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309709090998041409}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.055737562
-  m_Height: 0.22295025
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.111475125, z: 0}
---- !u!144 &7083687643441548725
+--- !u!144 &8272457746731075141
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6309709090998041409}
-  m_ConnectedBody: {fileID: 5950182910701036766}
+  m_ConnectedBody: {fileID: 6068786456853720911}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -1764,9 +1841,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8113784424750930063}
-  - component: {fileID: 7550722720580834482}
-  - component: {fileID: 7550722720580834483}
-  - component: {fileID: 7550722720580834481}
   m_Layer: 10
   m_Name: Athlete_:Neck
   m_TagString: Untagged
@@ -1789,80 +1863,6 @@ Transform:
   m_Father: {fileID: 7409819461318450732}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &7550722720580834482
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707910239160951365}
-  serializedVersion: 2
-  m_Mass: 1.25
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!135 &7550722720580834483
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707910239160951365}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.18
-  m_Center: {x: 0, y: 0.25, z: 0}
---- !u!144 &7550722720580834481
-CharacterJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6707910239160951365}
-  m_ConnectedBody: {fileID: 6312490865031673229}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.619295e-12, y: 0.118114725, z: 2.3283064e-10}
-  serializedVersion: 2
-  m_SwingAxis: {x: 0, y: 0, z: 1}
-  m_TwistLimitSpring:
-    spring: 0
-    damper: 0
-  m_LowTwistLimit:
-    limit: -40
-    bounciness: 0
-    contactDistance: 0
-  m_HighTwistLimit:
-    limit: 25
-    bounciness: 0
-    contactDistance: 0
-  m_SwingLimitSpring:
-    spring: 0
-    damper: 0
-  m_Swing1Limit:
-    limit: 25
-    bounciness: 0
-    contactDistance: 0
-  m_Swing2Limit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_EnableProjection: 0
-  m_ProjectionDistance: 0.1
-  m_ProjectionAngle: 180
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 0
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6748159296599133017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1902,7 +1902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 588512367291557460}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1936,9 +1936,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7409819461318450732}
-  - component: {fileID: 6312490865031673229}
-  - component: {fileID: 6312490865031673231}
-  - component: {fileID: 6312490865031673230}
   m_Layer: 10
   m_Name: Athlete_:Spine2
   m_TagString: Untagged
@@ -1963,80 +1960,6 @@ Transform:
   m_Father: {fileID: 2612948391028925715}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &6312490865031673229
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080993845232108409}
-  serializedVersion: 2
-  m_Mass: 3.125
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &6312490865031673231
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080993845232108409}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.08246265, z: 0.1461343}
-  m_Center: {x: 0, y: 0.085, z: 0}
---- !u!144 &6312490865031673230
-CharacterJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7080993845232108409}
-  m_ConnectedBody: {fileID: 5926045679065714988}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000067005076, y: 0.17323416, z: -0.0036251382}
-  serializedVersion: 2
-  m_SwingAxis: {x: 0, y: 0, z: 1}
-  m_TwistLimitSpring:
-    spring: 0
-    damper: 0
-  m_LowTwistLimit:
-    limit: -20
-    bounciness: 0
-    contactDistance: 0
-  m_HighTwistLimit:
-    limit: 20
-    bounciness: 0
-    contactDistance: 0
-  m_SwingLimitSpring:
-    spring: 0
-    damper: 0
-  m_Swing1Limit:
-    limit: 10
-    bounciness: 0
-    contactDistance: 0
-  m_Swing2Limit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_EnableProjection: 1
-  m_ProjectionDistance: 0.1
-  m_ProjectionAngle: 180
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 0
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7133502686633293300
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,9 +1999,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4463697625273277929}
-  - component: {fileID: 5950182910701036766}
-  - component: {fileID: 5950182910701036768}
-  - component: {fileID: 5950182910701036767}
+  - component: {fileID: 450357609291673106}
+  - component: {fileID: 6068786456853720911}
+  - component: {fileID: 819511924203342663}
   m_Layer: 10
   m_Name: Athlete_:LeftUpLeg
   m_TagString: Untagged
@@ -2101,7 +2024,21 @@ Transform:
   m_Father: {fileID: 4752413948525539968}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &5950182910701036766
+--- !u!136 &450357609291673106
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7443761105651536424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.06624819
+  m_Height: 0.22082731
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.110413656, z: 0}
+--- !u!54 &6068786456853720911
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2117,28 +2054,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &5950182910701036768
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7443761105651536424}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.066248186
-  m_Height: 0.22082728
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.1, z: 0}
---- !u!144 &5950182910701036767
+--- !u!144 &819511924203342663
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7443761105651536424}
-  m_ConnectedBody: {fileID: 5926045679065714988}
+  m_ConnectedBody: {fileID: 4061385249064586509}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -2216,8 +2139,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4752413948525539968}
-  - component: {fileID: 5926045679065714988}
-  - component: {fileID: 5926045679065714989}
+  - component: {fileID: 4768687441190817809}
+  - component: {fileID: 4061385249064586509}
   m_Layer: 10
   m_Name: Athlete_:Hips
   m_TagString: Untagged
@@ -2242,7 +2165,20 @@ Transform:
   m_Father: {fileID: 9070015301376275205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &5926045679065714988
+--- !u!65 &4768687441190817809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7485912459843643358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21795622, y: 0.16080672, z: 0.14608352}
+  m_Center: {x: 0.000011593103, y: 0.043898672, z: -0.002488926}
+--- !u!54 &4061385249064586509
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2258,19 +2194,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &5926045679065714989
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7485912459843643358}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.2179563, y: 0.19, z: 0.1460835}
-  m_Center: {x: 0, y: 0.1, z: -0.002488926}
 --- !u!1 &7573915088951300009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,7 +2204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2467790547165918485}
   - component: {fileID: 7796228971139585037}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_:kneePad_L_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2366,7 +2289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8717007385183395556}
   - component: {fileID: 2640070073293552756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_:Head_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2517,9 +2440,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2400930275052323944}
-  - component: {fileID: 4800272513519796802}
-  - component: {fileID: 4800272513519796803}
-  - component: {fileID: 4800272513519796801}
+  - component: {fileID: 8016661489317344017}
+  - component: {fileID: 4761503900498610918}
+  - component: {fileID: 129189508871805695}
   m_Layer: 10
   m_Name: Athlete_:RightLeg
   m_TagString: Untagged
@@ -2542,7 +2465,21 @@ Transform:
   m_Father: {fileID: 4616623051282019808}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &4800272513519796802
+--- !u!136 &8016661489317344017
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593775145628120245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.05561949
+  m_Height: 0.22247796
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.11123898, z: 0}
+--- !u!54 &4761503900498610918
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2558,28 +2495,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &4800272513519796803
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8593775145628120245}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.055619493
-  m_Height: 0.22247797
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.111238986, z: 0}
---- !u!144 &4800272513519796801
+--- !u!144 &129189508871805695
 CharacterJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8593775145628120245}
-  m_ConnectedBody: {fileID: 1330568631947612681}
+  m_ConnectedBody: {fileID: 603338702224209338}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -2627,7 +2550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2397376409425694081}
   - component: {fileID: 3810598185608543802}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Athlete_:kneePad_R_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2772,6 +2695,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2612948391028925715}
+  - component: {fileID: 7053200534733191716}
+  - component: {fileID: 326628457851817366}
+  - component: {fileID: 7087901978770805758}
   m_Layer: 10
   m_Name: Athlete_:Spine1
   m_TagString: Untagged
@@ -2794,3 +2720,77 @@ Transform:
   m_Father: {fileID: 8150542524569899834}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7053200534733191716
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221568989916039998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21795624, y: 0.13140872, z: 0.1461343}
+  m_Center: {x: -0.00000094622374, y: 0.06570438, z: -0.00043813884}
+--- !u!54 &326628457851817366
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221568989916039998}
+  serializedVersion: 2
+  m_Mass: 3.125
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!144 &7087901978770805758
+CharacterJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221568989916039998}
+  m_ConnectedBody: {fileID: 4061385249064586509}
+  m_Anchor: {x: 0, y: 0, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0.0000032307325, y: 0.12430203, z: -0.002244108}
+  serializedVersion: 2
+  m_SwingAxis: {x: 0, y: 0, z: 1}
+  m_TwistLimitSpring:
+    spring: 0
+    damper: 0
+  m_LowTwistLimit:
+    limit: -20
+    bounciness: 0
+    contactDistance: 0
+  m_HighTwistLimit:
+    limit: 20
+    bounciness: 0
+    contactDistance: 0
+  m_SwingLimitSpring:
+    spring: 0
+    damper: 0
+  m_Swing1Limit:
+    limit: 10
+    bounciness: 0
+    contactDistance: 0
+  m_Swing2Limit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_EnableProjection: 1
+  m_ProjectionDistance: 0.1
+  m_ProjectionAngle: 180
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 0
+  m_MassScale: 1
+  m_ConnectedMassScale: 1

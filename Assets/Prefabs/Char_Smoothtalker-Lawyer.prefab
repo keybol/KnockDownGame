@@ -600,7 +600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5598204027293762912}
   - component: {fileID: 6740543613845170011}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Glasses_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579427532837541582}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker:Lawyer_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1187,7 +1187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6824626121405752242}
   - component: {fileID: 908081008729023791}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Body_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +1386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2270292145669382728}
   - component: {fileID: 525201020311716104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Skin_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1498,7 +1498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6854733770661206653}
   - component: {fileID: 6512556580346273856}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:hair_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1803,7 +1803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4822876599638048328}
   - component: {fileID: 7055242773390395022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Talker_Lawyer:Eyes_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2232,7 +2232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7544750456539398670}
   - component: {fileID: 4491349167406487668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Smoothtalker-Lawyer
   m_TagString: Untagged
   m_Icon: {fileID: 0}

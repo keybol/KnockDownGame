@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7101297036441817645}
   - component: {fileID: 346239383414880929}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_:Chef_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 457406299019964495}
   - component: {fileID: 5816720317701270069}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Chef
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7370460876694756729}
   - component: {fileID: 50763960345688002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_:Towel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4378772292356584174}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Accessories
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1817,7 +1817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2967602247990988803}
   - component: {fileID: 4655563022115834015}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_:Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1972,7 +1972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8785995780532352946}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2006,7 +2006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5620398725577747094}
   - component: {fileID: 3701345905645507072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chef_:Apron
   m_TagString: Untagged
   m_Icon: {fileID: 0}

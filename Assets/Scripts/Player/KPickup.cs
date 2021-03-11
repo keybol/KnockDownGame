@@ -17,6 +17,7 @@ public class KPickup : MonoBehaviour, ICharacterController
 	public KPlayer pickupKPlayer;
 	private KPlayer kplayer;
 	private KEntity kEntity;
+	private float impactSpeed = 2f;
 
 	private void Awake()
 	{
@@ -144,7 +145,8 @@ public class KPickup : MonoBehaviour, ICharacterController
 		if (hitCollider.gameObject.GetComponent<KPlayer>() && isThrown)
 		{
 			ScreenShaker.Instance.ShakeScreen(0.2f);
-			hitCollider.gameObject.GetComponent<KEntity>().Damage(-10);
+			Vector3 impact = hitCollider.transform.position - transform.position;
+			hitCollider.gameObject.GetComponent<KEntity>().Damage(-10, impact.normalized * impactSpeed);
 			isThrown = false;
 		}
 	}
@@ -177,11 +179,11 @@ public class KPickup : MonoBehaviour, ICharacterController
 		{
 			ScreenShaker.Instance.ShakeScreen(0.2f);
 			pickupKPlayer.Carried = false;
-			pickupKPlayer.kanim.anim.Play("GetUp.StandUpFromBack");
-			//pickupKPlayer.smoothSync.enabled = true;
+			//pickupKPlayer.kanim.anim.Play("GetUp.StandUpFromBack");
+			pickupKPlayer.smoothSync.enabled = true;
 			pickupKPlayer.kcc.enabled = true;
 			pickupKPlayer.enabled = true;
-			pickupKPlayer.kEntity.Damage(-10);
+			pickupKPlayer.kEntity.Damage(-10, Vector3.zero);
 			Motor.CharacterController = pickupKPlayer.kcc;
 		}
 		GameObject landSmoke = ObjectPoolerManager.Instance.GetPooledLandSmokeObject();

@@ -399,7 +399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145284246444260959}
   - component: {fileID: 5414936932904920101}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Gloco_Angler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3078735370597604494}
   - component: {fileID: 7494902915881431588}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1532699138567504022}
   - component: {fileID: 2106079631067714315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2261,7 +2261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 393705205696309747}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gloco_LOD0_Skinned
   m_TagString: Untagged
   m_Icon: {fileID: 0}

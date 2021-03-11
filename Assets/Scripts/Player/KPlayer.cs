@@ -13,6 +13,7 @@ using Smooth;
 using Photon.Realtime;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using BzKovSoft.RagdollTemplate.Scripts.Charachter;
 
 public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 {
@@ -27,6 +28,12 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 	public ABC_StateManager abcState;
 	public ABC_Controller abcController;
 	public KEntity kEntity;
+	public BzRagdoll bzRagdoll;
+	public Transform _hipsTransform;
+	public Rigidbody _hipsTransformRigid;
+	public Renderer[] charRenderer;
+	public FixedJoint fixedJoint;
+	public Rigidbody rb;
 	public bool humanPlayer;
 	public int characterNumber;
 	public int skinNumber;
@@ -88,6 +95,14 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 			return;
 		if (controls != null)
 			controls.Enable();
+		if (abcState != null)
+		{
+			abcState.onEnableMovement += EnableMovement;
+			abcState.onDisableMovement += DisableMovement;
+
+			abcState.onEnableGravity += EnableGravity;
+			abcState.onDisableGravity += DisableGravity;
+		}
 	}
 
 	public void OnDisable()
@@ -96,6 +111,46 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 			return;
 		if (controls != null)
 			controls.Disable();
+		if (abcState != null)
+		{
+			abcState.onEnableMovement -= EnableMovement;
+			abcState.onDisableMovement -= DisableMovement;
+
+			abcState.onEnableGravity -= EnableGravity;
+			abcState.onDisableGravity -= DisableGravity;
+
+			abcState.onEffectActivation -= EffectActivation;
+		}
+	}
+
+	public void EffectActivation(Effect Effect, ABC_IEntity Target, ABC_IEntity Originator)
+	{
+		Debug.Log("DODGE ACTIVATE");
+	}
+
+	public void EnableMovement()
+	{
+		kcc.RestrictMovement = false;
+	}
+
+	public void DisableMovement()
+	{
+		kcc.RestrictMovement = true;
+	}
+
+	public void EnableGravity()
+	{
+		kcc.DefyGravity = false;
+	}
+
+	public void DisableGravity()
+	{
+		kcc.DefyGravity = true;
+	}
+
+	public void EffectActivate(Effect Effect, ABC_IEntity Target, ABC_IEntity Originator)
+	{
+
 	}
 
 	public void Awake()
@@ -247,7 +302,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 
 	private void DodgePressed()
 	{
-
+		bzRagdoll.RagdollIn();
+		bzRagdoll.RagdollOut();
 	}
 
 	private void ExitPressed()
@@ -301,9 +357,19 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		PlayerCharacter = Instantiate(characterModel[characterNumber].characterModel[skinNumber], transform);
 		kanim.anim.avatar = PlayerCharacter.GetComponent<Animator>().avatar;
 		itemAnchor = kanim.anim.GetBoneTransform(HumanBodyBones.Head);
+		_hipsTransform = kanim.anim.GetBoneTransform(HumanBodyBones.Hips);
+		_hipsTransformRigid = _hipsTransform.GetComponent<Rigidbody>();
 		playerUIPrefab = Instantiate(playerUIPrefab);
 		playerUIPrefab.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
 		outlineRenderingLayerMask = PlayerCharacter.GetComponentInChildren<Renderer>().renderingLayerMask;
+		charRenderer = PlayerCharacter.GetComponentsInChildren<Renderer>();
+		fixedJoint.connectedBody = _hipsTransformRigid;
+		if (!pv.IsMine)
+		{
+			smoothSync.hasRigidbody = false;
+			Destroy(fixedJoint);
+			Destroy(rb);
+		}
 	}
 
 	public void EnableSmoothSync()
@@ -315,6 +381,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 			navMesh.enabled = true;
 		}
 		smoothSync.enabled = true;
+		kcc.RestrictMovement = false;
 	}
 
 	private void Update()
@@ -346,7 +413,7 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 					crouchButtonImage.sprite = pickupButtonSprite;
 					if (objectInSight.GetComponent<KPlayer>())
 					{
-						foreach (Renderer go in objectInSight.GetComponent<KPlayer>().PlayerCharacter.GetComponentsInChildren<Renderer>())
+						foreach (Renderer go in objectInSight.GetComponent<KPlayer>().charRenderer)
 						{
 							go.renderingLayerMask = outlineRenderingLayerMask;
 						}
@@ -377,6 +444,8 @@ public class KPlayer : MonoBehaviour, IPunInstantiateMagicCallback
 		{
 			if (hit.transform.GetComponent<KPlayer>())
 			{
+				if (hit.transform.GetComponent<KEntity>().isInvincible)
+					return false;
 				if (hit.transform.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsTag("GettingUp"))
 					return false;
 			}

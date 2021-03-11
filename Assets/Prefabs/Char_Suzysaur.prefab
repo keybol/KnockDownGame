@@ -103,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1920906606629023167}
   - component: {fileID: 5496716690826672069}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Char_Suzysaur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8147935235697004556}
   - component: {fileID: 846767070224325393}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,7 +356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 214621796222243268}
   - component: {fileID: 1699099485257781153}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shoe_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1599,7 +1599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352487049972602242}
   - component: {fileID: 9182868847428425879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,7 +2333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169130388523022979}
   - component: {fileID: 962264088183622693}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shoe_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2520,7 +2520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5375255653148393467}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SuzySaur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2588,7 +2588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8206003182028863417}
   - component: {fileID: 7686567231345218450}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2777,7 +2777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5768766936904090007}
   - component: {fileID: 4583458179132354264}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
