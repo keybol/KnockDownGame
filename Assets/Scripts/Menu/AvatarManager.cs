@@ -9,6 +9,11 @@ public class AvatarManager : MonoBehaviour
 	public RuntimeAnimatorController animatorController;
 	public int characterNumber;
 	public int skinNumber;
+	public GameObject basherContainer;
+	public GameObject[] tabs;
+	public GameObject badgeContainer;
+	public GameObject badgePrefab;
+	public int myLevel = 1;
 	private List<GameObject> characters;
 	private static AvatarManager instance;
 
@@ -36,7 +41,7 @@ public class AvatarManager : MonoBehaviour
 			for (int j = 0; j < 3; j++)
 			{
 				GameObject go = Instantiate(characterModel[i].characterModel[j]);
-				go.transform.parent = transform;
+				go.transform.parent = basherContainer.transform;
 				go.transform.localPosition = Vector3.zero;
 				go.transform.localRotation = Quaternion.Euler(new Vector3(0, 180, 0));
 				go.GetComponent<Animator>().enabled = true;
@@ -57,6 +62,12 @@ public class AvatarManager : MonoBehaviour
 		foreach (GameObject p in panels)
 			p.SetActive(false);
 		panels[i].SetActive(true);
+		if (i == 3)
+			SetDefaultPos();
+		if (i == 0 || i == 3)
+			basherContainer.SetActive(false);
+		else
+			basherContainer.SetActive(true);
 	}
 
 	public void ChooseCharacter(int i)
@@ -73,5 +84,21 @@ public class AvatarManager : MonoBehaviour
 			go.SetActive(false);
 		characters[characterNumber * 3 + i].SetActive(true);
 		skinNumber = i;
+	}
+
+	public void ChooseTab(int i)
+	{
+		foreach (GameObject go in tabs)
+			go.SetActive(false);
+		tabs[i].SetActive(true);
+	}
+
+	public void SetDefaultPos()
+	{
+		myLevel = GetComponent<BadgeManager>().myLevel;
+		Vector3 newPos = badgeContainer.transform.localPosition;
+		newPos.x = -(300 * myLevel - 960 + 150 + 480);
+		//newPos.x = -(trophies * 60 - 960 + 150);
+		badgeContainer.transform.localPosition = newPos;
 	}
 }

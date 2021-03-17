@@ -179,7 +179,7 @@ public class KPickup : MonoBehaviour, ICharacterController
 		{
 			ScreenShaker.Instance.ShakeScreen(0.2f);
 			pickupKPlayer.Carried = false;
-			//pickupKPlayer.kanim.anim.Play("GetUp.StandUpFromBack");
+			pickupKPlayer.kanim.anim.Play("GetUp.StandUpFromBack");
 			pickupKPlayer.smoothSync.enabled = true;
 			pickupKPlayer.kcc.enabled = true;
 			pickupKPlayer.enabled = true;

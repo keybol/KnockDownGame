@@ -14,6 +14,7 @@ public class PlayerSpawner : MonoBehaviourPunCallbacks
 	[SerializeField] public TextMeshProUGUI roomCodeText;
 	[SerializeField] private Lexic.NameGenerator namegen;
 	[SerializeField] int totalBots;
+	[SerializeField] GameObject popUpPanel;
 	Player[] allPlayers;
 	private int id;
 
@@ -71,7 +72,7 @@ public class PlayerSpawner : MonoBehaviourPunCallbacks
 	{
 		int characterNumber = Random.Range(0, 6);
 		int skinNumber = Random.Range(0, 3);
-		characterNumber = 0;
+		//characterNumber = 0;
 		skinNumber = 0;
 		object[] objecttype = new object[4];
 		id = i;
@@ -99,5 +100,10 @@ public class PlayerSpawner : MonoBehaviourPunCallbacks
 	public override void OnDisconnected(DisconnectCause cause)
 	{
 		base.OnDisconnected(cause);
+	}
+
+	public void TogglePopUp()
+	{
+		popUpPanel.SetActive(!popUpPanel.active);
 	}
 }
