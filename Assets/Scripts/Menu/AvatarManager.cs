@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AvatarManager : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class AvatarManager : MonoBehaviour
 	public int skinNumber;
 	public GameObject basherContainer;
 	public GameObject[] tabs;
+	public Image Belt;
+	public Sprite[] belts;
 	public GameObject badgeContainer;
 	public GameObject badgePrefab;
 	public int myLevel = 1;

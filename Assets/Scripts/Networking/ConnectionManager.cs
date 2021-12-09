@@ -28,22 +28,35 @@ public class ConnectionManager : MonoBehaviourPunCallbacks
 	private string joinCode = "";
 	private ConnectionMode connectionMode = ConnectionMode.Create;
 	private ExitGames.Client.Photon.Hashtable MyPlayerProperties = new ExitGames.Client.Photon.Hashtable();
+	private KInputActions controls;
 
 	public override void OnEnable()
 	{
 		base.OnEnable();
 		PhotonNetwork.AddCallbackTarget(this);
+		if (controls != null)
+			controls.Enable();
 	}
 
 	public override void OnDisable()
 	{
 		base.OnDisable();
 		PhotonNetwork.RemoveCallbackTarget(this);
+		if (controls != null)
+			controls.Disable();
+	}
+
+	private void Awake()
+	{
+		//controls.UI.Submit.performed += context =>
+		//{
+		//	Submit(0);
+		//};
 	}
 
 	void Start()
     {
-		Screen.SetResolution(960, 540, false);
+		//Screen.SetResolution(960, 540, false);
 		PhotonNetwork.AutomaticallySyncScene = true;
 		ConnectUsingConfigs();
 		ChangeServer(-1);
@@ -51,6 +64,10 @@ public class ConnectionManager : MonoBehaviourPunCallbacks
 
 	void Update()
     {
+		if (Input.GetButton("Submit"))
+		{
+			Submit(0);
+		};
 		versionText.text = "ver.2.5." + gameVersion;
 		versionText.text += ", region: " + PhotonNetwork.PhotonServerSettings.AppSettings.FixedRegion + " Ping: " + PhotonNetwork.GetPing() + " ms";
 		ccuText.text = "Online: " + PhotonNetwork.CountOfPlayersOnMaster;

@@ -14,7 +14,7 @@ public class AudioManager : MonoBehaviour
         {
             if(instance == null)
             {
-                AudioManager resource = Resources.Load<AudioManager>("Managers/_AudioManager");
+                AudioManager resource = Resources.Load<AudioManager>("Managers/AudioManager");
 
                 instance = Instantiate(resource);
 

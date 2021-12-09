@@ -176,6 +176,8 @@ public class BadgeManager : MonoBehaviour
 			}
 		}
 		gamePlayerInstance.EXP = Mathf.FloorToInt(sliderValue.value);
+		var beltNumber = Mathf.Clamp((myLevel / 40f) * 6f, 0, 5);
+		avatarManager.Belt.sprite = avatarManager.belts[Mathf.FloorToInt(beltNumber)];
 	}
 
 	private void UnlockReward(int val)

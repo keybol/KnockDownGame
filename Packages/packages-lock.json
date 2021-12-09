@@ -57,6 +57,14 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.inputsystem.switch": {
+      "version": "file:com.unity.inputsystem.switch",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.inputsystem": "1.0.0-preview.1"
+      }
+    },
     "com.unity.probuilder": {
       "version": "4.4.0",
       "depth": 0,
